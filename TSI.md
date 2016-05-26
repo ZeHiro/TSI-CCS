@@ -1351,21 +1351,26 @@ A deadline extension of no more than 3 years can be granted to a Member State wh
 
 The Commission shall examine the file sent to it and the measures proposed by the Member State and shall notify the result of its examination to the committee referred to in Article 29 of Directive 2008/57/EC.
 
-#### 7.3.3. ERTMS – On-board implementation
+#### 7.3.3.   ERTMS on-board implementation
 
-New locomotives, new railcars and other new railway vehicles able to run without traction equipped with a driving cab, ordered after 1 January 2012 or put into service after 1 January 2015, shall be equipped with ERTMS.
+#### 7.3.3.1.   New vehicles
 
-This requirement does not apply to new shunting locomotives or to other new locomotives, new railcars and other new railway vehicles equipped with a driving cab, if they are designed exclusively for national service or regional border crossing service. Member States may however introduce additional requirements at national level, in particular with a view to:
+New vehicles authorised to be placed in service for the first time shall be equipped with ERTMS in line either with the set of specifications # 1 or the set of specifications # 2 listed in Table A2 of Annex A.
 
-1. allowing only ERTMS equipped locomotives to access ERTMS-equipped lines, so that existing national systems can be decommissioned;
-1. requesting that new shunting locomotives and/or other new railway vehicles equipped with a driving cab, even if designed exclusively for national service or regional border crossing service, be equipped with ERTMS.
+From 1 January 2018, new vehicles authorised to be placed in service for the first time shall be equipped with ERTMS only in line with the set of specifications # 2 listed in Table A2 of Annex A.
 
-#### 7.3.3.1. High-speed network
+The requirement to be equipped with ERTMS does not apply to new mobile railway infrastructure construction and maintenance equipment, new shunting locomotives or other new vehicles not intended for high speed service, if they are intended exclusively for national service operated outside the corridors defined in section 7.3.4 and outside the lines ensuring the connections to the main European ports, marshalling yards, freight terminals and freight transport areas defined in section 7.3.5, or if they are intended for off-TEN cross-border service, i.e. service until the first station in the neighbouring country or to the first station where there are connections further in the neighbouring country.
 
-It is mandatory to fit ERTMS/ETCS on board when:
+#### 7.3.3.2.   Upgrading and renewal of existing vehicles
 
-1. installing any new train protection part of a Control-Command and Signalling On-board Subsystem; or
-1. upgrading any existing train protection part of a Control-Command and Signalling On-board Subsystem, where this would change the functions, performances and/or interoperability-relevant interfaces of the existing legacy system. This does not apply to modifications deemed necessary to mitigate safety related defects in the legacy system.
+It is mandatory to fit ERTMS/ETCS on-board existing vehicles if installing any new train protection part of a control-command and signalling on-board subsystem on existing vehicles intended for high-speed service
+
+#### 7.3.3.3.   Additional requirements
+
+Member States may introduce additional requirements at national level, in particular with a view to
+
+1. allowing only ERTMS-equipped vehicles to access ERTMS-equipped lines, so that existing national systems can be decommissioned;
+1. requesting that new and upgraded or renewed mobile railway infrastructure construction and maintenance equipment, shunting locomotives and/or other vehicles, even if intended exclusively for national service, be equipped with ERTMS.
 
 ### 7.3.4. Specific lines constituting the corridors
 
