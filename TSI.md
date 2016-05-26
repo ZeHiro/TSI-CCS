@@ -585,7 +585,7 @@ The environmental conditions mandated in the specifications referenced in this T
 | Data interfaces | 4.2.2 | Monitoring and diagnostic concepts | HS RS TSI | 4.2.7.10 |
 | | | | LOC &amp; PAS TSI | 4.2.1.1 |
 | | | | Wagon TSI | None |
-| Visibility of track-side Control-Command and Signalling objects | 4.2.15 | External visibility<br>Head lights | HS RS TSI | 4.2.7.4.1.1 |
+| Visibility of track-side Control-Command and Signalling objects | 4.2.15 | External visibility<br/>Head lights | HS RS TSI | 4.2.7.4.1.1 |
 | | | | LOC &amp; PAS TSI | 4.2.7.1.1 |
 | | | | Wagon TSI | None |
 | | | Driver’s external field of view | HS RS TSI | |
@@ -707,7 +707,7 @@ For each basic interoperability constituent or group of interoperability constit
  
 | N | Interoperability constituent IC | Characteristics | Specific requirements to be assessed by reference to Chapter 4 |
 |---|---|---|---|
-| 1 | ERTMS/ETCS on-board | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br>4.5.1 |
+| 1 | ERTMS/ETCS on-board | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br/>4.5.1 |
 | | | On-board ETCS functionality (excluding odometry) | 4.2.2 |
 | | | ERTMS/ETCS and GSM-R air gap interfaces | 4.2.5 |
 | | | - RBC (levels 2 and 3) | 4.2.5.1 |
@@ -724,21 +724,21 @@ For each basic interoperability constituent or group of interoperability constit
 | | | - Train interface | 4.2.2 |
 | | | - On-board recording device | 4.2.14 |
 | | | Physical environmental conditions | 4.2.16 |
-| 2 | Odometry equipment | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br>4.5.1 |
+| 2 | Odometry equipment | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br/>4.5.1 |
 | | | On-board ERTMS/ETCS functionality: only Odometry | 4.2.2 |
 | | | Interfaces |
 | | | - On-board ERTMS/ETCS | 4.2.6.3 |
 | | | Environmental conditions | 4.2.16 |
 | 3 | Interface of External STM | Interfaces | |
 | | | -On-board ERTMS/ETCS | 4.2.6.1 |
-| 4 | GSM-R voice cab radio<br>Note: SIM card, antenna, connecting cables and filters are not part of this interoperability constituent | Reliability, Availability, Maintainability, Safety (RAMS)<br>Note: no requirement for safety | 4.2.1<br>4.5.1 |
+| 4 | GSM-R voice cab radio<br/>Note: SIM card, antenna, connecting cables and filters are not part of this interoperability constituent | Reliability, Availability, Maintainability, Safety (RAMS)<br/>Note: no requirement for safety | 4.2.1<br/>4.5.1 |
 | | | Basic communication functions | 4.2.4.1 |
 | | | Voice and operational communication applications | 4.2.4.2 |
 | | | Interfaces |
 | | | - GSM-R air gap | 4.2.5.1 |
 | | | - GSM-R Driver-Machine Interface | 4.2.13 |
 | | | Environmental conditions | 4.2.16 |
-| 5 | GSM-R ETCS Data only Radio<br>Note: SIM card, antenna, connecting cables and filters are not part of this interoperability constituent | Reliability, Availability, Maintainability, Safety (RAMS)<br>Note: no requirement for safety | 4.2.1<br>4.5.1 |
+| 5 | GSM-R ETCS Data only Radio<br/>Note: SIM card, antenna, connecting cables and filters are not part of this interoperability constituent | Reliability, Availability, Maintainability, Safety (RAMS)<br/>Note: no requirement for safety | 4.2.1<br/>4.5.1 |
 | | | Basic communication functions | 4.2.4.1 |
 | | | ETCS data communication applications | 4.2.4.3 |
 | | | Interfaces |
@@ -756,7 +756,7 @@ This table is an example to show the structure. Other groups are allowed
 
 | N | Group of Interoperability constituents | Characteristics | Specific requirements to be assessed by reference to Chapter 4 | 
 |---|---|---|---|
-| 1 | ERTMS/ETCS on-board<br>Odometry equipment | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br>4.5.1 |
+| 1 | ERTMS/ETCS on-board<br/>Odometry equipment | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br/>4.5.1 |
 | | | On-board ERTMS/ETCS functionality | 4.2.2 |
 | | | ERTMS/ETCS and GSM-R air gap interfaces | 4.2.5 |
 | | | - RBC (levels 2 and 3) | 4.2.5.1 |
@@ -778,7 +778,7 @@ This table is an example to show the structure. Other groups are allowed
 
 | N | Interoperability constituent IC | Characteristics | Specific requirements to be assessed by reference to Chapter 4 |
 |---|---|---|---|
-| 1 | RBC | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br>4.5.1 |
+| 1 | RBC | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br/>4.5.1 |
 | | | Track-side ERTMS/ETCS functionality (excluding communication via Eurobalises, radio in-fill and Euroloop) | 4.2.3 |
 | | | ERTMS/ETCS and GSM-R air gap interfaces: only radio communication with train | 4.2.5.1 |
 | | | Interfaces |
@@ -787,7 +787,7 @@ This table is an example to show the structure. Other groups are allowed
 | | | - Key management system | 4.2.8 |
 | | | - ETCS-ID Management | 4.2.9 |
 | | | Environmental conditions | 4.2.16 |
-| 2 | Radio in-fill unit | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br>4.5.1 |
+| 2 | Radio in-fill unit | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br/>4.5.1 |
 | | | Track-side ERTMS/ETCS functionality (excluding communication via Eurobalises, Euroloop and level 2/3 functionality) | 4.2.3 |
 | | | ERTMS/ETCS and GSM-R air gap interfaces: only radio communication with train | 4.2.5.1 |
 | | | Interfaces |
@@ -796,22 +796,22 @@ This table is an example to show the structure. Other groups are allowed
 | | | - ETCS-ID Management | 4.2.9 |
 | | | - Interlocking and LEU | 4.2.3 |
 | | | Environmental conditions | 4.2.16 |
-| 3 | Eurobalise | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br>4.5.1 |
+| 3 | Eurobalise | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br/>4.5.1 |
 | | | ERTMS/ETCS and GSM-R air gap interfaces: only Eurobalise communication with train | 4.2.5.2 |
 | | | Interfaces |
 | | | - LEU – Eurobalise | 4.2.7.4 | Environmental conditions | 4.2.16 |
-| 4 | Euroloop | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br>4.5.1 | 
+| 4 | Euroloop | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br/>4.5.1 | 
 | | | ERTMS/ETCS and GSM-R air gap interfaces: only Euroloop communication with train | 4.2.5.3 |
 | | | Interfaces |
 | | | - LEU – Euroloop | 4.2.7.5 |
 | | | Environmental conditions | 4.2.16 |
 | 5 | LEU Eurobalise | |
-| | | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br>4.5.1 |
+| | | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br/>4.5.1 |
 | | | Track-side ERTMS/ETCS functionality (excluding communication via radio in-fill, Euroloop and level 2 and level 3 functionality) | 4.2.3 |
 | | | Interfaces |
 | | | - LEU – Eurobalise | 4.2.7.4 |
 | | | Environmental conditions | 4.2.16 | 
-| 6 | LEU Euroloop | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br>4.5.1 |
+| 6 | LEU Euroloop | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br/>4.5.1 |
 | | | Track-side ERTMS/ETCS functionality (excluding communication via radio in-fill, Eurobalise and level 2 and level 3 functionality) | 4.2.3 |
 | | | Interfaces |
 | | | - LEU – Euroloop | 4.2.7.5 |
@@ -825,11 +825,11 @@ This table is an example to show the structure. Other groups are allowed
 
 | N | Group of interoperability constituents | Characteristics | Specific requirements to be assessed by reference to Chapter 4 |
 |---|---|---|---|
-| 1 | Eurobalise<br>LEU Eurobalise | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br>4.5.1 |
+| 1 | Eurobalise<br/>LEU Eurobalise | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br/>4.5.1 |
 | | | Track-side ERTMS/ETCS functionality (excluding communication via Euroloop and level 2 and level 3 functionality) | 4.2.3 |
 | | | ERTMS/ETCS and GSM-R air gap interfaces: only Eurobalise communication with train | 4.2.5.2 |
 | | | Environmental conditions | 4.2.16 |
-| 2 | Euroloop<br>LEU Euroloop | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br>4.5.1 |
+| 2 | Euroloop<br/>LEU Euroloop | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br/>4.5.1 |
 | | | Track-side ERTMS/ETCS functionality, (excluding communication via Eurobalise and level 2 and level 3 functionality) | 4.2.3 |
 | | | ERTMS/ETCS and GSM-R air gap interfaces: only Euroloop communication with train | 4.2.5.3 |
 | | | Environmental conditions | 4.2.16 |
@@ -929,7 +929,7 @@ Independently of the selected module:
 | | Check which additional functions and interfaces (not specified in this TSI) are implemented and that they do not lead to conflicts with implemented functions specified in this TSI | Impact analysis |
 | Environment | Check compliance with mandatory environmental conditions, where specified in the basic parameters referenced in the relevant table of Chapter 5 | Tests, to ensure that the requirements of the basic parameters referenced in the relevant table of Chapter 5 are satisfied |
 | | In addition, check that the interoperability constituent functions correctly in the environmental conditions for which it is designed | Tests according to the applicant’s specifications |
-| Reliability, Availability, Maintainability, Safety (RAMS) | Check compliance with the safety requirements described in the basic parameters referenced in the relevant table of Chapter 5, i.e.:<br>1. respect for quantitative Tolerable Hazard Rates (THRs) caused by random failures;<br>2. the development process is able to detect and eliminate systematic failures.| 1. Calculations for the THRs caused by random failures, based on supportable sources of reliability data.<br>2.1. The manufacturer’s quality and safety management throughout design, manufacturing and testing conforms to a recognised standard (see Note).<br>2.2. The software development life-cycle, the hardware development life-cycle and the integration of hardware and software have each been undertaken in accordance with a recognised standard (see Note).<br>2.3. The safety verification and validation process has been undertaken in accordance with a recognised standard (see Note) and respects the safety requirements described in the basic parameters referenced in the relevant table of Chapter 5.<br>2.4. The functional and technical safety requirements (correct operation under fault-free conditions, effects of faults and of external influences) are verified in accordance with a recognised standard (see Note).<br>Note: The standard shall satisfy at least the following requirements:<br>1. be widely acknowledged in the railway domain. If this is not the case, the standard will have to be justified and be acceptable to the notified body;<br>2. be relevant for the control of the considered hazards in the system under assessment;<br>3. be publicly available for all actors who want to use it.<br>See Annex A, Table A 3.
+| Reliability, Availability, Maintainability, Safety (RAMS) | Check compliance with the safety requirements described in the basic parameters referenced in the relevant table of Chapter 5, i.e.:<br/>1. respect for quantitative Tolerable Hazard Rates (THRs) caused by random failures;<br/>2. the development process is able to detect and eliminate systematic failures.| 1. Calculations for the THRs caused by random failures, based on supportable sources of reliability data.<br/>2.1. The manufacturer’s quality and safety management throughout design, manufacturing and testing conforms to a recognised standard (see Note).<br/>2.2. The software development life-cycle, the hardware development life-cycle and the integration of hardware and software have each been undertaken in accordance with a recognised standard (see Note).<br/>2.3. The safety verification and validation process has been undertaken in accordance with a recognised standard (see Note) and respects the safety requirements described in the basic parameters referenced in the relevant table of Chapter 5.<br/>2.4. The functional and technical safety requirements (correct operation under fault-free conditions, effects of faults and of external influences) are verified in accordance with a recognised standard (see Note).<br/>Note: The standard shall satisfy at least the following requirements:<br/>1. be widely acknowledged in the railway domain. If this is not the case, the standard will have to be justified and be acceptable to the notified body;<br/>2. be relevant for the control of the considered hazards in the system under assessment;<br/>3. be publicly available for all actors who want to use it.<br/>See Annex A, Table A 3.
 | | Check that the quantitative reliability target indicated by the applicant is met | Calculations |
 | | Check compliance with maintenance requirements – Section 4.5.1 | Document check |
 
@@ -1030,7 +1030,7 @@ Independently of the module chosen:
 | Reliability, Availability, Maintainability, Safety (RAMS) | Check that the equipment complies with safety requirements – Basic Parameter 4.2.1 | Application of procedures specified in the Common Safety Method |
 | | Check that the quantitative reliability target is met – Basic Parameter 4.2.1 | Calculations |
 | | Check the compliance with requirements about maintenance – Section 4.5.2 | Documents check |
-| Integration with Control-Command and Signalling Track-side Subsystems and other subsystems:<br>tests under operational conditions | Test the behaviour of the subsystem under as many different operational conditions as reasonably possible (e.g. line gradient, train speed, vibrations, traction power, weather conditions, design of Control-Command and Signalling track-side functionality). The test must be able to verify:<br>1. that odometry functions are correctly performed – basic parameter 4.2.2<br>2. that the on-board Control-Command and Signalling Subsystem is compatible with the rolling stock environment – basic parameter 4.2.16<br>These tests must also be such as to increase confidence that there will be no systematic failures. The scope of these tests excludes tests already carried out at earlier stages: tests performed on the interoperability constituents and tests performed on the subsystem in a simulated environment shall be taken into account. Tests under operational conditions are not necessary for on-board GSM-R voice equipment. | Reports of test runs.<br>Note: Indicate in the certificate which conditions have been tested, which standards have been applied and the criteria for considering the tests terminated |
+| Integration with Control-Command and Signalling Track-side Subsystems and other subsystems:<br/>tests under operational conditions | Test the behaviour of the subsystem under as many different operational conditions as reasonably possible (e.g. line gradient, train speed, vibrations, traction power, weather conditions, design of Control-Command and Signalling track-side functionality). The test must be able to verify:<br/>1. that odometry functions are correctly performed – basic parameter 4.2.2<br/>2. that the on-board Control-Command and Signalling Subsystem is compatible with the rolling stock environment – basic parameter 4.2.16<br/>These tests must also be such as to increase confidence that there will be no systematic failures. The scope of these tests excludes tests already carried out at earlier stages: tests performed on the interoperability constituents and tests performed on the subsystem in a simulated environment shall be taken into account. Tests under operational conditions are not necessary for on-board GSM-R voice equipment. | Reports of test runs.<br/>Note: Indicate in the certificate which conditions have been tested, which standards have been applied and the criteria for considering the tests terminated |
 
 ### 6.3.4. Assessment requirements for a Track-side Subsystem
 
@@ -1072,7 +1072,7 @@ Regardless of the module chosen:
 | Reliability, Availability, Maintainability, Safety (RAMS) | Check compliance with safety requirements – Basic Parameter 4.2.1 | Application of procedures specified in the Common Safety Method |
 | | Check that quantitative reliability targets are respected – Basic Parameter 4.2.1 | Calculations |
 | | Check the compliance with requirements about maintenance – Section 4.5.2 | Document check |
-| Integration with Control-Command and Signalling On-board Subsystems and rolling stock:<br>tests under operational conditions | Test the behaviour of the subsystem under such different operational conditions as reasonably feasible (e.g. train speed, number of trains on the line, weather conditions). The test must be able to verify:<br>1. the performance of train detection systems – Basic parameters 4.2.10, 4.2.11,<br>2. that the Control-Command and Signalling Track-side subsystem is compatible with track-side environment – Basic parameter 4.2.16<br>These tests will also increase confidence in the absence of systematic failures. <br>The scope of these tests excludes tests already done in previous steps: tests performed at the level of interoperability constituents and tests performed on the subsystem in a simulated environment shall be taken into account. | Reports of test runs.<br>Note: Indicate in the certificate which conditions have been tested, which standards have been applied and the criteria for considering the tests terminated.
+| Integration with Control-Command and Signalling On-board Subsystems and rolling stock:<br/>tests under operational conditions | Test the behaviour of the subsystem under such different operational conditions as reasonably feasible (e.g. train speed, number of trains on the line, weather conditions). The test must be able to verify:<br/>1. the performance of train detection systems – Basic parameters 4.2.10, 4.2.11,<br/>2. that the Control-Command and Signalling Track-side subsystem is compatible with track-side environment – Basic parameter 4.2.16<br/>These tests will also increase confidence in the absence of systematic failures. <br/>The scope of these tests excludes tests already done in previous steps: tests performed at the level of interoperability constituents and tests performed on the subsystem in a simulated environment shall be taken into account. | Reports of test runs.<br/>Note: Indicate in the certificate which conditions have been tested, which standards have been applied and the criteria for considering the tests terminated.
 
 ## 6.4   Provisions in case of the partial fulfilment TSI requirements
 
@@ -1240,49 +1240,51 @@ Where the requirements set out in the relevant section of Chapter 4 are not subj
 
 | Specific case | Category | Notes | 
 |---|---|---|---|
-| **4.2.10 Track-side Train Detection Systems** <br>Index 77, Section 3.1.2.4:<br>The distance between first and last axle L – (b1 + b2) (Figure 1) is at least 15 000 mm | T3 | Applicable on HS L1<br>This Specific Case is linked with the use of TVM |
-| **4.2.10 Track-side Train Detection Systems**<br>Index 77, Section 3.1.8:<br>The weight of an isolated vehicle or a trainset is at least 40 t.<br>If the weight of an isolated vehicle or a trainset is inferior to 90 t, the vehicle should have a system ensuring the shunting which has an electrical basis superior or equal to 16 000 mm | T3 | Applicable on HS L1, L2, L3, L4<br>This Specific Case is linked with the use of TVM |
+| **4.2.10   Track-side Train Detection Systems** <br/>Index 77, Section 3.1.2.4:<br/>The distance between first and last axle L – (b1 + b2) (Figure 1) is at least 15 000 mm | T3 | Applicable on HS L1<br/>This Specific Case is linked with the use of TVM |
+| **4.2.10   Track-side Train Detection Systems**<br/>Index 77, Section 3.1.8:<br/>The weight of an isolated vehicle or a trainset is at least 40 t.<br/>If the weight of an isolated vehicle or a trainset is inferior to 90 t, the vehicle should have a system ensuring the shunting which has an electrical basis superior or equal to 16 000 mm | T3 | Applicable on HS L1, L2, L3, L4<br/>This Specific Case is linked with the use of TVM |
 
 #### 7.2.9.3. United Kingdom 
 
 | Specific case | Category | Notes | 
 |---|---|---|---|
-| **4.2.10 Track-side Train Detection Systems** <br>Index 77, Section 3.1.2.4:<br>The distance between first and last axle L – (b1 + b2) (Figure 1) is at least 15 000 mm | T3 | Applicable on High-Speed L 1<br>This Specific Case is linked with the use of TVM |
-| **4.2.10 Track-side Train Detection Systems**<br>Index 77, Section 3.1.4.1:<br>In addition to the requirements in Section 3.1.4.1, sanding for traction purposes on multiple units:<br><ol> <li type="a">is not permitted ahead of the leading axle below 40 km/h; and</li> <li type="a">is only permitted where it can be demonstrated that at least a further six axles of the multiple unit are beyond the laying position. TVM</li></ol> | T3 | |
-| **4.2.12 ERTMS/ETCS DMI (Driver Machine Interface)** Index 51:<br>It is permissible for the ETCS DMI to display dynamic train speed information in miles per hour (and indicate ‘mph’) when operating on parts of the GB mainline network. | T3 | This specific case is needed as soon as the open point related to the DMI specification is closed.<br>There is no impact on interoperability |
+| **4.2.10   Track-side Train Detection Systems** <br/>Index 77, Section 3.1.2.4:<br/>The distance between first and last axle L – (b1 + b2) (Figure 1) is at least 15 000 mm | T3 | Applicable on High-Speed L 1<br/>This Specific Case is linked with the use of TVM |
+| **4.2.10 Track-side Train Detection Systems**<br/>Index 77, Section 3.1.4.1:<br/>In addition to the requirements in Section 3.1.4.1, sanding for traction purposes on multiple units:<br/>(a) is not permitted ahead of the leading axle below 40 km/h; and<br/>(b) is only permitted where it can be demonstrated that at least a further six axles of the multiple unit are beyond the laying position. TVM | T3 | |
+| **4.2.12   ERTMS/ETCS DMI (Driver Machine Interface)**<br/>Index 51:<br/>It is permissible for the ETCS DMI to display dynamic train speed information in miles per hour (and indicate ‘mph’) when operating on parts of the GB mainline network. | T3 | This specific case is needed as soon as the open point related to the DMI specification is closed.<br/>There is no impact on interoperability |
+| **4.2.10   Track-side Train Detection Systems**<br/>Index 77, Section 3.1.3.1:<br/>The minimum wheel rim width (BR) for 1 600 mm track gauge network is 127 mm | T3 | Applicable in North Ireland |
+| **4.2.10   Track-side Train Detection Systems**<br/>Index 77, Section 3.1.3.3:<br/>The minimum flange thickness (Sd) for 1 600 mm track gauge network is 24 mm | T3 | Applicable in North Ireland |
 
 #### 7.2.9.4. France
 
 | Specific case | Category | Notes | 
 |---|---|---|---|
-| **4.2.10 Track-side Train Detection Systems** <br>Index 77, Section 3.1.2.4:<br>The distance between first and last axle L – (b1 + b2) (Figure 1) is at least 15 000 mm | T3 | Applicable on HS L1<br>This Specific Case is linked with the use of TVM |
-| **4.2.10 Track-side Train Detection Systems**<br>Index 77, Section 3.1.9:<br>The electrical resistance between the running surfaces of the opposite wheels of a wheelset does not exceed 0,05 Ohm, measured by a voltage between 1,8 VDC and 2,0 VDC (open circuit).<br>In addition, the electrical reactance between the running surfaces of the opposite wheels of a wheelset does not exceed f/100 mOhm when f is between 500 Hz and 40 kHz, under a measuring current of at least 10 ARMS and open voltage of 2 VRMS. | T3 | This specific case may be revised when the open point related to the frequency management for track circuits is closed |
-| **4.2.10 Track-side Train Detection Systems**<br>Index 77, Section 3.1.8:<br>The weight of an isolated vehicle or a trainset is at least 40 t.<br>If the weight of an isolated vehicle or a trainset is inferior to 90 t, the vehicle should have a system ensuring the shunting which has an electrical basis superior or equal to 16 000 mm. | T3 | This Specific Case is linked with the use of TVM |
-| **4.2.10 Track-side Train Detection Systems**<br>Index 77, Section 3.1.3.2:<br>Dimension D (Figure 2) is not less than:<br>450 mm independently of the speed | 5 years | |
+| **4.2.10   Track-side Train Detection Systems** <br/>Index 77, Section 3.1.2.4:<br/>The distance between first and last axle L – (b1 + b2) (Figure 1) is at least 15 000 mm | T3 | Applicable on HS L1<br/>This Specific Case is linked with the use of TVM |
+| **4.2.10   Track-side Train Detection Systems**<br/>Index 77, Section 3.1.9:<br/>The electrical resistance between the running surfaces of the opposite wheels of a wheelset does not exceed 0,05 Ohm, measured by a voltage between 1,8 VDC and 2,0 VDC (open circuit).<br/>In addition, the electrical reactance between the running surfaces of the opposite wheels of a wheelset does not exceed f/100 mOhm when f is between 500 Hz and 40 kHz, under a measuring current of at least 10 ARMS and open voltage of 2 VRMS. | T3 | This specific case may be revised when the open point related to the frequency management for track circuits is closed |
+| **4.2.10 Track-side Train Detection Systems**<br/>Index 77, Section 3.1.8:<br/>The weight of an isolated vehicle or a trainset is at least 40 t.<br/>If the weight of an isolated vehicle or a trainset is inferior to 90 t, the vehicle should have a system ensuring the shunting which has an electrical basis superior or equal to 16 000 mm. | T3 | This Specific Case is linked with the use of TVM |
+| **4.2.10 Track-side Train Detection Systems**<br/>Index 77, Section 3.1.3.2:<br/>Dimension D (Figure 2) is not less than:<br/>450 mm independently of the speed | 5 years | |
 
 #### 7.2.9.5. Poland 
 
 | Specific case | Category | Notes | 
 |---|---|---|---|
-| **4.2.10 Track-side Train Detection Systems**<br>Index 77, Section 3.1.9:<br>The electrical resistance between the running surfaces of the opposite wheels of a wheelset does not exceed 0,05 Ohm, measured by a voltage between 1,8 VDC and 2,0 VDC (open circuit).<br>In addition, the electrical reactance between the running surfaces of the opposite wheels of a wheelset does not exceed f/100 mOhm when f is between 500 Hz and 40 kHz, under a measuring current of at least 10 ARMS and open voltage of 2 VRMS. | T3 | This specific case may be revised when the open point related to the frequency management for track circuits is closed |
+| **4.2.10   Track-side Train Detection Systems**<br/>Index 77, Section 3.1.9:<br/>The electrical resistance between the running surfaces of the opposite wheels of a wheelset does not exceed 0,05 Ohm, measured by a voltage between 1,8 VDC and 2,0 VDC (open circuit).<br/>In addition, the electrical reactance between the running surfaces of the opposite wheels of a wheelset does not exceed f/100 mOhm when f is between 500 Hz and 40 kHz, under a measuring current of at least 10 ARMS and open voltage of 2 VRMS. | T3 | This specific case may be revised when the open point related to the frequency management for track circuits is closed |
 
 #### 7.2.9.6. Lithuania, Latvia
 
 | Specific case | Category | Notes | 
 |---|---|---|---|
-| **4.2.10 Track-side Train Detection Systems**<br>Index 77, Section 3.1.3.4:<br>The range of the dimension Sh (Figure 2) is not less than 26,25 mm<br> | T3 | This specific case is needed as long as ČME locomotives operate on Lithuania 1 520 mm network |
+| **4.2.10 Track-side Train Detection Systems**<br/>Index 77, Section 3.1.3.4:<br/>The range of the dimension Sh (Figure 2) is not less than 26,25 mm<br/> | T3 | This specific case is needed as long as ČME locomotives operate on Lithuania 1 520 mm network |
 
 #### 7.2.9.7. Sweden
 
 | Specific case | Category | Notes | 
 |---|---|---|---|
-| **4.2.4 Mobile communication functions for railways – GSM-R**<br>Index 65, statement 4.2.3:<br>It is permissible to put in service on-board Control-Command and Signalling Subsystems including 2 Watt GSM-R voice cab radios and ETCS data only radios. The subsystems shall be able to operate in networks with - 82 dBm. | P | No impact on interoperability |
+| **4.2.4   Mobile communication functions for railways – GSM-R**<br/>Index 65, statement 4.2.3:<br/>It is permissible to put in service on-board Control-Command and Signalling Subsystems including 2 Watt GSM-R voice cab radios and ETCS data only radios. The subsystems shall be able to operate in networks with - 82 dBm. | P | No impact on interoperability |
 
 #### 7.2.9.8. Luxembourg
 
 | Specific case | Category | Notes | 
 |---|---|---|---|
-| **4.2.10 Track-side Train Detection Systems** <br>Index 77, Section 3.1.2.4:<br>1. The output of the sanding devices fitted to the vehicle shall not exceed 0,3 l per minute per rail.<br>2. The sanding in the stations identified in the infrastructure register is prohibited.<br>3. The sanding in the area of switches is prohibited. <br>4. For emergency braking, no restrictions shall apply | T3 | |
+| **4.2.10   Track-side Train Detection Systems** <br/>Index 77, Section 3.1.2.4:<br/>1. The output of the sanding devices fitted to the vehicle shall not exceed 0,3 l per minute per rail.<br/>2. The sanding in the stations identified in the infrastructure register is prohibited.<br/>3. The sanding in the area of switches is prohibited. <br/>4. For emergency braking, no restrictions shall apply | T3 | |
 
 ## 7.3. Rules for ERTMS
 
@@ -1545,7 +1547,7 @@ Note: specifications indicated as ‘Reserved’ in table A-2 are also listed as
 | 9 | UNISIG SUBSET-036 | FFFIS for Eurobalise | 2.4.1 | | UNISIG SUBSET-036 | FFFIS for Eurobalise | 3.0.0 |
 | 10 | UNISIG SUBSET-037 | EuroRadio FIS | 2.3.0 | | UNISIG SUBSET-037 | EuroRadio FIS | 3.0.0 |
 | 11 | UNISIG SUBSET-038 | Offline key management FIS | 2.3.0 | | UNISIG SUBSET-038 | Offline key management FIS | 3.0.0 |
-| 12 | UNISIG SUBSET-039 | FIS for the RBC/RBC handover | 2.3.0 | | Reserved<br>UNISIG SUBSET-039 | FIS for the RBC/RBC handover |
+| 12 | UNISIG SUBSET-039 | FIS for the RBC/RBC handover | 2.3.0 | | Reserved<br/>UNISIG SUBSET-039 | FIS for the RBC/RBC handover |
 | 13 | UNISIG SUBSET-040 | Dimensioning and Engineering rules | 2.3.0 | | UNISIG SUBSET-040 | Dimensioning and Engineering rules | 3.2.0 |
 | 14 | UNISIG SUBSET-041 | Performance Requirements for Interoperability | 2.1.0 | | UNISIG SUBSET-041 | Performance Requirements for Interoperability | 3.1.0 |
 | 15 | ERA SUBSET-108 |Interoperability related consolidation on TSI Annex A documents | 1.2.0 | | Intentionally deleted |
@@ -1564,18 +1566,18 @@ Note: specifications indicated as ‘Reserved’ in table A-2 are also listed as
 | 28 | Reserved | Reliability — availability requirements | | | Reserved | Reliability — availability requirements |
 | 29 | UNISIG SUBSET-102 | Test specification for interface ‘K’ | 1.0.0 | | UNISIG SUBSET-102 | Test specification for interface ‘K’ | 2.0.0 |
 | 30 | Intentionally deleted | | | | Intentionally deleted |
-| 31 | UNISIG SUBSET-094 | Functional requirements for an on-board reference test facility | 2.0.2 | | Reserved<br>UNISIG SUBSET-094 | Functional requirements for an on-board reference test facility |
+| 31 | UNISIG SUBSET-094 | Functional requirements for an on-board reference test facility | 2.0.2 | | Reserved<br/>UNISIG SUBSET-094 | Functional requirements for an on-board reference test facility |
 | 32 | EIRENE FRS | GSM-R Functional requirements specification | 7.3.0 | | EIRENE FRS | GSM-R Functional requirements specification | 7.3.0 |
 | 33 | EIRENE SRS | GSM-R System requirements specification | 15.3.0 | | EIRENE SRS | GSM-R System requirements specification | 15.3.0 |
 | 34 | A11T6001 | (MORANE) Radio Transmission FFFIS for EuroRadio | 12.4 | | A11T6001 | (MORANE) Radio Transmission FFFIS for EuroRadio | 12.4 |
 | 35 | Intentionally deleted | | | | Intentionally deleted |
 | 36 a | Intentionally deleted | | | | Intentionally deleted | 
 | 36 b | Intentionally deleted | | | | Intentionally deleted |
-| 36 c | UNISIG SUBSET-074-2 | FFFIS STM Test cases document | 1.0.0 | | Reserved<br>UNISIG SUBSET-074-2 | FFFIS STM Test cases document |
+| 36 c | UNISIG SUBSET-074-2 | FFFIS STM Test cases document | 1.0.0 | | Reserved<br/>UNISIG SUBSET-074-2 | FFFIS STM Test cases document |
 | 37 a | Intentionally deleted | | | | Intentionally deleted |
-| 37 b | UNISIG SUBSET-076-5-2 | Test cases related to features | 2.3.3 | | Reserved<br>UNISIG SUBSET-076-5-2 | Test cases related to features |
-| 37 c | UNISIG SUBSET-076-6-3 | Test sequences | 2.3.3 | | Reserved<br>UNISIG SUBSET-076-6-3 | Test sequences |
-| 37 d | UNISIG SUBSET-076-7 | Scope of the test specifications | 1.0.2 | | Reserved<br>UNISIG SUBSET-076-7 | Scope of the test specifications |
+| 37 b | UNISIG SUBSET-076-5-2 | Test cases related to features | 2.3.3 | | Reserved<br/>UNISIG SUBSET-076-5-2 | Test cases related to features |
+| 37 c | UNISIG SUBSET-076-6-3 | Test sequences | 2.3.3 | | Reserved<br/>UNISIG SUBSET-076-6-3 | Test sequences |
+| 37 d | UNISIG SUBSET-076-7 | Scope of the test specifications | 1.0.2 | | Reserved<br/>UNISIG SUBSET-076-7 | Scope of the test specifications |
 | 37 e | Intentionally deleted | | | | Intentionally deleted |
 | 38 | 06E068 | ETCS Marker-board definition | 2.0 | | 06E068 |  ETCS Marker-board definition | 2.0 |
 | 39 | UNISIG SUBSET-092-1 | ERTMS EuroRadio Conformance Requirements | 2.3.0 | | UNISIG SUBSET-092-1 | ERTMS EuroRadio Conformance Requirements | 3.0.0 |
@@ -1603,11 +1605,11 @@ Note: specifications indicated as ‘Reserved’ in table A-2 are also listed as
 | 61 | Intentionally deleted | | | | Intentionally deleted |
 | 62 | Reserved | RBC-RBC Test specification for safe communication interface | | | Intentionally deleted |
 | 63 | UNISIG SUBSET-098 | RBC-RBC Safe Communication Interface | 1.0.0 | | UNISIG SUBSET-098 | RBC-RBC Safe Communication Interface | 3.0.0 |
-| 64 | EN 301 515 | Global System for Mobile Communication (GSM);<br>Requirements for GSM operation on railways | 2.3.0 | Note 2 | EN 301 515 | Global System for Mobile Communication (GSM);<br>Requirements for GSM operation on railways | 2.3.0 | Note 2 |
+| 64 | EN 301 515 | Global System for Mobile Communication (GSM);<br/>Requirements for GSM operation on railways | 2.3.0 | Note 2 | EN 301 515 | Global System for Mobile Communication (GSM);<br/>Requirements for GSM operation on railways | 2.3.0 | Note 2 |
 | 65 | TS 102 281 | Detailed requirements for GSM operation on railways | 2.2.0 | Note 3 | TS 102 281 | Detailed requirements for GSM operation on railways | 2.2.0 | Note 3 |
 | 66 | (MORANE) A 01 T 0004 1 | ASCI Options for Interoperability | 1 | | (MORANE) A 01 T 0004 1 | ASCI Options for Interoperability | 1 |
 | 67 | (MORANE) P 38 T 9001 | FFFIS for GSM-R SIM Cards | 4.1 | | (MORANE) P 38 T 9001 | FFFIS for GSM-R SIM Cards | 4.1 |
-| 68 | ETSI TS 102 610 | Railway Telecommunication; GSM;<br>Usage of the UUIE for GSM operation on railways | 1.1.0 | | ETSI TS 102 610 | Railway Telecommunication; GSM;<br>Usage of the UUIE for GSM operation on railways | 1.1.0 |
+| 68 | ETSI TS 102 610 | Railway Telecommunication; GSM;<br/>Usage of the UUIE for GSM operation on railways | 1.1.0 | | ETSI TS 102 610 | Railway Telecommunication; GSM;<br/>Usage of the UUIE for GSM operation on railways | 1.1.0 |
 | 69 | (MORANE) F 10 T 6002 | FFFS for Confirmation of High Priority Calls’ | 4 | | (MORANE) F 10 T 6002 | FFFS for Confirmation of High Priority Calls’ | 4 |
 | 70 | (MORANE) F 12 T 6002 | FIS for Confirmation of High Priority Calls | 4 | | (MORANE) F 12 T 6002 | FIS for Confirmation of High Priority Calls | 4 | 
 | 71 | (MORANE) E 10 T 6001 | FFFS for Functional Addressing | 4 | | (MORANE) E 10 T 6001 | FFFS for Functional Addressing | 4 |
@@ -1666,16 +1668,16 @@ Intentionally deleted
 
 | Open Point | Notes |
 |---|---|
-| Braking aspects | It only applies to ERTMS/ETCS Baseline 2 (see Annex A, Table A2, Index 15).<br>Resolved for ERTMS/ETCS Baseline 3 (see Annex A, Table A 2, Indexes 4 and 13). |
+| Braking aspects | It only applies to ERTMS/ETCS Baseline 2 (see Annex A, Table A2, Index 15).<br/>Resolved for ERTMS/ETCS Baseline 3 (see Annex A, Table A 2, Indexes 4 and 13). |
 | Index 28 – Reliability/availability requirements | Frequent occurrences of degraded situations caused by failures of control-command and signalling equipment will decrease the system safety. |
 | Minimum wheel diameter for speed greater than 350 km/h | See Annex A, Table A 2, Index 77 |
 | Minimum axle distance for speed greater than 350 km/h | See Annex A, Table A 2, Index 77 |
-| Metal and inductive components free space between wheels | See Annex A, Table A 2, Index 77<br>This is not an open point for freight wagons |
+| Metal and inductive components free space between wheels | See Annex A, Table A 2, Index 77<br/>This is not an open point for freight wagons |
 | Characteristics of sand applied to tracks | See Annex A, Table A 2, Index 77 |
 | Vehicle metal mass | See Annex A, Table A 2, Index 77 |
 | Combination of rolling stock characteristics influencing shunting impedance | See Annex A, Table A 2, Index 77 |
 | Electromagnetic interferences (traction current) | See Annex A, Table A 2, Index 77 |
-| Electromagnetic interferences (electromagnetic fields) | See Annex A, Table A 2, Index 77<br>This is not an open point for power systems other than DC |
+| Electromagnetic interferences (electromagnetic fields) | See Annex A, Table A 2, Index 77<br/>This is not an open point for power systems other than DC |
 | Vehicle Impedance | See Annex A, Table A 2, Index 77 |
 | DC and low frequency components of traction current | See Annex A, Table A 2, Index 77 |
 | Use of magnetic/eddy current brakes | See Annex A, Table A 2, Index 77 |
