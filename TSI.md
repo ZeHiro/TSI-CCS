@@ -565,10 +565,10 @@ The environmental conditions mandated in the specifications referenced in this T
 | | | | LOC &amp; PAS TSI | 4.2.3.3.1.3 |
 | | | | Wagon TSI | None |
 | Electromagnetic compatibility between rolling stock and Control-Command and Signalling track-side equipment | 4.2.11 | Rolling stock characteristics to be compatible with train detection systems based on track circuits | HS RS TSI | 4.2.6.6.1 |
-| | | | LOC &amp; PAS TSI | 4.2.3.3.1 |
+| | | | LOC &amp; PAS TSI | 4.2.3.3.1.1 |
 | | | | Wagon TSI | None |
 | | | Rolling stock characteristics to be compatible with train detection systems based on axle counters | HS RS TSI | 4.2.6.6.1 |
-| | | | LOC &amp; PAS TSI | 4.2.3.3.2 |
+| | | | LOC &amp; PAS TSI | 4.2.3.3.1.2 |
 | | | | Wagon TSI | None |
 | Train braking performance and characteristics | 4.2.2 | Emergency braking performance | HS RS TSI | |
 | | | | Emergency braking | 4.2.4.1 |
