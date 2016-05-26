@@ -1268,7 +1268,7 @@ Where the requirements set out in the relevant section of Chapter 4 are not subj
 |---|---|---|---|
 | **4.2.10   Track-side Train Detection Systems**<br/>Index 77, Section 3.1.9:<br/>The electrical resistance between the running surfaces of the opposite wheels of a wheelset does not exceed 0,05 Ohm, measured by a voltage between 1,8 VDC and 2,0 VDC (open circuit).<br/>In addition, the electrical reactance between the running surfaces of the opposite wheels of a wheelset does not exceed f/100 mOhm when f is between 500 Hz and 40 kHz, under a measuring current of at least 10 ARMS and open voltage of 2 VRMS. | T3 | This specific case may be revised when the open point related to the frequency management for track circuits is closed |
 
-#### 7.2.9.6. Lithuania, Latvia
+#### 7.2.9.6. Lithuania, Latvia and Estonia
 
 | Specific case | Category | Notes | 
 |---|---|---|---|
