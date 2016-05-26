@@ -857,7 +857,15 @@ In certain cases, however, some of the essential requirements may be met by nati
 
 In such cases, assessment of conformity with those rules shall be carried out under the responsibility of the Member States concerned according to notified procedures.
 
-### 6.1.2. Principles for testing ERTMS/ETCS and GSM-R
+With regard to checking if essential requirements are fulfilled through compliance with the basic parameters, and without prejudice to the obligations set out in Chapter 7 of this TSI, control-command and signalling interoperability constituents and subsystems that do not implement all functions, performance and interfaces as specified in Chapter 4 (including the specifications referred to in Annex A), can obtain EC certificates of conformity or, respectively, EC certificates of verification, under the following conditions for issuing and using the certificates:
+
+1. the applicant for EC verification of a track-side control-command and signalling subsystem is responsible for deciding which functions, performance and interfaces need to be implemented to meet the objectives for the service and to ensure that no requirements contradicting or exceeding the TSIs are exported to the on-board control-command and signalling subsystems;
+1. the operation of an on-board control-command and signalling subsystem, that does not implement all functions, performance and interfaces specified in this TSI, may be subject to conditions or restrictions due to compatibility and/or safe integration with track-side control-command and signalling subsystems. Without prejudice to the tasks of a notified body described in respective EU legislation and related documents, the applicant for EC verification is responsible for ensuring that the technical file provides all the information that an operator needs to identify such conditions and restrictions;
+1. the Member State may refuse for duly justified reasons the authorisation for placing in service, or place conditions and restrictions on the operation, of control-command and signalling subsystems that do not implement all functions, performance and interfaces specified in this TSI.
+
+If some essential requirements are fulfilled by national rules or if a control-command and signalling interoperability constituent or subsystem does not implement all functions, performance and interfaces specified in this TSI, the provisions of section 6.4.2 shall apply.
+
+### 6.1.2.   Principles for testing ERTMS/ETCS and GSM-R
 
 A Control-Command and Signalling On-board Subsystem covered by an ‘EC’ declaration of verification should be able to run on every Control-Command and Signalling Track-side Subsystem covered by an ‘EC’ Declaration of verification, under the conditions specified in this TSI, with no additional verifications.
 
