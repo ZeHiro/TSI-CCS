@@ -1416,79 +1416,80 @@ It is mandatory to fit ERTMS/ETCS on board when:
 | United Kingdom | Bristol                |            | This terminal will be connected as corridor C is extended to the Channel Tunnel.                                                                                    |
 
 # ANNEX A
+
 ## References
 
 For each reference made in the basic parameters (Chapter 4 of this TSI) the following table indicates the corresponding mandatory specifications, via the index in table A-2.
 
-***Table A 1***
+**_Table A 1_**
 
 | Reference in Chapter 4 | Index number (see Table A 2) |
-|---|---|
-| **4.1** |
-| 4.1 a | 1, 4 |
-| 4.1 b | 32 |
-| 4.1 c | 3 |
-| **4.2.1** |
-| 4.2.1 a | 27, 78 |
-| 4.2.1 b | 28 |
-| **4.2.2** |
-| 4.2.2.a | 14 |
-| 4.2.2.b | 1, 4, 13, 15, 60 |
-| 4.2.2.c | 31, 37b, c, d |
-| 4.2.2.d | 18, 20 |
-| 4.2.2.e | 6 |
-| 4.2.2.f | 7 |
-| **4.2.3** |
-| 4.2.3 a | 14 |
-| 4.2.3 b | 1, 4, 13, 15, 60 |
-| 4.2.3 c | 31, 37 b, c, d | 
-| 4.2.3 d | 18, 21 |
-| **4.2.4** |
-|  4.2.4 a | 64, 65 |
-| 4.2.4 b | 66 |
-| 4.2.4 c | 67 |
-| 4.2.4 d | 68 |
-| 4.2.4 e | 73, 74 |
-| 4.2.4 f | 32, 33 |
-| 4.2.4 g | 48 |
-| 4.2.4 h | 69, 70 |
-| 4.2.4 j | 71, 72 |
-| 4.2.4 k | 75, 76 |
-| **4.2.5** |
-| 4.2.5 a | 64, 65 |
-| 4.2.5 b | 10, 39, 40 |
-| 4.2.5 c | 19, 20 |
-| 4.2.5 d | 9, 43 |
-| 4.2.5 e | 16, 50 |
-| **4.2.6** |
-| 4.2.6 a | 8, 25, 26, 36 c, 49, 52 |
-| 4.2.6 b | 29, 45 |
-| 4.2.6 c | 46 |
-| 4.2.6 d | 34 |
-| 4.2.6 e | 20 |
-| 4.2.6 f | 44 |
-| **4.2.7** |
-| 4.2.7 a | 12 |
-| 4.2.7 b | 62, 63 |
-| 4.2.7 c | 34 |
-| 4.2.7 d | 9 |
-| 4.2.7 e | 16 |
-| **4.2.8** | |
-| 4.2.8 a | 11, 79 |
-| **4.2.9** |
-| 4.2.9 a | 23 |
-| **4.2.10** |
-| 4.2.10 a | 77 (section 3.1) |
-| **4.2.11** |
-| 4.2.11 a | 77 (section 3.2) |
-| **4.2.12** |
-| 4.2.12 a | 6, 51 |
-| **4.2.13** |
-| 4.2.13 a | 32, 33, 51, 80 |
-| **4.2.14** |
-| 4.2.14 a | 5 |
-| **4.2.15** |
-| 4.2.15 a | 38 |
+| ---------------------- | ---------------------------- |
+| **4.1**                |                              |
+| 4.1 a                  | 1, 4                         |
+| 4.1 b                  | 32                           |
+| 4.1 c                  | 3                            |
+| **4.2.1**              |                              |
+| 4.2.1 a                | 27, 78                       |
+| 4.2.1 b                | 28                           |
+| **4.2.2**              |                              |
+| 4.2.2.a                | 14                           |
+| 4.2.2.b                | 1, 4, 13, 15, 60             |
+| 4.2.2.c                | 31, 37b, c, d                |
+| 4.2.2.d                | 18, 20                       |
+| 4.2.2.e                | 6                            |
+| 4.2.2.f                | 7                            |
+| **4.2.3**              |                              |
+| 4.2.3 a                | 14                           |
+| 4.2.3 b                | 1, 4, 13, 15, 60             |
+| 4.2.3 c                | 31, 37 b, c, d               |
+| 4.2.3 d                | 18, 21                       |
+| **4.2.4**              |                              |
+| 4.2.4 a                | 64, 65                       |
+| 4.2.4 b                | 66                           |
+| 4.2.4 c                | 67                           |
+| 4.2.4 d                | 68                           |
+| 4.2.4 e                | 73, 74                       |
+| 4.2.4 f                | 32, 33                       |
+| 4.2.4 g                | 48                           |
+| 4.2.4 h                | 69, 70                       |
+| 4.2.4 j                | 71, 72                       |
+| 4.2.4 k                | 75, 76                       |
+| **4.2.5**              |                              |
+| 4.2.5 a                | 64, 65                       |
+| 4.2.5 b                | 10, 39, 40                   |
+| 4.2.5 c                | 19, 20                       |
+| 4.2.5 d                | 9, 43                        |
+| 4.2.5 e                | 16, 50                       |
+| **4.2.6**              |                              |
+| 4.2.6 a                | 8, 25, 26, 36 c, 49, 52      |
+| 4.2.6 b                | 29, 45                       |
+| 4.2.6 c                | 46                           |
+| 4.2.6 d                | 34                           |
+| 4.2.6 e                | 20                           |
+| 4.2.6 f                | 44                           |
+| **4.2.7**              |                              |
+| 4.2.7 a                | 12                           |
+| 4.2.7 b                | 62, 63                       |
+| 4.2.7 c                | 34                           |
+| 4.2.7 d                | 9                            |
+| 4.2.7 e                | 16                           |
+| **4.2.8**              |                              |
+| 4.2.8 a                | 11, 79                       |
+| **4.2.9**              |                              |
+| 4.2.9 a                | 23                           |
+| **4.2.10**             |                              |
+| 4.2.10 a               | 77 (section 3.1)             |
+| **4.2.11**             |                              |
+| 4.2.11 a               | 77 (section 3.2)             |
+| **4.2.12**             |                              |
+| 4.2.12 a               | 6, 51                        |
+| **4.2.13**             |                              |
+| 4.2.13 a               | 32, 33, 51, 80               |
+| **4.2.14**             |                              |
+| 4.2.14 a               | 5                            |
+| **4.2.15**             |                              |
+| 4.2.15 a               | 38                           |
 
 ## Specifications
 
@@ -1498,191 +1499,191 @@ Documents referred to within a specification listed in Table A-2 shall be consid
 
 Note: specifications indicated as ‘Reserved’ in table A-2 are also listed as open points in Annex G when there is a need for notification of national rules to close the corresponding open points. Reserved documents not listed as open points are intended as improvements to the system.
 
-***Table A 2***
+**_Table A 2_**
 
 **List of mandatory specifications**
 
 Set of specifications # 1 (ETCS baseline 2 and GSM-R baseline 0)
 
-| Index N | Reference | Name of Specification | Version | Notes |
-|---|---|---|---|---|
-| 1 | ERA/ERTMS/003204 | ERTMS/ETCS Functional requirement specification | 5.0 |
-| 2 | Intentionally deleted |
-| 3 | UNISIG SUBSET-023 | Glossary of Terms and Abbreviations | 2.0.0 |
-| 4 | UNISIG SUBSET-026 | System Requirements Specification | 2.3.0 |
-| 5 | UNISIG SUBSET-027 | FFFIS Juridical recorder-downloading tool | 2.3.0 | Note 1 |
-| 6 | UNISIG SUBSET-033 | FIS for man-machine interface | 2.0.0 |
-| 7 | UNISIG SUBSET-034 | FIS for the train interface | 2.0.0 |
-| 8 | UNISIG SUBSET-035 | Specific Transmission Module FFFIS | 2.1.1 |
-| 9 | UNISIG SUBSET-036 | FFFIS for Eurobalise | 2.4.1 |
-| 10 | UNISIG SUBSET-037 | EuroRadio FIS | 2.3.0 |
-| 11 | UNISIG SUBSET-038 | Offline key management FIS | 2.3.0 |
-| 12 | UNISIG SUBSET-039 | FIS for the RBC/RBC handover | 2.3.0 |
-| 13 | UNISIG SUBSET-040 | Dimensioning and Engineering rules | 2.3.0 |
-| 14 | UNISIG SUBSET-041 | Performance Requirements for Interoperability | 2.1.0 |
-| 15 | ERA SUBSET-108 |Interoperability related consolidation on TSI Annex A documents | 1.2.0 |
-| 16 | UNISIG SUBSET-044 | FFFIS for Euroloop | 2.3.0 |
-| 17 | Intentionally deleted |
-| 18 | UNISIG SUBSET-046 | Radio infill FFFS | 2.0.0 |
-| 19 | UNISIG SUBSET-047 | Trackside-Trainborne FIS for Radio infill | 2.0.0 |
-| 20 | UNISIG SUBSET-048 | Trainborne FFFIS for Radio infill | 2.0.0 |
-| 21 | UNISIG SUBSET-049 | Radio infill FIS with LEU/interlocking | 2.0.0 |
-| 22 | Intentionally deleted |
-| 23 | UNISIG SUBSET-054 | Responsibilities and rules for the assignment of values to ETCS variables | 2.1.0 |
-| 24 | Intentionally deleted |
-| 25 | UNISIG SUBSET-056 | STM FFFIS Safe time layer | 2.2.0 |
-| 26 | UNISIG SUBSET-057 | STM FFFIS Safe link layer | 2.2.0 |
-| 27 | UNISIG SUBSET-091 | Safety Requirements for the Technical Interoperability of ETCS in Levels 1 and 2 | 2.5.0 |
-| 28 | Reserved | Reliability — availability requirements |
-| 29 | UNISIG SUBSET-102 | Test specification for interface ‘K’ | 1.0.0 |
-| 30 | Intentionally deleted |
-| 31 | UNISIG SUBSET-094 | Functional requirements for an on-board reference test facility | 2.0.2 |
-| 32 | EIRENE FRS | GSM-R Functional requirements specification | 7.3.0 |
-| 33 | EIRENE SRS | GSM-R System requirements specification | 15.3.0 |
-| 34 | A11T6001 | (MORANE) Radio Transmission FFFIS for EuroRadio | 12.4 |
-| 35 | Intentionally deleted |
-| 36 a | Intentionally deleted |
-| 36 b | Intentionally deleted |
-| 36 c | UNISIG SUBSET-074-2 | FFFIS STM Test cases document | 1.0.0 |
-| 37 a | Intentionally deleted |
-| 37 b | UNISIG SUBSET-076-5-2 | Test cases related to features | 2.3.3 |
-| 37 c | UNISIG SUBSET-076-6-3 | Test sequences | 2.3.3 |
-| 37 d | UNISIG SUBSET-076-7 | Scope of the test specifications | 1.0.2 |
-| 37 e | Intentionally deleted |
-| 38 | 06E068 | ETCS Marker-board definition | 2.0 |
-| 39 | UNISIG SUBSET-092-1 | ERTMS EuroRadio Conformance Requirements | 2.3.0 |
-| 40 | UNISIG SUBSET-092-2 | ERTMS EuroRadio test cases safety layer | 2.3.0 |
-| 41 | Intentionally deleted |
-| 42 | Intentionally deleted |
-| 43 | UNISIG SUBSET 085 | Test specification for Eurobalise FFFIS | 2.2.2 |
-| 44 | Reserved | Odometry FIS |
-| 45 | UNISIG SUBSET-101 | Interface ‘K’ Specification | 1.0.0 |
-| 46 | UNISIG SUBSET-100 | Interface ‘G’ Specification | 1.0.1 |
-| 47 | Intentionally deleted |
-| 48 | Reserved | Test specification for mobile equipment GSM-R |
-| 49 | UNISIG SUBSET-059 | Performance requirements for STM | 2.1.1 |
-| 50 | UNISIG SUBSET-103 | Test specification for Euroloop | 1.0.0 |
-| 51 | Reserved | Ergonomic aspects of the DMI |
-| 52 | UNISIG SUBSET-058 | FFFIS STM Application layer | 2.1.1 |
-| 53 | Intentionally deleted |
-| 54 | Intentionally deleted |
-| 55 | Intentionally deleted |
-| 56 | Intentionally deleted |
-| 57 | Intentionally deleted |
-| 58 | Intentionally deleted |
-| 59 | Intentionally deleted |
-| 60 | Intentionally deleted |
-| 61 | Intentionally deleted |
-| 62 | Reserved | RBC-RBC Test specification for safe communication interface |
-| 63 | UNISIG SUBSET-098 | RBC-RBC Safe Communication Interface | 1.0.0 |
-| 64 | EN 301 515 | Global System for Mobile Communication (GSM);<br>Requirements for GSM operation on railways | 2.3.0 | Note 2 |
-| 65 | TS 102 281 | Detailed requirements for GSM operation on railways | 2.2.0 | Note 3 |
-| 66 | (MORANE) A 01 T 0004 1 | ASCI Options for Interoperability | 1 |
-| 67 | (MORANE) P 38 T 9001 | FFFIS for GSM-R SIM Cards | 4.1 |
-| 68 | ETSI TS 102 610 | Railway Telecommunication; GSM;<br>Usage of the UUIE for GSM operation on railways | 1.1.0 |
-| 69 | (MORANE) F 10 T 6002 | FFFS for Confirmation of High Priority Calls’ | 4 |
-| 70 | (MORANE) F 12 T 6002 | FIS for Confirmation of High Priority Calls | 4 |
-| 71 | (MORANE) E 10 T 6001 | FFFS for Functional Addressing | 4 |
-| 72 | (MORANE) E 12 T 6001 | FIS for Functional Addressing | 5.1 |
-| 73 | (MORANE) F 10 T6001 | FFFS for Location Dependent Addressing | 4 |
-| 74 | (MORANE) F 12 T6001 | FIS for Location Dependent Addressing | 3 |
-| 75 | (MORANE) F 10 T 6003 | FFFS for Presentation of Functional Numbers to Called and Calling Parties | 4 |
-| 76 | (MORANE) F 12 T 6003 | FIS for Presentation of Functional Numbers to Called and Calling Parties | 4 |
-| 77 | ERA/ERTMS/033281 | Interfaces between CCS track-side and other subsystems | 1.0 |
-| 78 | Reserved | Safety requirements for ETCS DMI functions |
-| 79 | Not applicable | Not applicable |
-| 80 | Not applicable | Not applicable |
+| Index N | Reference              | Name of Specification                                                                       | Version | Notes  |
+| ------- | ---------------------- | ------------------------------------------------------------------------------------------- | ------- | ------ |
+| 1       | ERA/ERTMS/003204       | ERTMS/ETCS Functional requirement specification                                             | 5.0     |        |
+| 2       | Intentionally deleted  |                                                                                             |         |        |
+| 3       | UNISIG SUBSET-023      | Glossary of Terms and Abbreviations                                                         | 2.0.0   |        |
+| 4       | UNISIG SUBSET-026      | System Requirements Specification                                                           | 2.3.0   |        |
+| 5       | UNISIG SUBSET-027      | FFFIS Juridical recorder-downloading tool                                                   | 2.3.0   | Note 1 |
+| 6       | UNISIG SUBSET-033      | FIS for man-machine interface                                                               | 2.0.0   |        |
+| 7       | UNISIG SUBSET-034      | FIS for the train interface                                                                 | 2.0.0   |        |
+| 8       | UNISIG SUBSET-035      | Specific Transmission Module FFFIS                                                          | 2.1.1   |        |
+| 9       | UNISIG SUBSET-036      | FFFIS for Eurobalise                                                                        | 2.4.1   |        |
+| 10      | UNISIG SUBSET-037      | EuroRadio FIS                                                                               | 2.3.0   |        |
+| 11      | UNISIG SUBSET-038      | Offline key management FIS                                                                  | 2.3.0   |        |
+| 12      | UNISIG SUBSET-039      | FIS for the RBC/RBC handover                                                                | 2.3.0   |        |
+| 13      | UNISIG SUBSET-040      | Dimensioning and Engineering rules                                                          | 2.3.0   |        |
+| 14      | UNISIG SUBSET-041      | Performance Requirements for Interoperability                                               | 2.1.0   |        |
+| 15      | ERA SUBSET-108         | Interoperability related consolidation on TSI Annex A documents                             | 1.2.0   |        |
+| 16      | UNISIG SUBSET-044      | FFFIS for Euroloop                                                                          | 2.3.0   |        |
+| 17      | Intentionally deleted  |                                                                                             |         |        |
+| 18      | UNISIG SUBSET-046      | Radio infill FFFS                                                                           | 2.0.0   |        |
+| 19      | UNISIG SUBSET-047      | Trackside-Trainborne FIS for Radio infill                                                   | 2.0.0   |        |
+| 20      | UNISIG SUBSET-048      | Trainborne FFFIS for Radio infill                                                           | 2.0.0   |        |
+| 21      | UNISIG SUBSET-049      | Radio infill FIS with LEU/interlocking                                                      | 2.0.0   |        |
+| 22      | Intentionally deleted  |                                                                                             |         |        |
+| 23      | UNISIG SUBSET-054      | Responsibilities and rules for the assignment of values to ETCS variables                   | 2.1.0   |        |
+| 24      | Intentionally deleted  |                                                                                             |         |        |
+| 25      | UNISIG SUBSET-056      | STM FFFIS Safe time layer                                                                   | 2.2.0   |        |
+| 26      | UNISIG SUBSET-057      | STM FFFIS Safe link layer                                                                   | 2.2.0   |        |
+| 27      | UNISIG SUBSET-091      | Safety Requirements for the Technical Interoperability of ETCS in Levels 1 and 2            | 2.5.0   |        |
+| 28      | Reserved               | Reliability — availability requirements                                                     |         |        |
+| 29      | UNISIG SUBSET-102      | Test specification for interface ‘K’                                                        | 1.0.0   |        |
+| 30      | Intentionally deleted  |                                                                                             |         |        |
+| 31      | UNISIG SUBSET-094      | Functional requirements for an on-board reference test facility                             | 2.0.2   |        |
+| 32      | EIRENE FRS             | GSM-R Functional requirements specification                                                 | 7.3.0   |        |
+| 33      | EIRENE SRS             | GSM-R System requirements specification                                                     | 15.3.0  |        |
+| 34      | A11T6001               | (MORANE) Radio Transmission FFFIS for EuroRadio                                             | 12.4    |        |
+| 35      | Intentionally deleted  |                                                                                             |         |        |
+| 36 a    | Intentionally deleted  |                                                                                             |         |        |
+| 36 b    | Intentionally deleted  |                                                                                             |         |        |
+| 36 c    | UNISIG SUBSET-074-2    | FFFIS STM Test cases document                                                               | 1.0.0   |        |
+| 37 a    | Intentionally deleted  |                                                                                             |         |        |
+| 37 b    | UNISIG SUBSET-076-5-2  | Test cases related to features                                                              | 2.3.3   |        |
+| 37 c    | UNISIG SUBSET-076-6-3  | Test sequences                                                                              | 2.3.3   |        |
+| 37 d    | UNISIG SUBSET-076-7    | Scope of the test specifications                                                            | 1.0.2   |        |
+| 37 e    | Intentionally deleted  |                                                                                             |         |        |
+| 38      | 06E068                 | ETCS Marker-board definition                                                                | 2.0     |        |
+| 39      | UNISIG SUBSET-092-1    | ERTMS EuroRadio Conformance Requirements                                                    | 2.3.0   |        |
+| 40      | UNISIG SUBSET-092-2    | ERTMS EuroRadio test cases safety layer                                                     | 2.3.0   |        |
+| 41      | Intentionally deleted  |                                                                                             |         |        |
+| 42      | Intentionally deleted  |                                                                                             |         |        |
+| 43      | UNISIG SUBSET 085      | Test specification for Eurobalise FFFIS                                                     | 2.2.2   |        |
+| 44      | Reserved               | Odometry FIS                                                                                |         |        |
+| 45      | UNISIG SUBSET-101      | Interface ‘K’ Specification                                                                 | 1.0.0   |        |
+| 46      | UNISIG SUBSET-100      | Interface ‘G’ Specification                                                                 | 1.0.1   |        |
+| 47      | Intentionally deleted  |                                                                                             |         |        |
+| 48      | Reserved               | Test specification for mobile equipment GSM-R                                               |         |        |
+| 49      | UNISIG SUBSET-059      | Performance requirements for STM                                                            | 2.1.1   |        |
+| 50      | UNISIG SUBSET-103      | Test specification for Euroloop                                                             | 1.0.0   |        |
+| 51      | Reserved               | Ergonomic aspects of the DMI                                                                |         |        |
+| 52      | UNISIG SUBSET-058      | FFFIS STM Application layer                                                                 | 2.1.1   |        |
+| 53      | Intentionally deleted  |                                                                                             |         |        |
+| 54      | Intentionally deleted  |                                                                                             |         |        |
+| 55      | Intentionally deleted  |                                                                                             |         |        |
+| 56      | Intentionally deleted  |                                                                                             |         |        |
+| 57      | Intentionally deleted  |                                                                                             |         |        |
+| 58      | Intentionally deleted  |                                                                                             |         |        |
+| 59      | Intentionally deleted  |                                                                                             |         |        |
+| 60      | Intentionally deleted  |                                                                                             |         |        |
+| 61      | Intentionally deleted  |                                                                                             |         |        |
+| 62      | Reserved               | RBC-RBC Test specification for safe communication interface                                 |         |        |
+| 63      | UNISIG SUBSET-098      | RBC-RBC Safe Communication Interface                                                        | 1.0.0   |        |
+| 64      | EN 301 515             | Global System for Mobile Communication (GSM);<br>Requirements for GSM operation on railways | 2.3.0   | Note 2 |
+| 65      | TS 102 281             | Detailed requirements for GSM operation on railways                                         | 2.2.0   | Note 3 |
+| 66      | (MORANE) A 01 T 0004 1 | ASCI Options for Interoperability                                                           | 1       |        |
+| 67      | (MORANE) P 38 T 9001   | FFFIS for GSM-R SIM Cards                                                                   | 4.1     |        |
+| 68      | ETSI TS 102 610        | Railway Telecommunication; GSM;<br>Usage of the UUIE for GSM operation on railways          | 1.1.0   |        |
+| 69      | (MORANE) F 10 T 6002   | FFFS for Confirmation of High Priority Calls’                                               | 4       |        |
+| 70      | (MORANE) F 12 T 6002   | FIS for Confirmation of High Priority Calls                                                 | 4       |        |
+| 71      | (MORANE) E 10 T 6001   | FFFS for Functional Addressing                                                              | 4       |        |
+| 72      | (MORANE) E 12 T 6001   | FIS for Functional Addressing                                                               | 5.1     |        |
+| 73      | (MORANE) F 10 T6001    | FFFS for Location Dependent Addressing                                                      | 4       |        |
+| 74      | (MORANE) F 12 T6001    | FIS for Location Dependent Addressing                                                       | 3       |        |
+| 75      | (MORANE) F 10 T 6003   | FFFS for Presentation of Functional Numbers to Called and Calling Parties                   | 4       |        |
+| 76      | (MORANE) F 12 T 6003   | FIS for Presentation of Functional Numbers to Called and Calling Parties                    | 4       |        |
+| 77      | ERA/ERTMS/033281       | Interfaces between CCS track-side and other subsystems                                      | 1.0     |        |
+| 78      | Reserved               | Safety requirements for ETCS DMI functions                                                  |         |        |
+| 79      | Not applicable         | Not applicable                                                                              |         |        |
+| 80      | Not applicable         | Not applicable                                                                              |         |        |
 
 Set of specifications # 2 (ETCS baseline 3 and GSM-R baseline 0)
 
-| Index N | Reference | Name of Specification | Version | Notes |
-|---|---|---|---|---|
-| 1 | Intentionally deleted |
-| 2 | Intentionally deleted |
-| 3 | UNISIG SUBSET-023 | Glossary of Terms and Abbreviations | 3.0.0 |
-| 4 | UNISIG SUBSET-026 | System Requirements Specification | 3.3.0 | 
-| 5 | UNISIG SUBSET-027 | FIS Juridical Recording | 3.0.0 | 
-| 6 | ERA_ERTMS_015560 | ETCS Driver Machine interface | 3.3.0 |
-| 7 | UNISIG SUBSET-034 | Train Interface FIS | 3.0.0 |
-| 8 | UNISIG SUBSET-035 | Specific Transmission Module FFFIS | 3.0.0 |
-| 9 | UNISIG SUBSET-036 | FFFIS for Eurobalise | 3.0.0 |
-| 10 | UNISIG SUBSET-037 | EuroRadio FIS | 3.0.0 |
-| 11 | UNISIG SUBSET-038 | Offline key management FIS | 3.0.0 |
-| 12 | Reserved<br>UNISIG SUBSET-039 | FIS for the RBC/RBC handover |
-| 13 | UNISIG SUBSET-040 | Dimensioning and Engineering rules | 3.2.0 |
-| 14 | UNISIG SUBSET-041 | Performance Requirements for Interoperability | 3.1.0 |
-| 15 | Intentionally deleted |
-| 16 | UNISIG SUBSET-044 | FFFIS for Euroloop | 2.4.0 |
-| 17 | Intentionally deleted | 
-| 18 | Intentionally deleted |
-| 19 | UNISIG SUBSET-047 | Trackside-Trainborne FIS for Radio infill | 3.0.0 |
-| 20 | UNISIG SUBSET-048 | Trainborne FFFIS for Radio infill | 3.0.0 |
-| 21 | Intentionally deleted |
-| 22 | Intentionally deleted |
-| 23 | UNISIG SUBSET-054 | Responsibilities and rules for the assignment of values to ETCS variables | 3.0.0 |
-| 24 | Intentionally deleted |
-| 25 | UNISIG SUBSET-056 | STM FFFIS Safe time layer | 3.0.0 |
-| 26 | UNISIG SUBSET-057 | STM FFFIS Safe link layer | 3.0.0 |
-| 27 | UNISIG SUBSET-091 | Safety Requirements for the Technical Interoperability of ETCS in Levels 1 and 2 | 3.2.0 |
-| 28 | Reserved | Reliability — availability requirements |
-| 29 | UNISIG SUBSET-102 | Test specification for interface ‘K’ | 2.0.0 |
-| 30 | Intentionally deleted |
-| 31 | Reserved<br>UNISIG SUBSET-094 | Functional requirements for an on-board reference test facility |
-| 32 | EIRENE FRS | GSM-R Functional requirements specification | 7.3.0 |
-| 33 | EIRENE SRS | GSM-R System requirements specification | 15.3.0 |
-| 34 | A11T6001 | (MORANE) Radio Transmission FFFIS for EuroRadio | 12.4 |
-| 35 | Intentionally deleted |
-| 36 a | Intentionally deleted | 
-| 36 b | Intentionally deleted |
-| 36 c | Reserved<br>UNISIG SUBSET-074-2 | FFFIS STM Test cases document |
-| 37 a | Intentionally deleted |
-| 37 b | Reserved<br>UNISIG SUBSET-076-5-2 | Test cases related to features |
-| 37 c | Reserved<br>UNISIG SUBSET-076-6-3 | Test sequences |
-| 37 d | Reserved<br>UNISIG SUBSET-076-7 | Scope of the test specifications |
-| 37 e | Intentionally deleted |
-| 38 | 06E068 |  ETCS Marker-board definition | 2.0 |
-| 39 | UNISIG SUBSET-092-1 | ERTMS EuroRadio Conformance Requirements | 3.0.0 |
-| 40 | UNISIG SUBSET-092-2 | ERTMS EuroRadio test cases safety layer | 3.0.0 |
-| 41 | Intentionally deleted |
-| 42 | Intentionally deleted |
-| 43 | UNISIG SUBSET 085 | Test specification for Eurobalise FFFIS | 3.0.0 |
-| 44 | Reserved | Odometry FIS |
-| 45 | UNISIG SUBSET-101 | Interface ‘K’ Specification | 2.0.0 |
-| 46 | UNISIG SUBSET-100 | Interface ‘G’ Specification | 2.0.0 |
-| 47 | Intentionally deleted |
-| 48 | Reserved | Test specification for mobile equipment GSM-R |
-| 49 | UNISIG SUBSET-059 | Performance requirements for STM | 3.0.0. |
-| 50 | UNISIG SUBSET-103 | Test specification for Euroloop | 1.1.0 |
-| 51 | Intentionally deleted |
-| 52 | UNISIG SUBSET-058 | FFFIS STM Application layer | 3.0.0 |
-| 53 | Intentionally deleted |
-| 54 | Intentionally deleted |
-| 55 | Intentionally deleted |
-| 56 | Intentionally deleted |
-| 57 | Intentionally deleted |
-| 58 | Intentionally deleted |
-| 59 | Intentionally deleted |
-| 60 | UNISIG SUBSET-104 | ETCS System Version Management | 3.1.0 |
-| 61 | Intentionally deleted |
-| 62 | Intentionally deleted |
-| 63 | UNISIG SUBSET-098 | RBC-RBC Safe Communication Interface | 3.0.0 |
-| 64 | EN 301 515 | Global System for Mobile Communication (GSM);<br>Requirements for GSM operation on railways | 2.3.0 | Note 2 |
-| 65 | TS 102 281 | Detailed requirements for GSM operation on railways | 2.2.0 | Note 3 |
-| 66 | (MORANE) A 01 T 0004 1 | ASCI Options for Interoperability | 1 |
-| 67 | (MORANE) P 38 T 9001 | FFFIS for GSM-R SIM Cards | 4.1 |
-| 68 | ETSI TS 102 610 | Railway Telecommunication; GSM;<br>Usage of the UUIE for GSM operation on railways | 1.1.0 |
-| 69 | (MORANE) F 10 T 6002 | FFFS for Confirmation of High Priority Calls’ | 4 |
-| 70 | (MORANE) F 12 T 6002 | FIS for Confirmation of High Priority Calls | 4 | 
-| 71 | (MORANE) E 10 T 6001 | FFFS for Functional Addressing | 4 |
-| 72 | (MORANE) E 12 T 6001 | FIS for Functional Addressing | 5.1 |
-| 73 | (MORANE) F 10 T6001 | FFFS for Location Dependent Addressing | 4 |
-| 74 | (MORANE) F 12 T6001 | FIS for Location Dependent Addressing | 3 |
-| 75 | (MORANE) F 10 T 6003 | FFFS for Presentation of Functional Numbers to Called and Calling Parties | 4 | 
-| 76 | (MORANE) F 12 T 6003 | FIS for Presentation of Functional Numbers to Called and Calling Parties | 4 |
-| 77 | ERA/ERTMS/033281 | Interfaces between CCS track-side and other subsystems | 1.0 |
-| 78 | Reserved | Safety requirements for ETCS DMI functions |
-| 79 | UNISIG SUBSET-114 | KMC-ETCS Entity Off-line KM FIS | 1.0.0 |
-| 80 | Reserved | GSM-R Driver Machine Interface |
+| Index N | Reference                         | Name of Specification                                                                       | Version | Notes  |
+| ------- | --------------------------------- | ------------------------------------------------------------------------------------------- | ------- | ------ |
+| 1       | Intentionally deleted             |                                                                                             |         |        |
+| 2       | Intentionally deleted             |                                                                                             |         |        |
+| 3       | UNISIG SUBSET-023                 | Glossary of Terms and Abbreviations                                                         | 3.0.0   |        |
+| 4       | UNISIG SUBSET-026                 | System Requirements Specification                                                           | 3.3.0   |        |
+| 5       | UNISIG SUBSET-027                 | FIS Juridical Recording                                                                     | 3.0.0   |        |
+| 6       | ERA_ERTMS_015560                  | ETCS Driver Machine interface                                                               | 3.3.0   |        |
+| 7       | UNISIG SUBSET-034                 | Train Interface FIS                                                                         | 3.0.0   |        |
+| 8       | UNISIG SUBSET-035                 | Specific Transmission Module FFFIS                                                          | 3.0.0   |        |
+| 9       | UNISIG SUBSET-036                 | FFFIS for Eurobalise                                                                        | 3.0.0   |        |
+| 10      | UNISIG SUBSET-037                 | EuroRadio FIS                                                                               | 3.0.0   |        |
+| 11      | UNISIG SUBSET-038                 | Offline key management FIS                                                                  | 3.0.0   |        |
+| 12      | Reserved<br>UNISIG SUBSET-039     | FIS for the RBC/RBC handover                                                                |         |        |
+| 13      | UNISIG SUBSET-040                 | Dimensioning and Engineering rules                                                          | 3.2.0   |        |
+| 14      | UNISIG SUBSET-041                 | Performance Requirements for Interoperability                                               | 3.1.0   |        |
+| 15      | Intentionally deleted             |                                                                                             |         |        |
+| 16      | UNISIG SUBSET-044                 | FFFIS for Euroloop                                                                          | 2.4.0   |        |
+| 17      | Intentionally deleted             |                                                                                             |         |        |
+| 18      | Intentionally deleted             |                                                                                             |         |        |
+| 19      | UNISIG SUBSET-047                 | Trackside-Trainborne FIS for Radio infill                                                   | 3.0.0   |        |
+| 20      | UNISIG SUBSET-048                 | Trainborne FFFIS for Radio infill                                                           | 3.0.0   |        |
+| 21      | Intentionally deleted             |                                                                                             |         |        |
+| 22      | Intentionally deleted             |                                                                                             |         |        |
+| 23      | UNISIG SUBSET-054                 | Responsibilities and rules for the assignment of values to ETCS variables                   | 3.0.0   |        |
+| 24      | Intentionally deleted             |                                                                                             |         |        |
+| 25      | UNISIG SUBSET-056                 | STM FFFIS Safe time layer                                                                   | 3.0.0   |        |
+| 26      | UNISIG SUBSET-057                 | STM FFFIS Safe link layer                                                                   | 3.0.0   |        |
+| 27      | UNISIG SUBSET-091                 | Safety Requirements for the Technical Interoperability of ETCS in Levels 1 and 2            | 3.2.0   |        |
+| 28      | Reserved                          | Reliability — availability requirements                                                     |         |        |
+| 29      | UNISIG SUBSET-102                 | Test specification for interface ‘K’                                                        | 2.0.0   |        |
+| 30      | Intentionally deleted             |                                                                                             |         |        |
+| 31      | Reserved<br>UNISIG SUBSET-094     | Functional requirements for an on-board reference test facility                             |         |        |
+| 32      | EIRENE FRS                        | GSM-R Functional requirements specification                                                 | 7.3.0   |        |
+| 33      | EIRENE SRS                        | GSM-R System requirements specification                                                     | 15.3.0  |        |
+| 34      | A11T6001                          | (MORANE) Radio Transmission FFFIS for EuroRadio                                             | 12.4    |        |
+| 35      | Intentionally deleted             |                                                                                             |         |        |
+| 36 a    | Intentionally deleted             |                                                                                             |         |        |
+| 36 b    | Intentionally deleted             |                                                                                             |         |        |
+| 36 c    | Reserved<br>UNISIG SUBSET-074-2   | FFFIS STM Test cases document                                                               |         |        |
+| 37 a    | Intentionally deleted             |                                                                                             |         |        |
+| 37 b    | Reserved<br>UNISIG SUBSET-076-5-2 | Test cases related to features                                                              |         |        |
+| 37 c    | Reserved<br>UNISIG SUBSET-076-6-3 | Test sequences                                                                              |         |        |
+| 37 d    | Reserved<br>UNISIG SUBSET-076-7   | Scope of the test specifications                                                            |         |        |
+| 37 e    | Intentionally deleted             |                                                                                             |         |        |
+| 38      | 06E068                            | ETCS Marker-board definition                                                                | 2.0     |        |
+| 39      | UNISIG SUBSET-092-1               | ERTMS EuroRadio Conformance Requirements                                                    | 3.0.0   |        |
+| 40      | UNISIG SUBSET-092-2               | ERTMS EuroRadio test cases safety layer                                                     | 3.0.0   |        |
+| 41      | Intentionally deleted             |                                                                                             |         |        |
+| 42      | Intentionally deleted             |                                                                                             |         |        |
+| 43      | UNISIG SUBSET 085                 | Test specification for Eurobalise FFFIS                                                     | 3.0.0   |        |
+| 44      | Reserved                          | Odometry FIS                                                                                |         |        |
+| 45      | UNISIG SUBSET-101                 | Interface ‘K’ Specification                                                                 | 2.0.0   |        |
+| 46      | UNISIG SUBSET-100                 | Interface ‘G’ Specification                                                                 | 2.0.0   |        |
+| 47      | Intentionally deleted             |                                                                                             |         |        |
+| 48      | Reserved                          | Test specification for mobile equipment GSM-R                                               |         |        |
+| 49      | UNISIG SUBSET-059                 | Performance requirements for STM                                                            | 3.0.0.  |        |
+| 50      | UNISIG SUBSET-103                 | Test specification for Euroloop                                                             | 1.1.0   |        |
+| 51      | Intentionally deleted             |                                                                                             |         |        |
+| 52      | UNISIG SUBSET-058                 | FFFIS STM Application layer                                                                 | 3.0.0   |        |
+| 53      | Intentionally deleted             |                                                                                             |         |        |
+| 54      | Intentionally deleted             |                                                                                             |         |        |
+| 55      | Intentionally deleted             |                                                                                             |         |        |
+| 56      | Intentionally deleted             |                                                                                             |         |        |
+| 57      | Intentionally deleted             |                                                                                             |         |        |
+| 58      | Intentionally deleted             |                                                                                             |         |        |
+| 59      | Intentionally deleted             |                                                                                             |         |        |
+| 60      | UNISIG SUBSET-104                 | ETCS System Version Management                                                              | 3.1.0   |        |
+| 61      | Intentionally deleted             |                                                                                             |         |        |
+| 62      | Intentionally deleted             |                                                                                             |         |        |
+| 63      | UNISIG SUBSET-098                 | RBC-RBC Safe Communication Interface                                                        | 3.0.0   |        |
+| 64      | EN 301 515                        | Global System for Mobile Communication (GSM);<br>Requirements for GSM operation on railways | 2.3.0   | Note 2 |
+| 65      | TS 102 281                        | Detailed requirements for GSM operation on railways                                         | 2.2.0   | Note 3 |
+| 66      | (MORANE) A 01 T 0004 1            | ASCI Options for Interoperability                                                           | 1       |        |
+| 67      | (MORANE) P 38 T 9001              | FFFIS for GSM-R SIM Cards                                                                   | 4.1     |        |
+| 68      | ETSI TS 102 610                   | Railway Telecommunication; GSM;<br>Usage of the UUIE for GSM operation on railways          | 1.1.0   |        |
+| 69      | (MORANE) F 10 T 6002              | FFFS for Confirmation of High Priority Calls’                                               | 4       |        |
+| 70      | (MORANE) F 12 T 6002              | FIS for Confirmation of High Priority Calls                                                 | 4       |        |
+| 71      | (MORANE) E 10 T 6001              | FFFS for Functional Addressing                                                              | 4       |        |
+| 72      | (MORANE) E 12 T 6001              | FIS for Functional Addressing                                                               | 5.1     |        |
+| 73      | (MORANE) F 10 T6001               | FFFS for Location Dependent Addressing                                                      | 4       |        |
+| 74      | (MORANE) F 12 T6001               | FIS for Location Dependent Addressing                                                       | 3       |        |
+| 75      | (MORANE) F 10 T 6003              | FFFS for Presentation of Functional Numbers to Called and Calling Parties                   | 4       |        |
+| 76      | (MORANE) F 12 T 6003              | FIS for Presentation of Functional Numbers to Called and Calling Parties                    | 4       |        |
+| 77      | ERA/ERTMS/033281                  | Interfaces between CCS track-side and other subsystems                                      | 1.0     |        |
+| 78      | Reserved                          | Safety requirements for ETCS DMI functions                                                  |         |        |
+| 79      | UNISIG SUBSET-114                 | KMC-ETCS Entity Off-line KM FIS                                                             | 1.0.0   |        |
+| 80      | Reserved                          | GSM-R Driver Machine Interface                                                              |         |        |
 
 Note 1: only the functional description of information to be recorded is mandatory, not the technical characteristics of the interface.
 
@@ -1690,19 +1691,19 @@ Note 2: the specifications listed in section 2.1 of EN 301 515 are mandatory.
 
 Note 3: the change requests (CRs) listed in table 1 and 2 of TR 102 281 are mandatory.
 
-***Table A 3***
+**_Table A 3_**
 
 **List of mandatory standards**
 
 The standards listed in this table shall be applied in the certification process, without prejudice to chapter 4 and chapter 6 of this TSI.
 
-| No | Reference | Document name and comments | Version |
-|---|---|---|---|
-| A1 | EN 50126 | Railway applications — The specification and demonstration of reliability, availability, maintainability and safety (RAMS) | 1999 |
-| A2 | EN 50128 | Railway applications — Communication, signalling and processing systems — Software for railway control and protection systems | 2001 |
-| A3 | EN 50129 | Railway applications — Communication, signalling and processing systems — Safety related electronic systems for signalling | 2003 |
-| A4 | EN 50159-1 | Railway applications — Communication, signalling and processing systems — Part 1: Safety related communication in closed transmission systems | 2001 |
-| A5 | EN 50159-2 | Railway applications — Communication, signalling and processing systems — Part 2: Safety related communication in open transmission systems | 2001 |
+| No  | Reference  | Document name and comments                                                                                                                    | Version |
+| --- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| A1  | EN 50126   | Railway applications — The specification and demonstration of reliability, availability, maintainability and safety (RAMS)                    | 1999    |
+| A2  | EN 50128   | Railway applications — Communication, signalling and processing systems — Software for railway control and protection systems                 | 2001    |
+| A3  | EN 50129   | Railway applications — Communication, signalling and processing systems — Safety related electronic systems for signalling                    | 2003    |
+| A4  | EN 50159-1 | Railway applications — Communication, signalling and processing systems — Part 1: Safety related communication in closed transmission systems | 2001    |
+| A5  | EN 50159-2 | Railway applications — Communication, signalling and processing systems — Part 2: Safety related communication in open transmission systems   | 2001    |
 
 # ANNEX B
 
@@ -1728,19 +1729,19 @@ Intentionally deleted
 
 **OPEN POINTS**
 
-| Open Point                                                                                          | Notes                                                                                                                                                                                                                            |
-| --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Braking aspects                                                                                     | This open point will be solved by ERTMS/ETCS baseline 3. The harmonised braking model is already included for information purposes in Annex A, Table A 2, Index 15.                                                              |
-| Index 28 availability                                                                               | Frequent occurrence of degraded situations caused by failures of Control-Command and Signalling equipment will decrease the system safety. To avoid this, minimum reliability/availability requirements that shall be specified. |
-| Index 78 safety requirements for ETCS DMI functions                                                 | This open point is related to the interface between ETCS on-board and driver, i.e. errors in displaying information and in entering data and commands                                                                            |
-| Index 51 Ergonomic aspects of the DMI                                                               | This open point will be solved by ERTMS/ETCS baseline 3. A specification for information purposes already exists.                                                                                                                |
-| Minimum wheel diameter for speed greater than 350 km/h                                              | See Annex A, Table A 2, Index 77                                                                                                                                                                                                 |
-| Minimum axle distance for speed greater than 350 km/h                                               | See Annex A, Table A 2, Index 77                                                                                                                                                                                                 |
-| Metal and inductive components free space between wheels                                            | See Annex A, Table A 2, Index 77<br>This is not an open point for freight wagons                                                                                                                                                 |
-| Characteristics of sand applied to tracks                                                           | See Annex A, Table A 2, Index 77                                                                                                                                                                                                 |
-| Vehicle metal mass                                                                                  | See Annex A, Table A 2, Index 77                                                                                                                                                                                                 |
-| Combination of rolling stock characteristics for the purpose of adequate dynamic shunting impedance | See Annex A, Table A 2, Index 77                                                                                                                                                                                                 |
-| Electromagnetic interferences (traction current)                                                    | See Annex A, Table A 2, Index 77                                                                                                                                                                                                 |
-| Electromagnetic interferences (electromagnetic fields)                                              | See Annex A, Table A 2, Index 77<br>This is not an open point for power systems other than DC                                                                                                                                    |
-| DC and low frequency components of traction current                                                 | See Annex A, Table A 2, Index 77                                                                                                                                                                                                 |
-| Use of magnetic/eddy current brakes                                                                 | See Annex A, Table A 2, Index 77                                                                                                                                                                                                 |
+| Open Point                                                                  | Notes                                                                                                                                                         |
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Braking aspects                                                             | It only applies to ERTMS/ETCS Baseline 2 (see Annex A, Table A2, Index 15).<br>Resolved for ERTMS/ETCS Baseline 3 (see Annex A, Table A 2, Indexes 4 and 13). |
+| Index 28 – Reliability/availability requirements                            | Frequent occurrences of degraded situations caused by failures of control-command and signalling equipment will decrease the system safety.                   |
+| Minimum wheel diameter for speed greater than 350 km/h                      | See Annex A, Table A 2, Index 77                                                                                                                              |
+| Minimum axle distance for speed greater than 350 km/h                       | See Annex A, Table A 2, Index 77                                                                                                                              |
+| Metal and inductive components free space between wheels                    | See Annex A, Table A 2, Index 77<br>This is not an open point for freight wagons                                                                              |
+| Characteristics of sand applied to tracks                                   | See Annex A, Table A 2, Index 77                                                                                                                              |
+| Vehicle metal mass                                                          | See Annex A, Table A 2, Index 77                                                                                                                              |
+| Combination of rolling stock characteristics influencing shunting impedance | See Annex A, Table A 2, Index 77                                                                                                                              |
+| Electromagnetic interferences (traction current)                            | See Annex A, Table A 2, Index 77                                                                                                                              |
+| Electromagnetic interferences (electromagnetic fields)                      | See Annex A, Table A 2, Index 77<br>This is not an open point for power systems other than DC                                                                 |
+| Vehicle Impedance                                                           | See Annex A, Table A 2, Index 77                                                                                                                              |
+| DC and low frequency components of traction current                         | See Annex A, Table A 2, Index 77                                                                                                                              |
+| Use of magnetic/eddy current brakes                                         | See Annex A, Table A 2, Index 77                                                                                                                              |
+| Index 78 — Safety requirements for ETCS DMI functions                       | This open point is related to the interface between ETCS on-board and the driver, i.e. errors in displaying information and in entering data and commands.    |
