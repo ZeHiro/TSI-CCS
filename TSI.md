@@ -1704,11 +1704,8 @@ Intentionally deleted
 | Minimum axle distance for speed greater than 350 km/h | See Annex A, Table A 2, Index 77 |
 | Metal and inductive components free space between wheels | See Annex A, Table A 2, Index 77<br/>This is not an open point for freight wagons |
 | Characteristics of sand applied to tracks | See Annex A, Table A 2, Index 77 |
-| Vehicle metal mass | See Annex A, Table A 2, Index 77 |
 | Combination of rolling stock characteristics influencing shunting impedance | See Annex A, Table A 2, Index 77 |
 | Electromagnetic interferences (traction current) | See Annex A, Table A 2, Index 77 |
 | Electromagnetic interferences (electromagnetic fields) | See Annex A, Table A 2, Index 77<br/>This is not an open point for power systems other than DC |
 | Vehicle Impedance | See Annex A, Table A 2, Index 77 |
-| DC and low frequency components of traction current | See Annex A, Table A 2, Index 77 |
 | Use of magnetic/eddy current brakes | See Annex A, Table A 2, Index 77 |
-| Index 78 — Safety requirements for ETCS DMI functions | This open point is related to the interface between ETCS on-board and the driver, i.e. errors in displaying information and in entering data and commands.|
