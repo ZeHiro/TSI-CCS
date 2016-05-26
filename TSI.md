@@ -242,11 +242,20 @@ To achieve interoperability, the on-board ERTMS/ETCS shall fully respect all req
 
 Requirements for hazards related to errors at the interface between driver and on-board ERTMS/ETCS are an open point.
 
-#### 4.2.1.2. Availability/Reliability
+#### 4.2.1.2.   Availability/Reliability
 
-The Control-Command and Signalling On-board and Track-side subsystems shall respect the requirements stated in this TSI. The availability/reliability requirements are defined in Annex A 4.2.1.b.
+This section refers to the occurrence of failure modes not causing safety hazards but creating degraded situations, the management of which could decrease the overall safety of the system.
 
-The level of risk shall be controlled during the life of the assemblies. The requirements for maintenance stated in Section 4.5 (Maintenance rules) shall be respected.
+In the context of this parameter, “failure” means the termination of the ability of an item to perform a required function with the required performance and “failure mode” means the effect by which the failure is observed.
+
+To ensure that the relevant infrastructure managers and railway undertakings are given all the information they need to define appropriate procedures for managing degraded situations, the technical file accompanying the EC declaration of verification for an on-board or track-side CCS subsystem shall contain the calculated availability/reliability values related to failure modes having an impact on the capability of the CCS subsystem to supervise the safe movement of one or more vehicles or to establish radio voice communication between traffic control and the train drivers.
+
+Compliance with the following calculated values shall be ensured:
+
+1. Mean time of hours of operation between failures of a CCS on-board subsystem requiring the isolation of the train protection functions: [open point];
+1. Mean time of hours of operation between failures of a CCS on-board subsystem preventing radio voice communication between traffic control and the train driver: [open point].
+
+To allow the infrastructure managers and railway undertakings to monitor, during the life of the subsystems, the level of risk and the respect of the reliability/availability values used for the definition of procedures to manage degraded situations, the requirements for maintenance stated in Section 4.5 (Maintenance rules) shall be respected
 
 ### 4.2.2. On-board ERTMS/ETCS functionality
 
