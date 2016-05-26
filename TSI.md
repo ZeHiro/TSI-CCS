@@ -149,12 +149,12 @@ Annex A 4.1c provides the Glossary of ERTMS/ETCS terms and definitions, which ar
 According to Section 2.2 (Scope) the Control-Command and Signalling Subsystems include three parts.
 The following table indicates which basic parameters are relevant for each subsystem and for each part.
 | Subsystem | Part | Basic parameters |
-| - | - | - |
-| Control-Command and Signalling On-board | train protection | 4.2.1, 4.2.2, 4.2.5, 4.2.6, 4.2.8, 4.2.9, 4.2.12, 4.2.14, 4.2.16 |
-| | radio communication | 4.2.4, 4.2.5, 4.2.6, 4.2.13, 4.2.14, 4.2.16 |
-|Control-Command and Signalling Track-side | train protection | 4.2.3, 4.2.5, 4.2.7, 4.2.8, 4.2.9, 4.2.15, 4.2.16 |
-| | radio communication | 4.2.4, 4.2.5, 4.2.7, 4.2.16 |
-| | train detection | 4.2.10, 4.2.11, 4.2.16 |
+|---|---|---|
+|Control-Command and Signalling On-board | train protection | 4.2.1, 4.2.2, 4.2.5, 4.2.6, 4.2.8, 4.2.9, 4.2.12, 4.2.14, 4.2.16|
+| | radio communication | 4.2.4, 4.2.5, 4.2.6, 4.2.13, 4.2.14, 4.2.16|
+|Control-Command and Signalling Track-side | train protection | 4.2.3, 4.2.5, 4.2.7, 4.2.8, 4.2.9, 4.2.15, 4.2.16|
+| | radio communication | 4.2.4, 4.2.5, 4.2.7, 4.2.16|
+| | train detection | 4.2.10, 4.2.11, 4.2.16|
 With respect to the essential requirements set out in Chapter 3, the functional and technical specifications of the Control-Command and Signalling Subsystems are as follows.
 
 ## 4.2. Functional and technical specifications of the Subsystems
@@ -381,7 +381,7 @@ The environmental conditions mandated in the specifications referenced in this T
 
 ### 4.3.1.   Interface to the Traffic Operation and Management Subsystem
 | Interface with Traffic Operation and Management TSI | | | |  
-| - | - | - | - |
+|---|---|---|---|
 | **Reference CCS TSI** | | **Reference Traffic Operation and Management TSI** | |
 | **Parameter** | **Clause** | **Parameter** | **Clause** |
 | Operating rules (normal and degraded conditions) | 4.4 | Rule book | 4.2.1.2.1 |
@@ -396,7 +396,7 @@ The environmental conditions mandated in the specifications referenced in this T
 
 ### 4.3.2. Interface to the Rolling Stock Subsystem
  | Interface with Rolling Stock TSIs | | | | |
- | - | - | - | - | - |
+ |---|---|---|---|---|
  | **Reference CCS TSI** | | **Reference Rolling Stock TSIs** | | |
 | Parameter | Clause | Parameter | | Clause |
 | Compatibility with track-side train detection systems: vehicle design | 4.2.10 | Rolling stock characteristics to be compatible with train detection systems based on track circuits | HR RS TSI | |
@@ -458,7 +458,7 @@ The environmental conditions mandated in the specifications referenced in this T
 
 ### 4.3.3. Interfaces to Infrastructure Subsystem
 | Interface with Infrastructure TSI | | | | |
-|-|-|-|-|-|
+|---|---|---|---|---|
 | **Reference CCS TSI** | | **Reference Infrastructure TSI** | | |
 | **Parameter** | **Clause** | **Parameter** | | **Clause** |
 | Train detection systems (space for installation) | 4.2.10 | Minimum infrastructure gauge | HS | 4.2.3 |
@@ -472,7 +472,7 @@ The environmental conditions mandated in the specifications referenced in this T
 
 ### 4.3.4.   Interfaces to Energy Subsystem
 | Interface with Energy TSI | | | | |
-|-|-|-|-|-|
+|---|---|---|---|---|
 | **Reference CCS TSI** | | **Reference Energy TSI** | | |
 | **Parameter** | **Clause** | **Parameter** | | **Clause** | 
 | Commands to rolling stock equipment | 4.2.2 | Phase separation sections | HS ENE TSI | 4.2.21 |
@@ -541,7 +541,7 @@ For each basic interoperability constituent or group of interoperability constit
 
  **Basic interoperability constituents in the Control-Command and Signalling On-board Subsystem**
 | N | Interoperability constituent IC | Characteristics | Specific requirements to be assessed by reference to Chapter 4 |
-|-|-|-|-|
+|---|---|---|---|
 | 1 | ERTMS/ETCS on-board | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br>4.5.1 |
 | | | On-board ETCS functionality (excluding odometry) | 4.2.2 |
 | | | ERTMS/ETCS and GSM-R air gap interfaces | 4.2.5 |
@@ -586,7 +586,7 @@ For each basic interoperability constituent or group of interoperability constit
 **Groups of interoperability constituents in the Control-Command and Signalling On-board Subsystem**
 This table is an example to show the structure. Other groups are allowed
 | N | Group of Interoperability constituents | Characteristics | Specific requirements to be assessed by reference to Chapter 4 | 
-|-|-|-|-|
+|---|---|---|---|
 | 1 | ERTMS/ETCS on-board<br>Odometry equipment | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br>4.5.1 |
 | | | On-board ERTMS/ETCS functionality | 4.2.2 |
 | | | ERTMS/ETCS and GSM-R air gap interfaces | 4.2.5 |
@@ -606,7 +606,7 @@ This table is an example to show the structure. Other groups are allowed
 ***Table 5.2.a***
 **Basic interoperability constituents in the Control-Command and Signalling Track-side Subsystem**
 | N | Interoperability constituent IC | Characteristics | Specific requirements to be assessed by reference to Chapter 4 |
-|-|-|-|-|
+|---|---|---|---|
 | 1 | RBC | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br>4.5.1 |
 | | | Track-side ERTMS/ETCS functionality (excluding communication via Eurobalises, radio in-fill and Euroloop) | 4.2.3 |
 | | | ERTMS/ETCS and GSM-R air gap interfaces: only radio communication with train | 4.2.5.1 |
@@ -649,7 +649,7 @@ This table is an example to show the structure. Other groups are allowed
 **Groups of interoperability constituents in the Control-Command and Signalling Track-side Subsystem
 This table is an example to show the structure. Other groups are allowed**
 | N | Group of interoperability constituents | Characteristics | Specific requirements to be assessed by reference to Chapter 4 |
-|-|-|-|-|
+|---|---|---|---|
 | 1 | Eurobalise<br>LEU Eurobalise | Reliability, Availability, Maintainability, Safety (RAMS) | 4.2.1<br>4.5.1 |
 | | | Track-side ERTMS/ETCS functionality (excluding communication via Euroloop and level 2 and level 3 functionality) | 4.2.3 |
 | | | ERTMS/ETCS and GSM-R air gap interfaces: only Eurobalise communication with train | 4.2.5.2 |
@@ -729,7 +729,7 @@ Independently of the selected module:
 *Table 6.1*
 
 | Aspect | What to assess | supporting evidence |
-|-|-|-|
+|---|---|---|
 | Functions, interfaces and performances | Check that all mandatory functions, interfaces and performances as described in the basic parameters referenced in the relevant table of Chapter 5 are implemented and that they comply with the requirements of this TSI | Design documentation and running of test cases and test scenarios, as described in the basic parameters referenced in the relevant table of Chapter 5 |
 | | Check which optional functions and interfaces as described in the basic parameters referenced in the relevant table of Chapter 5 are implemented and that they comply with the requirements of this TSI | Design documentation and running of test cases and test scenarios, as described in the basic parameters referenced in the relevant table of Chapter 5 |
 | | Check which additional functions and interfaces (not specified in this TSI) are implemented and that they do not lead to conflicts with implemented functions specified in this TSI | Impact analysis |
@@ -797,7 +797,7 @@ Independently of the module chosen:
 
 *Table 6.2*
 | Aspect | What to assess | supporting evidence |
-|-|-|-|
+|---|---|---|
 | Use of interoperability constituents | Check whether the interoperability constituents to be integrated into the subsystem are all covered by an ‘EC’ Declaration of conformity and a corresponding certificate. | Existence and content of documents |
 | | Check restrictions on the use of Interoperability Constituents against the characteristics of the subsystem and of the environment | Analysis by document check |
 | | For interoperability constituents that have been certified against older versions of the CCS TSI, check that the certificate still ensures compliance with the requirements of the TSI currently in force. | Impact analysis by document checks |
@@ -833,7 +833,7 @@ Regardless of the module chosen:
 
 *Table 6.3*
 | Aspect | What to assess | supporting evidence |
-|-|-|-|-|
+|---|---|---|---|
 | Use of interoperability constituents | Check that all interoperability constituents to be integrated into the subsystem are covered by an EC declaration of conformity and the corresponding certificate. | Existence and content of documents |
 | | Check restrictions on the use of interoperability constituents against the characteristics of the subsystem and of the environment | Impact analysis by documents check |
 | | For interoperability constituents that have been certified against older versions of the Control-Command and Signalling TSI, check that the certificate still ensures compliance with the requirements of the TSI currently in force | Impact analysis by comparison of specifications referenced in the TSI and certificates of the interoperability constituents |
@@ -977,20 +977,20 @@ Where the requirements set out in the relevant section of Chapter 4 are not subj
 
 #### 7.2.9.2.   Belgium
 | Specific case | Category | Notes | 
-|-|-|-|-|
+|---|---|---|---|
 | **4.2.10   Track-side Train Detection Systems** <br>Index 77, Section 3.1.2.4:<br>The distance between first and last axle L – (b1 + b2) (Figure 1) is at least 15 000 mm | T3 | Applicable on HS L1<br>This Specific Case is linked with the use of TVM |
 | **4.2.10   Track-side Train Detection Systems**<br>Index 77, Section 3.1.8:<br>The weight of an isolated vehicle or a trainset is at least 40 t.<br>If the weight of an isolated vehicle or a trainset is inferior to 90 t, the vehicle should have a system ensuring the shunting which has an electrical basis superior or equal to 16 000 mm | T3 | Applicable on HS L1, L2, L3, L4<br>This Specific Case is linked with the use of TVM |
 
 #### 7.2.9.3.   United Kingdom 
 | Specific case | Category | Notes | 
-|-|-|-|-|
+|---|---|---|---|
 | **4.2.10   Track-side Train Detection Systems** <br>Index 77, Section 3.1.2.4:<br>The distance between first and last axle L – (b1 + b2) (Figure 1) is at least 15 000 mm | T3 | Applicable on High-Speed L 1<br>This Specific Case is linked with the use of TVM |
 | **4.2.10 Track-side Train Detection Systems**<br>Index 77, Section 3.1.4.1:<br>In addition to the requirements in Section 3.1.4.1, sanding for traction purposes on multiple units:<br>(a) is not permitted ahead of the leading axle below 40 km/h; and<br>(b) is only permitted where it can be demonstrated that at least a further six axles of the multiple unit are beyond the laying position. TVM | T3 | |
 | **4.2.12   ERTMS/ETCS DMI (Driver Machine Interface)** Index 51:<br>It is permissible for the ETCS DMI to display dynamic train speed information in miles per hour (and indicate ‘mph’) when operating on parts of the GB mainline network. | T3 | This specific case is needed as soon as the open point related to the DMI specification is closed.<br>There is no impact on interoperability |
 
 #### 7.2.9.4. France
 | Specific case | Category | Notes | 
-|-|-|-|-|
+|---|---|---|---|
 | **4.2.10   Track-side Train Detection Systems** <br>Index 77, Section 3.1.2.4:<br>The distance between first and last axle L – (b1 + b2) (Figure 1) is at least 15 000 mm | T3 | Applicable on HS L1<br>This Specific Case is linked with the use of TVM |
 | **4.2.10   Track-side Train Detection Systems**<br>Index 77, Section 3.1.9:<br>The electrical resistance between the running surfaces of the opposite wheels of a wheelset does not exceed 0,05 Ohm, measured by a voltage between 1,8 VDC and 2,0 VDC (open circuit).<br>In addition, the electrical reactance between the running surfaces of the opposite wheels of a wheelset does not exceed f/100 mOhm when f is between 500 Hz and 40 kHz, under a measuring current of at least 10 ARMS and open voltage of 2 VRMS. | T3 | This specific case may be revised when the open point related to the frequency management for track circuits is closed |
 | **4.2.10 Track-side Train Detection Systems**<br>Index 77, Section 3.1.8:<br>The weight of an isolated vehicle or a trainset is at least 40 t.<br>If the weight of an isolated vehicle or a trainset is inferior to 90 t, the vehicle should have a system ensuring the shunting which has an electrical basis superior or equal to 16 000 mm. | T3 | This Specific Case is linked with the use of TVM |
@@ -998,22 +998,22 @@ Where the requirements set out in the relevant section of Chapter 4 are not subj
 
 #### 7.2.9.5.   Poland 
 | Specific case | Category | Notes | 
-|-|-|-|-|
+|---|---|---|---|
 | **4.2.10   Track-side Train Detection Systems**<br>Index 77, Section 3.1.9:<br>The electrical resistance between the running surfaces of the opposite wheels of a wheelset does not exceed 0,05 Ohm, measured by a voltage between 1,8 VDC and 2,0 VDC (open circuit).<br>In addition, the electrical reactance between the running surfaces of the opposite wheels of a wheelset does not exceed f/100 mOhm when f is between 500 Hz and 40 kHz, under a measuring current of at least 10 ARMS and open voltage of 2 VRMS. | T3 | This specific case may be revised when the open point related to the frequency management for track circuits is closed |
 
 #### 7.2.9.6. Lithuania, Latvia
 | Specific case | Category | Notes | 
-|-|-|-|-|
+|---|---|---|---|
 | **4.2.10 Track-side Train Detection Systems**<br>Index 77, Section 3.1.3.4:<br>The range of the dimension Sh (Figure 2) is not less than 26,25 mm<br> | T3 | This specific case is needed as long as ČME locomotives operate on Lithuania 1 520 mm network |
 
 #### 7.2.9.7. Sweden
 | Specific case | Category | Notes | 
-|-|-|-|-|
+|---|---|---|---|
 | **4.2.4   Mobile communication functions for railways – GSM-R**<br>Index 65, statement 4.2.3:<br>It is permissible to put in service on-board Control-Command and Signalling Subsystems including 2 Watt GSM-R voice cab radios and ETCS data only radios. The subsystems shall be able to operate in networks with - 82 dBm. | P | No impact on interoperability |
 
 #### 7.2.9.8.   Luxembourg
 | Specific case | Category | Notes | 
-|-|-|-|-|
+|---|---|---|---|
 | **4.2.10   Track-side Train Detection Systems** <br>Index 77, Section 3.1.2.4:<br>1. The output of the sanding devices fitted to the vehicle shall not exceed 0,3 l per minute per rail.<br>2. The sanding in the stations identified in the infrastructure register is prohibited.<br>3. The sanding in the area of switches is prohibited. <br>4. For emergency braking, no restrictions shall apply | T3 | |
 
 ## 7.3.   Rules for ERTMS
@@ -1088,7 +1088,7 @@ It is mandatory to fit ERTMS/ETCS on board when:
 
 ### 7.3.5.   Main European ports, marshalling yards, freight terminals and freight transport areas
 | Country | Freight transport area | Date | Remark |
-|-|-|-|-|
+|---|---|---|---|
 | Belgium | Antwerpen | 31.12.2015 | A link to Rotterdam shall also be provided by 2020. |
 | | Gent | 31.12.2020 | |
 | | Zeebrugge | 31.12.2020 | |
@@ -1161,7 +1161,7 @@ It is mandatory to fit ERTMS/ETCS on board when:
 For each reference made in the basic parameters (Chapter 4 of this TSI) the following table indicates the corresponding mandatory specifications, via the Index in Table 2.
 *Table A 1*
 | Reference in Chapter 4 | Index number (See Table A 2) |
-|-|-|
+|---|---|
 |  **4.1** |
 | 4.1a | 1 |
 | 4.1b | 32 |
@@ -1238,7 +1238,7 @@ Note: specifications indicated as ‘Reserved’ in Table A 2 correspond to the 
 **List of mandatory specifications**
 
 | Index N | Reference | Name of Specification | Version | Notes |
-| - | - | - | - | - |
+|---|---|---|---|---|
 | 1 | ERA/ERTMS/003204 | ERTMS/ETCS Functional requirement specification | 5.0 | |
 | 2 | Intentionally deleted |
 | 3 | UNISIG SUBSET-023 | Glossary of terms and abbreviations | 2.0.0 |
@@ -1334,7 +1334,7 @@ Note 3: the change requests (CRs) listed in Tables 1 and 2 of TR 102 281 are man
 The standards listed in the table below shall be applied in the certification process, without prejudice for the provisions of Chapters 4 and 6 of this TSI.
 
 | No | Reference | Document name and comments | Version |
-|-|-|-|-|
+|---|---|---|---|
 | A1 | EN 50126 | Railway applications — The specification and demonstration of reliability, availability, maintainability and safety (RAMS) | 1999 |
 | A2 | EN 50128 | Railway applications — Communication, signalling and processing systems — Software for railway control and protection systems | 2001 |
 | A3 | EN 50129 | Railway applications — Communication, signalling and processing systems — Safety related electronic systems for signalling | 2003 |
@@ -1366,7 +1366,7 @@ Intentionally deleted
 **OPEN POINTS**
 
 | Open Point | Notes |
-|-|-|
+|---|---|
 | Braking aspects | This open point will be solved by ERTMS/ETCS baseline 3. The harmonised braking model is already included for information purposes in Annex A, Table A 2, Index 15. |
 | Index 28 availability | Frequent occurrence of degraded situations caused by failures of Control-Command and Signalling equipment will decrease the system safety. To avoid this, minimum reliability/availability requirements that shall be specified. |
 | Index 78 safety requirements for ETCS DMI functions | This open point is related to the interface between ETCS on-board and driver, i.e. errors in displaying information and in entering data and commands |
