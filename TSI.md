@@ -1075,43 +1075,51 @@ Regardless of the module chosen:
 | | Check the compliance with requirements about maintenance – Section 4.5.2 | Document check |
 | Integration with Control-Command and Signalling On-board Subsystems and rolling stock:<br>tests under operational conditions | Test the behaviour of the subsystem under such different operational conditions as reasonably feasible (e.g. train speed, number of trains on the line, weather conditions). The test must be able to verify:<br>1. the performance of train detection systems – Basic parameters 4.2.10, 4.2.11,<br>2. that the Control-Command and Signalling Track-side subsystem is compatible with track-side environment – Basic parameter 4.2.16<br>These tests will also increase confidence in the absence of systematic failures. <br>The scope of these tests excludes tests already done in previous steps: tests performed at the level of interoperability constituents and tests performed on the subsystem in a simulated environment shall be taken into account. | Reports of test runs.<br>Note: Indicate in the certificate which conditions have been tested, which standards have been applied and the criteria for considering the tests terminated. |
 
-## 6.4. Provisions for partial conformity
+## 6.4   Provisions in case of the partial fulfilment TSI requirements
 
-### 6.4.1. Introduction
+### 6.4.1.   Assessment of parts of control-command and signalling subsystems
 
-Pursuant to Article 18(4) of the Railway Interoperability Directive, ‘the Notified Body may issue Intermediate Statement Verifications (ISVs) to cover certain stages of the verification procedure or certain parts of the subsystem’.
+Pursuant to Article 18(5) of the Railway Interoperability Directive, the notified body may issue certificates of verification for certain parts of a subsystem, if allowed to do so under the relevant TSI.
 
-As pointed out in Section 2.2 (Scope) of this TSI, the Control-Command and Signalling Subsystems include three parts, which are specified in Section 4.1 (Introduction).
+As pointed out in section 2.2 (Scope) of this TSI, the track-side control-command and signalling subsystem contains three parts, while the on-board control-command and signalling subsystem contains two parts, specified in section 4.1 (Introduction).
 
-Section 6.4.2 deals with the verification of these parts of the Control-Command and Signalling Subsystems.
+A certificate of verification may be issued for each part specified in this TSI; the notified body only checks if that particular part fulfils the TSI requirements.
 
-Section 6.4.3 deals with the verification of partial conformity of Control-Command and Signalling Subsystems when there are restricted conditions of use of its interoperability constituent(s).
+Regardless of which module is chosen, the notified body shall check that:
 
-### 6.4.2. Assessment of parts of Control-Command and Signalling Subsystems
+1. the TSI requirements for the part in question have been fulfilled; and
+1. the TSI requirements already assessed for other parts of the same subsystem are still fulfilled.
 
-Assessing whether a Control-Command and Signalling Track-side or On-board Subsystem complies with the requirements of this TSI is a process that may be performed in successive steps – one for each of the three parts. At each step, the assessor checks only whether that particular part complies with the TSI requirements.
+### 6.4.2.   Control-command and signalling subsystems' partial fulfilment of the requirements due to limited application of the TSI
 
-Regardless of which module is chosen, the Notified Body shall verify that:
+If some essential requirements are fulfilled by national rules, the EC certificate of conformity for an interoperability constituent and the EC certificate of verification for a subsystem shall make precise reference to the parts of this TSI whose conformity has been assessed and the parts whose conformity has not been assessed.
 
-1. the TSI requirements for the part in question have been respected;
-1. the TSI requirements already assessed are not prejudiced.
+If an interoperability constituent does not implement all functions, performance and interfaces specified in this TSI, an EC certificate of conformity may only be issued if the unimplemented functions, interfaces or performance are not required to integrate the interoperability constituent into a subsystem for the use indicated by the applicant, for example (5):
 
-Functions already assessed and unchanged and which are not affected by this step do not need to be checked again.
+<ol>
+   <li type="a">the on-board ERTMS/ETCS interface to STM if the interoperability constituent is intended for installation on vehicles in which no external STM is needed;</li>
+   <li type="a">the RBC interface to other RBCs, if the RBC is intended for use in an application for which no neighbouring RBCs are planned.</li>
+</ol>
 
-### 6.4.3. Partial conformity of Control-Command and Signalling Subsystems due to restricted conditions of use of its interoperability constituent(s)
+The EC certificate of conformity (or accompanying documents) for the interoperability constituent shall fulfil all the following requirements:
 
-A partial certificate of conformity for an interoperability constituent can be issued even if some function, interface or performance has not been implemented, provided that:
+<ol>
+   <li type="a">it indicates which functions, interfaces or performance are not implemented;
+   <li type="a">it provides enough information to make it possible to identify the conditions under which the interoperability constituent can be used;
+   <li type="a">it provides enough information to make it possible to identify the conditions of and restriction on the use that will apply to the interoperability of a subsystem incorporating it.
+</ol>
 
-1. The non-implemented function, interface or performance is not required for integrating the interoperability constituent into a subsystem because of specific conditions of use, for example (9):
-   <ol>
-      <li type="a">the on-board ERTMS/ETCS interface to STM if the interoperability constituent is intended for installation on vehicles where no external STM is needed;</li>
-      <li type="a">the RBC interface to other RBCs, if the RBC is intended for use in an application where no neighbouring RBCs are planned.</li>
-   </ol>
-1. The certificate indicates which functions, interfaces or performance are not implemented and states the corresponding restrictions on the use of the interoperability constituent. This information will make it possible to identify the conditions under which the interoperability constituent can be used and the restrictions that will apply to the interoperability of a subsystem incorporating it.
+If a control-command and signalling subsystem does not implement all functions, performance and interfaces of this TSI (e.g. because they are not implemented by an interoperability constituent integrated into it), the EC certificate of verification shall indicate which requirements have been assessed and the corresponding conditions and restrictions on the use of the subsystem and its compatibility with other subsystems.
 
-In any event, the conditions for issuing such certificates with restrictions shall be coordinated between the Notified Bodies and the Agency in a working group set up pursuant to Article 21a(5) of Regulation (EC) No 881/2004 of the European Parliament and of the Council of 29 April 2004 establishing a European Railway Agency (Agency Regulation) (10).
+In any event, notified bodies shall coordinate with the Agency the way in which conditions and limits of use of interoperability constituents and subsystems are managed in the relevant certificates and technical files in the working group set up under Article 21a(5) of Regulation (EC) No 881/2004 of the European Parliament and of the Council (6).
 
-When the interoperability constituent is integrated into a Control-Command and Signalling On-board or Track-side Subsystem, if the missing functions, interfaces, or performances do not allow to assess whether the subsystem fully complies with the requirements of this TSI, only an Intermediate Statement of Verification may be issued. It shall indicate which requirements have been assessed and shall state the corresponding restrictions on the use of the subsystem and its compatibility with other subsystems.
+### 6.4.3.   Intermediate Statement of Verification
+
+If conformity is assessed for parts of subsystems specified by the applicant and different from the parts allowed by section 4.1 (Introduction) of this TSI, or if only certain stages of the verification procedure have been performed, only an intermediate statement of verification may be issued.
+
+(5)  The procedures described in this Chapter do not prejudice the possibility of grouping constituents together."
+
+(6)  Regulation (EC) No 881/2004 of the European Parliament and of the Council of 29 April 2004 establishing a European Railway Agency (Agency Regulation) (OJ L 164, 30.4.2004, p. 1).
 
 # 7. IMPLEMENTING THE TSI CONTROL-COMMAND AND SIGNALLING
 
