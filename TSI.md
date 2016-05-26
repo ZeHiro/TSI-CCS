@@ -150,7 +150,7 @@ According to Section 2.2 (Scope) the Control-Command and Signalling Subsystems i
 The following table indicates which basic parameters are relevant for each subsystem and for each part.
 | Subsystem | Part | Basic parameters |
 |-|-|-|
-|Control-Command and Signalling On-board | train protection | 4.2.1, 4.2.2, 4.2.5, 4.2.6, 4.2.8, 4.2.9, 4.2.12, 4.2.14, 4.2.16|
+| Control-Command and Signalling On-board | train protection | 4.2.1, 4.2.2, 4.2.5, 4.2.6, 4.2.8, 4.2.9, 4.2.12, 4.2.14, 4.2.16 |
 | | radio communication | 4.2.4, 4.2.5, 4.2.6, 4.2.13, 4.2.14, 4.2.16|
 |Control-Command and Signalling Track-side | train protection | 4.2.3, 4.2.5, 4.2.7, 4.2.8, 4.2.9, 4.2.15, 4.2.16|
 | | radio communication | 4.2.4, 4.2.5, 4.2.7, 4.2.16|
