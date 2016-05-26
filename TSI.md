@@ -1282,7 +1282,7 @@ Where the requirements set out in the relevant section of Chapter 4 are not subj
 
 | Specific case | Category | Notes | 
 |---|---|---|---|
-| **4.2.4   Mobile communication functions for railways – GSM-R**<br/>Index 65, statement 4.2.3:<br/>It is permissible to put in service on-board Control-Command and Signalling Subsystems including 2 Watt GSM-R voice cab radios and ETCS data only radios. The subsystems shall be able to operate in networks with - 82 dBm. | P | No impact on interoperability |
+| **4.2.4   Mobile communication functions for railways – GSM-R**<br/>Index 33, statement 4.2.3:<br/>It is permissible to put in service on-board Control-Command and Signalling Subsystems including 2 Watt GSM-R voice cab radios and ETCS data only radios. The subsystems shall be able to operate in networks with - 82 dBm. | P | No impact on interoperability |
 
 #### 7.2.9.8. Luxembourg
 
