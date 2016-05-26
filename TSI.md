@@ -4,6 +4,13 @@
 
 This TSI concerns the Control-Command and Signalling On-board Subsystem and the Control-Command and Signalling Track-side Subsystem.
 
+This TSI is applicable to control-command and signalling track-side Subsystems of the rail network defined in the section 1.2 (Geographical scope) of this TSI and to the control-command and signalling on-board subsystems of vehicles which are (or are intended to be) operated on it. These vehicles are of one of the following types (as defined in Annex I sections 1.2 and 2.2 to Directive 2008/57/EC):
+
+1. self-propelling thermal or electric trains;
+1. thermal or electric traction units;
+1. passenger carriages, if equipped with a driving cab;
+1. mobile railway infrastructure construction and maintenance equipment, if equipped with a driving cab and intended to be used in transport mode on its own wheels.
+
 ## 1.2. Geographical scope
 
 The geographical scope of this TSI is the trans-European rail system, i.e. the trans-European conventional and high-speed rail systems as set out in points 1 and 2 of Annex I to Directive 2008/57/EC (Railway Interoperability Directive).
