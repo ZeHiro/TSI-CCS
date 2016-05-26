@@ -54,6 +54,7 @@ The features of the Control-Command and Signalling Subsystems are:
 ## 2.2. Scope
 
 The Control-Command and Signalling Subsystems TSI specifies only those requirements which are necessary to assure the interoperability of the trans-European rail system and compliance with the essential requirements.
+
 The Control-Command and Signalling Subsystems include the following parts:
 
 1. train protection;
@@ -64,7 +65,11 @@ The Class A train protection system is ERTMS/ETCS whilst the Class A radio syste
 
 For Class A train detection this TSI specifies only the requirements for the interface with other subsystems.
 
-Class B systems are a limited set of train protection legacy control-command and signalling systems that were in use before 20 April 2001. The list of Class B systems is established in the European Railway Agency technical document ‘List of CCS Class B systems’, ERA/TD/2011-11, version 1.0.
+Class B systems for the trans-European rail system network are a limited set of legacy control-command and signalling systems that were in use in the trans-European rail network before 20 April 2001.
+
+Class B systems for other parts of the network of the rail system in the European Union are a limited set of legacy control-command and signalling systems that were in use in that networks before 1 July 2015.
+
+The list of Class B systems is established in the European Railway Agency technical documents “List of CCS Class B systems”, ERA/TD/2011-11, version 2.0.
 
 The requirements for the Control-Command and Signalling On-board Subsystem are specified in relation to Class A radio mobiles and train protection.
 
