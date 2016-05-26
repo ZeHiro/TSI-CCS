@@ -877,8 +877,8 @@ Achievement of this goal is facilitated by:
 To make the conformity assessment of ERTMS/ETCS and GSM-R equipment more effective and to help achieve the goal mentioned above, each Member State shall make available to the Commission the operational test scenarios for checking the ERTMS/ETCS and GSM-R part of the Control-Command and Signalling Track-side Subsystem and its interaction with the corresponding part of the Control-Command and Signalling On-board Subsystem. The test scenarios in question:
 
 1. shall be consistent with the specifications referenced in this TSI and provide a technical description of functions and performances (e.g. reaction times) where these are relevant for the interaction between on-board and track-side subsystems;
-1. shall be submitted in a standard format. See Annex A 4.2.2.c;
-1. shall, unless otherwise specified in Annex A 4.2.2.c, cover at least the start of mission, the transition between levels, transition between modes that may be used on the line, the main identified degraded situations, the sending of emergency messages and any other relevant aspects specific to the line.
+1. shall be submitted in a standard format.;
+1. shall cover at least the start of mission, the transition between levels, transition between modes that may be used on the line, the main identified degraded situations, the sending of emergency messages and any other relevant aspects specific to the line.
 
 The European Railway Agency:
 
