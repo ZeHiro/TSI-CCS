@@ -1272,7 +1272,8 @@ Where the requirements set out in the relevant section of Chapter 4 are not subj
 
 | Specific case | Category | Notes | 
 |---|---|---|---|
-| **4.2.10 Track-side Train Detection Systems**<br/>Index 77, Section 3.1.3.4:<br/>The range of the dimension Sh (Figure 2) is not less than 26,25 mm<br/> | T3 | This specific case is needed as long as ČME locomotives operate on Lithuania 1 520 mm network |
+| **4.2.10   Track-side Train Detection Systems**<br/>Index 77, Section 3.1.3.3:<br/>The minimum flange thickness (Sd) for 1 520 mm track gauge network is 20 mm | T3 | This specific case is needed as long as ČME locomotives operate on 1 520 mm network |
+| **4.2.10   Track-side Train Detection Systems**<br/>Index 77, Section 3.1.3.4:<br/>The minimum flange height (Sh) for 1 520 mm track gauge network is 26,25 mm | T3 | This specific case is needed as long as ČME locomotives operate on 1 520 mm network |
 
 #### 7.2.9.7. Sweden
 
