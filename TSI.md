@@ -1623,17 +1623,17 @@ Intentionally deleted
 
 | Open Point | Notes |
 |---|---|
-| Braking aspects | This open point will be solved by ERTMS/ETCS baseline 3. The harmonised braking model is already included for information purposes in Annex A, Table A 2, Index 15. |
-| Index 28 availability | Frequent occurrence of degraded situations caused by failures of Control-Command and Signalling equipment will decrease the system safety. To avoid this, minimum reliability/availability requirements that shall be specified. |
-| Index 78 safety requirements for ETCS DMI functions | This open point is related to the interface between ETCS on-board and driver, i.e. errors in displaying information and in entering data and commands |
-| Index 51 Ergonomic aspects of the DMI | This open point will be solved by ERTMS/ETCS baseline 3. A specification for information purposes already exists. |
-| Minimum wheel diameter for speed greater than 350 km/h | See Annex A, Table A 2, Index 77
+| Braking aspects | It only applies to ERTMS/ETCS Baseline 2 (see Annex A, Table A2, Index 15).<br>Resolved for ERTMS/ETCS Baseline 3 (see Annex A, Table A 2, Indexes 4 and 13). |
+| Index 28 – Reliability/availability requirements | Frequent occurrences of degraded situations caused by failures of control-command and signalling equipment will decrease the system safety. |
+| Minimum wheel diameter for speed greater than 350 km/h | See Annex A, Table A 2, Index 77 |
 | Minimum axle distance for speed greater than 350 km/h | See Annex A, Table A 2, Index 77 |
 | Metal and inductive components free space between wheels | See Annex A, Table A 2, Index 77<br>This is not an open point for freight wagons |
 | Characteristics of sand applied to tracks | See Annex A, Table A 2, Index 77 |
 | Vehicle metal mass | See Annex A, Table A 2, Index 77 |
-| Combination of rolling stock characteristics for the purpose of adequate dynamic shunting impedance | See Annex A, Table A 2, Index 77 |
+| Combination of rolling stock characteristics influencing shunting impedance | See Annex A, Table A 2, Index 77 |
 | Electromagnetic interferences (traction current) | See Annex A, Table A 2, Index 77 |
 | Electromagnetic interferences (electromagnetic fields) | See Annex A, Table A 2, Index 77<br>This is not an open point for power systems other than DC |
+| Vehicle Impedance | See Annex A, Table A 2, Index 77 |
 | DC and low frequency components of traction current | See Annex A, Table A 2, Index 77 |
 | Use of magnetic/eddy current brakes | See Annex A, Table A 2, Index 77 |
+| Index 78 — Safety requirements for ETCS DMI functions | This open point is related to the interface between ETCS on-board and the driver, i.e. errors in displaying information and in entering data and commands.|
