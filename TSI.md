@@ -13,7 +13,15 @@ This TSI is applicable to control-command and signalling track-side Subsystems o
 
 ## 1.2. Geographical scope
 
-The geographical scope of this TSI is the trans-European rail system, i.e. the trans-European conventional and high-speed rail systems as set out in points 1 and 2 of Annex I to Directive 2008/57/EC (Railway Interoperability Directive).
+The geographical scope of this TSI is the network of the whole rail system, composed of:
+
+1. the trans-European conventional rail system network (TEN) as described in Annex I section 1.1 “Network” to Directive 2008/57/EC;
+1. the trans-European high-speed rail system network (TEN) as described in Annex I section 2.1 “Network” to Directive 2008/57/EC;
+1. other parts of the network of the whole rail system, following the extension of scope as described in Annex I section 4 to Directive 2008/57/EC;
+
+and excludes the cases referred to in Article 1(3) of Directive 2008/57/EC.
+
+The TSI shall apply to networks with 1 435 mm, 1 520 mm, 1 524 mm, 1 600 mm and 1 668 mm track gauges. However, it shall not apply to short border crossing lines with 1 520 mm track gauges that are connected to the network of third countries.
 
 ## 1.3. Content of this TSI
 
