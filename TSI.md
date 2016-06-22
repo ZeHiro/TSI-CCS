@@ -1580,9 +1580,9 @@ Note: specifications indicated as ‘Reserved’ in table A-2 are also listed as
 | 36 b | Intentionally deleted | | | | Intentionally deleted |
 | 36 c | SUBSET-074-2 | FFFIS STM Test cases document | 1.0.0 | | SUBSET-074-2 | FFFIS STM Test cases document | 3.0.0 |
 | 37 a | Intentionally deleted | | | | Intentionally deleted |
-| 37 b | SUBSET-076-5-2 | Test cases related to features | 2.3.3 | | SUBSET-076-5-2 | Test cases related to features | | Note 11 |
-| 37 c | SUBSET-076-6-3 | Test sequences | 2.3.3 | | Reserved | Test sequences generation: methodology and rules | | Note 11
-| 37 d | SUBSET-076-7 | Scope of the test specifications | 1.0.2 | | SUBSET-076-7 | Scope of the test specifications | 3.0.0 |
+| 37 b | SUBSET-076-5-2 | Test cases related to features | 2.3.3 | | SUBSET-076-5-2 | Test cases related to features | 3.1.0 | Note 11 |
+| 37 c | SUBSET-076-6-3 | Test sequences | 2.3.3 | | Reserved | Test sequences | 3.0.0 | Note 11 |
+| 37 d | SUBSET-076-7 | Scope of the test specifications | 1.0.2 | | SUBSET-076-7 | Scope of the test specifications | 3.1.0 | Note 11 |
 | 37 e | Intentionally deleted | | | | Intentionally deleted |
 | 38 | 06E068 | ETCS Marker-board definition | 2.0 | | 06E068 | ETCS Marker-board definition | 2.0 |
 | 39 | SUBSET-092-1 | ERTMS EuroRadio Conformance Requirements | 2.3.0 | | SUBSET-092-1 | ERTMS EuroRadio Conformance Requirements | 3.0.0 |
@@ -1650,7 +1650,7 @@ Note 9: ERA analysis showed there is no need for a mandatory specification for o
 
 Note 10: Only the (MI) requirements are mandated by TSI CCS.
 
-Note 11: Specifications to be managed through a Technical opinion of the European Railway Agency
+Note 11: Specifications updated through Technical Opinon of the Eruopean Railway Agency ERA/OPI/2015-6. Reference to these specifications will be published in the next update of TSI CCS Application Guide.
 
 Note 12: Reference to these specifications will be published in the Application Guide, waiting for clarifications on the rolling stock side of the interface.’
 
