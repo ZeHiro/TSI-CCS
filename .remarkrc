@@ -1,0 +1,14 @@
+{
+  "plugins": {
+    "remark-lint": {
+	"table-pipe-alignment": false,
+	"no-html": false,
+	"ordered-list-marker-value": "one",
+	"list-item-indent": "space",
+	"maximum-line-length": false,
+	"no-multiple-toplevel-headings": false,
+	"maximum-heading-length": false,
+	"table-cell-padding": false
+    }
+  }
+}
