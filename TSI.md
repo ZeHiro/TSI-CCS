@@ -1498,7 +1498,7 @@ Where the requirements set out in the relevant point of Chapter 4 are not subjec
 
 For each reference made in the basic parameters (Chapter 4 of this TSI) the following table indicates the corresponding mandatory specifications, via the Index in Table A 2 (Table A 2.1, Table A 2.2, Table A 2.3).
 
-Table A 1
+***Table A 1***
 
 | Reference in Chapter 4 | Index number (see Table A 2) |
 |---|---|
@@ -1577,7 +1577,7 @@ For the purposes of this TSI, when a document listed in Table A 2 makes a ‘man
 
 Note: specifications indicated as ‘Reserved’ in Table A 2 are also listed as open points in Annex G when there is a need for notification of national rules to close the corresponding open points. Reserved documents not listed as open points are intended as improvements to the system.
 
-*Table A 2.1*
+***Table A 2.1***
 
 **List of mandatory specifications**
 
@@ -1674,7 +1674,7 @@ Set of specifications # 1 (ETCS Baseline 2 and GSM-R Baseline 1)
 | 81 | Not applicable | Not applicable |
 | 82 | Not applicable | Not applicable |
 
-*Table A 2.2*
+***Table A 2.2***
 
 **List of mandatory specifications**
 
@@ -1773,7 +1773,7 @@ Set of specifications # 2 (ETCS Baseline 3 Maintenance Release 1 and GSM-R Basel
 | 81 | SUBSET-119 | Train Interface FFFIS | | Note 12 |
 | 82 | SUBSET-120 | FFFIS TI — Safety Analysis | | Note 12 |
 
-*Table A 2.3*
+***Table A 2.3***
 
 **List of mandatory specifications**
 
@@ -1853,7 +1853,7 @@ Set of specifications # 3 (ETCS Baseline 3 Release 2 and GSM-R Baseline 1)
 | 64 | EN 301 515 | Global System for Mobile Communication (GSM); Requirements for GSM operation on railways | 2.3.0 | Note 2 |
 | 65 | TS 102 281 | Detailed requirements for GSM operation on railways | 3.0.0 | Note 3 |
 | 66 | TS 103 169 | ASCI Options for Interoperability | 1.1.1 |
-| 67 |  (MORANE) P 38 T 9001 |  FFFIS for GSM-R SIM Cards | 5.0 | Note 10 |
+| 67 |(MORANE) P 38 T 9001 |  FFFIS for GSM-R SIM Cards | 5.0 | Note 10 |
 | 68 | ETSI TS 102 610 | Railway Telecommunication; GSM; Usage of the UUIE for GSM operation on railways | 1.3.0 |
 | 69 | (MORANE) F 10 T 6002 | FFFS for Confirmation of High Priority Calls | 5.0 |
 | 70 | (MORANE) F 12 T 6002 | FIS for Confirmation of High Priority Calls | 5.0 |
@@ -1899,7 +1899,7 @@ Note 13: Specifications to be set out in a technical opinion of the Agency.
 
 Note 14: Additional information to be displayed in the Driver-Machine interface with the purposes of the drivers’ ergonomics will be published by the Agency in a technical document ().
 
-*Table A 3*
+***Table A 3***
 
 **List of mandatory standards**
 
