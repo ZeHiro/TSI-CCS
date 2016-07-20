@@ -1531,12 +1531,12 @@ The open points indicated in Annex G of this TSI will be managed in the revision
 
 ## LIST OF MANDATORY SPECIFICATIONS
 
-| Index N | Reference | Document Name | Version |
+| Index No | Reference | Document name | Version |
 |---|---|---|---|
 | 1 | UIC ETCS FRS | ERTMS/ETCS Functional Requirement Specification | 4.29 |
 | 2 | 99E 5362 | ERTMS/ETCS Functional Statements | 2.0.0 |
 | 3 | UNISIG SUBSET-023 | Glossary of Terms and Abbreviations | 2.0.0 |
-| 4 | UNISIG SUBSET-026 | System Requirement Specification | 2.2.2 |
+| 4 | UNISIG SUBSET-026 | System Requirement Specification | 2.3.0 |
 | 5 | UNISIG SUBSET-027 | FFFIS Juridical Recorder-Downloading Tool | 2.2.9 |
 | 6 | UNISIG SUBSET-033 | FIS for Man-Machine Interface | 2.0.0 |
 | 7 | UNISIG SUBSET-034 | FIS for the Train Interface | 2.0.0 |
@@ -1547,9 +1547,9 @@ The open points indicated in Annex G of this TSI will be managed in the revision
 | 12 | UNISIG SUBSET-039 | FIS for the RBC/RBC Handover | 2.1.2 |
 | 13 | UNISIG SUBSET-040 | Dimensioning and Engineering rules | 2.0.0 |
 | 14 | UNISIG SUBSET-041 | Performance Requirements for Interoperability | 2.1.0 |
-| 15 | UNISIG SUBSET-108 | Interoperability-related consolidation on TSI annex A documents (mainly SUBSET-026 v2.2.2) | 1.0.0 |
-| 16 | UNISIG SUBSET-044 | FFFIS for Euroloop sub-system | 2.2.0 (1) |
-| 17 | Intentionally Deleted | 
+| 15 | UNISIG SUBSET-108 | Interoperability-related consolidation on TSI annex A documents | 1.1.0 |
+| 16 | UNISIG SUBSET-044 | FFFIS for Euroloop sub-system | 2.2.0 1) |
+| 17 | Intentionally Deleted |
 | 18 | UNISIG SUBSET-046 | Radio In-fill FFFS | 2.0.0 |
 | 19 | UNISIG SUBSET-047 | Track-side-Trainborne FIS for Radio In-Fill | 2.0.0 |
 | 20 | UNISIG SUBSET-048 | Trainborne FFFIS for Radio In-Fill | 2.0.0 |
@@ -1559,16 +1559,16 @@ The open points indicated in Annex G of this TSI will be managed in the revision
 | 24 | Intentionally deleted |
 | 25 | UNISIG SUBSET-056 | STM FFFIS Safe Time Layer | 2.2.0 |
 | 26 | UNISIG SUBSET-057 | STM FFFIS Safe Link Layer | 2.2.0 |
-| 27 | UNISIG SUBSET-091 | Safety Requirements for the Technical Interoperability of ETCS in Levels 1 &amp; 2 | 2.2.11 |
-| 28 | Reserved | Reliability - Availability Requirements |
-| 29 | UNISIG SUBSET-102 | Test specification for Interface ‘k’ | 1.0.0 |
+| 27 | UNISIG SUBSET-091 | Safety Requirements for the Technical Interoperability of ETCS in Levels 1 & 2 | 2.2.11 |
+| 28 | Reserved | Reliability — Availability Requirements |
+| 29 | UNISIG SUBSET-102 | Test specification for Interface “k” | 1.0.0 |
 | 30 | Intentionally deleted |
 | 31 | UNISIG SUBSET-094 | UNISIG Functional Requirements for an On-board Reference Test Facility | 2.0.0 |
 | 32 | EIRENE FRS | GSM-R Functional Requirements Specification | 7 |
 | 33 | EIRENE SRS | GSM-R System Requirements Specification | 15 |
-| 34 | A11T6001 12 | (MORANE) Radio Transmission FFFIS for EuroRadio | 12 |
-| 35 | ECC/DC(02)05 | ECC Decision of 5 July 2002 on the designation and availability of frequency bands for railway purposes in the 876-880 and 921-925 MHz bands. |
-| 36a | Intentionally deleted | 
+| 34 | A11T6001 12 | (MORANE) Radio Transmission FFFIS for EuroRadio | 12 -
+| 35 | ECC/DC(02)05 | ECC Decision of 5 July 2002 on the designation and availability of frequency bands for railway purposes in the 876-880 and 921-925 MHz bands |
+| 36a | Intentionally deleted |
 | 36b | Intentionally deleted |
 | 36c | UNISIG SUBSET-074-2 | FFFIS STM Test cases document | 1.0.0 |
 | 37a | Intentionally deleted |
@@ -1576,32 +1576,35 @@ The open points indicated in Annex G of this TSI will be managed in the revision
 | 37c | UNISIG SUBSET-076-6-3 | Test sequences | 2.0.0 |
 | 37d | UNISIG SUBSET-076-7 | Scope of the test specifications | 1.0.0 |
 | 37e | Intentionally deleted |
-| 38 | Reserved | Marker boards |
+| 38 | 06E068 | ETCS marker board definition | 1.0 |
 | 39 | UNISIG SUBSET-092-1 | ERTMS EuroRadio Conformance Requirements | 2.2.5 |
 | 40 | UNISIG SUBSET-092-2 | ERTMS EuroRadio Test cases Safety Layer | 2.2.5 |
-| 41 | Reserved<br>UNISIG SUBSET 028 | JRU Test Specification |
+| 41 | Reserved<br/>UNISIG SUBSET 028 | JRU Test Specification |
 | 42 | Intentionally deleted |
 | 43 | UNISIG SUBSET 085 | Test Specification for Eurobalise FFFIS | 2.1.2 |
-| 44 | Reserved<br>Odometry FIS |
-| 45 | UNISIG SUBSET-101 | Interface ‘K’ Specification | 1.0.0 |
-| 46 | UNISIG SUBSET-100 | Interface ‘G’ specification | 1.0.1 |
+| 44 | Reserved | Odometry FIS |
+| 45 | UNISIG SUBSET-101 | Interface “K” Specification | 1.0.0 |
+| 46 | UNISIG SUBSET-100 |Interface “G” Specification | 1.0.1 |
 | 47 | Reserved | Safety Requirements and Requirements to Safety Analysis for Interoperability for the Control-Command and Signalling Sub-System |
 | 48 | Reserved | Test specification for mobile equipment GSM-R |
 | 49 | UNISIG SUBSET-059 | Performance requirements for STM | 2.1.1 |
-| 50 | Reserved<br>UNISIG SUBSET-103 | Test specification for EUROLOOP | 
-| 51 | Reserved<br>Ergonomic aspects of the DMI |
+| 50 | Reserved<br/>UNISIG SUBSET-103 | Test specification for Euroloop |
+| 51 | Reserved | Ergonomic aspects of the DMI |
 | 52 | UNISIG SUBSET-058 | FFFIS STM Application Layer | 2.1.1 |
-| 53 | Reserved<br>AEIF-ETCS-Variables-Manual | AEIF-ETCS-Variables-Manual |
+| 53 | Reserved<br/>AEIF-ETCS-Variables-Manual | AEIF-ETCS-Variables-Manual |
 | 54 | Intentionally deleted |
 | 55 | Reserved | Juridical recorder baseline requirements |
-| 56 | Reserved<br>05E538 | ERTMS Key Management Conformance Requirements |
-| 57 | Reserved<br>UNISIG SUBSET-107 | Requirements on pre-fitting of ERTMS on-board equipment |
-| 58 | Reserved<br>UNISIG SUBSET-097 | Requirements for RBC-RBC Safe Communication Interface |
-| 59 | Reserved<br>UNISIG SUBSET-105 | Requirements on pre-fitting of ERTMS track side equipment |
-| 60 | Reserved<br>UNISIG SUBSET-104 | ETCS version management |
-| 61 | Reserved<br>GSM-R version management |
-| 62 | Reserved<br>UNISIG SUBSET-099 | RBC-RBC Test specification for Safe Communication Interface |
-| 63 | Reserved<br>UNISIG SUBSET-098 | RBC-RBC Safe Communication Interface |
+| 56 | Reserved<br/>05E538 | ERTMS Key Management Conformance Requirements |
+| 57 | Reserved<br/>UNISIG SUBSET-107 | Requirements on pre-fitting of ERTMS on-board equipment |
+| 58 | Reserved<br/>UNISIG SUBSET-097 | Requirements for RBC-RBC Safe Communication Interface |
+| 59 | Reserved<br/>UNISIG SUBSET-105 | Requirements on pre-fitting of ERTMS track side equipment |
+| 60 | Reserved<br/>UNISIG SUBSET-104 | ETCS version management |
+| 61 | Reserved | GSM-R version management |
+| 62 | Reserved<br/>UNISIG SUBSET-099 | RBC-RBC Test specification for Safe Communication Interface |
+| 63 | Reserved<br/>UNISIG SUBSET-098 | RBC-RBC Safe Communication Interface |
+
+1) conditioned to CEPT approval of the frequency.
+
 ## LIST OF MANDATORY EN STANDARDS
 
 | Index N | Reference | Document Name and comments | Version |
