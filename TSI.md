@@ -1351,496 +1351,119 @@ Verification requirements for track-side control-command assembly
 |      | Compatibility with driver’s external field of view                 | Installation of trackside equipment that must be seen by the driver                                                                                                              |                                                          | OPE                          | 4.2.16                                                                 |
 |      |                                                                    |                                                                                                                                                                                  |                                                          |                              | 4.3.1.11                                                               |
 
-# 7.   IMPLEMENTATION OF THE TSI CONTROL-COMMAND
+# 7. IMPLEMENTATION OF THE TSI CONTROL COMMAND
 
-## 7.1.   General
+This chapter outlines the strategy for the implementation (ERTMS European Deployment Plan) of the TSI and specifies the stages to be completed in order to make a gradual transition from the existing situation to the final situation in which compliance with the TSIs shall be the norm.
 
-This chapter outlines the strategy and the associated technical solutions for implementation of the TSI, notably the conditions underpinning the migration to Class A systems. Account must be taken of the fact that the implementation of a TSI occasionally has to be co-ordinated with the implementation of other TSIs.
+The ERTMS European Deployment Plan does not apply to lines located in the territory of a Member State when its rail network is separated or isolated by the sea or separated as a result of special geographical conditions from the rail network of the rest of the Community. This strategy does not apply to locomotives running exclusively on such lines.
 
-Chapters 2 to 6 and any specific provisions in paragraph 7.3 below apply in full to control-command subsystem as defined by Directive 2001/16/EC.
+## 7.1.  ERTMS-Trackside implementation
 
-## 7.2.   Specific issues of implementation of the TSI control-command
+The objective of the ERTMS European Deployment Plan is to ensure that, gradually, locomotives, railcars and other railway vehicles equipped with ERTMS can have access to an increased number of lines, ports, terminals and marshalling yards without needing national equipment in addition to ERTMS.
 
-### 7.2.1.   General migration criteria
+To that purpose, the deployment plan does not request the removal of the existing Class B systems on the lines included in the plan. However, by the date specified in the implementation plan, equipment with a Class B system shall not be a track access condition to lines included in the deployment plan for locomotives, railcars and other railway vehicles equipped with ERTMS.
 
-Within the control-command subsystem two classes (A and B) of train protection and radio communication systems are defined.
+When terminal areas, such as ports or specific lines in a port for example, are not equipped with any Class B system, the requirements related to the “connection” of these terminal areas does not necessarily mean that these terminals or lines need to be equipped with ERTMS, as long as equipment with a Class B system is not requested as a track access condition.
 
-It is recognised that Class A cannot be installed on all existing conventional routes instantly for reasons which include economic considerations and installation capacity aspects. In the migration-period between the current (pre-unified) situation (Class B) and the application of Class A, there will be a number of possible interoperability solutions that might be implemented in the framework of this TSI. These solutions apply to both the European conventional rail infrastructure, including connecting lines, and to the European conventional rail trains. A number of illustrative examples are given below:
+For lines consisting of a double track or more, the line is considered to be equipped as soon as a double track is equipped. When there is more than one line on a corridor section, at least one line has to be equipped on the section and the whole corridor is considered to be equipped as soon as at least one line is equipped on the whole length of the corridor.
 
--   within ERTMS/ETCS provision is made for modules known as STMs (Specific Transmission Modules) to be added to ETCS to enable a train fitted with appropriate STMs to operate over existing pre-unified infrastructure. Another solution is that an infrastructure may be equipped with both Class A and Class B systems,
--   the implementation of GSM-R systems on a nation-wide basis has already started in a significant number of countries of the former EU15. The first inter-connections of these national networks are due in 2004. Other networks will follow shortly. Some railways have chosen a solution where mobile equipment is designed in such a way that it can work in both systems (dual-mode = GSM-R and >=1 analogue radio), others have taken the solution to have a double coverage on network-side but only single equipment on the trains. GSM-R does not have ‘STMs’. Cab radios that have additional interface-units for Class B radio systems (Dual-mode) are able to work also on lines in a Class B network if specially designed. This solution is only an interim solution to allow early exchange of international trains.
+### 7.1.1. Corridors
 
-#### 7.2.1.1.   Migration paths
+The six corridors described in Appendix I shall be equipped with ERTMS according to the timetable indicated in that Appendix (1).
 
-The existing systems as well as the future unified system have system components infrastructure-side and on-board. Therefore migration strategies have to be defined for both assemblies. This paragraph deals with migration paths from Class B to Class A by giving examples.
+### 7.1.2. Connection to the main European ports, marshalling yards, freight terminals and freight transport areas
 
-Migration strategies must pay special attention to the following distinction:
+The ports, marshalling yards, freight terminals and freight transport areas listed in Appendix II shall be linked to at least one of the six corridors specified in Appendix I at the date and under the conditions specified in Appendix II.
 
--   train radio (from Class B to Class A),
--   train protection (from Class B to Class A),
--   the train detection system,
--   the hot axle-box detection system,
--   EMC.
+### 7.1.3. EU-funded projects
 
-Each of the above can follow a different migration path.
+Without prejudice to sections 7.1.1 and 7.1.2 the fitting of ERTMS/ETCS is mandatory in the case of:
 
-Possible migration paths from Class B to Class A are explained by means of the following examples for the train protection system.
-
-Figure 1
-
-Image
-
-Figure 1 depicts the starting state, where only non compatible systems exist (denominated START) to the final state (denominated TARGET).
-
-The following two figures describe the two possible extreme migration paths from the present to the future state.
-
-Figure 2
-
-Image
-
-Figure 2 shows a migration process, where all the initial investment is made on-board only. A possible technical solution is the so-called STM, which can be linked to the kernel of the ETCS on-board and which translates information from existing systems to a form that can be processed by the ETCS kernel. After the equipment of all vehicles of a railway fleet under consideration with the combination of ETCS kernel and respective Class B systems, the wayside equipment can be altered to ETCS or newly equipped lines can be built based on the ETCS system. The existing class B system on these lines can be removed.
-
-Figure 3
-
-Image
-
-Figure 3 shows the other extreme migration process. In this case, the respective railway would double equip existing lines with the ETCS system. After all lines have ETCS in addition to the national system, the on-board equipment of the rolling stock can be changed to ETCS. When all vehicles under consideration are equipped with ETCS, the wayside equipment for the national system can then be removed.
-
-Figure 4
-
-Image
-
-Figure 4 shows the combination of both extremes described above. The possible migration paths have to be between these two limits. In practical terms, there should to be a mixture of both ways.
-
-Figure 5
-
-Image
-
-Figure 5 depicts an example, where ETCS on-board equipment in vehicles and ETCS wayside equipment on parts of the lines is installed alternatively. This method minimises the inception investment necessary to take advantage of the system as a whole (i.e. the on-board and trackside equipment in the sections where these are fitted). On the other hand, it implies a certain restriction in usage of rolling stock on the network.
-
-The selection of the appropriate migration strategy depends largely on the mix between lines equipped, rolling stock equipped and planned purchase of new rolling stock and additional equipment of lines.
-
-Also international corridors and international use of rolling stock should be considered. In case a line is not foreseen for migration and is only equipped with Class B the interoperable operation can be ensured by a STM for the Class B system concerned.
-
-The migration steps, however, have to enable access of other railway undertakings to the network at any time. A vehicle equipped with the appropriate ETCS on-board equipment and the existing system as described in annexes B and C must always be able to run on the line under consideration.
-
-### 7.2.2.   Timing criteria
-
-#### 7.2.2.1.   Introduction
-
-ETCS and GSM-R are computer-based systems with a faster technology evolution and potentially a lower life expectancy than current traditional railway signalling and telecommunication facilities. As such, they call for a pro-active rather than reactive deployment strategy to avoid potential system obsolescence prior to system deployment reaching maturity.
-
-Notwithstanding this fact, the adoption of a too fragmented deployment throughout the European rail network, mainly along the trans-European rail corridors, would give rise to major cost and operational overheads resulting from the needs to ensure backward compatibility and interconnection with a diversity of legacy facilities. Moreover, synergies in terms of time, cost and risk reduction might be reached by the reconciliation of common elements of different national implementation strategies — e.g. through joint procurement initiatives, collaboration in system validation and certification activities.
-
-Whereas such pro-active implementation strategy does appears a must to underpin the whole of the migration process, the specific modalities to be adopted for the conventional rail network have to account for the current level and planned rate of deployment of these technologies as well as the relevant economic, operational, technical and financial factors that influence such an implementation.
-
-Within this context, it is evident that a clear distinction is to be made between ETCS and GSM-R in view of the current status of migration throughout Europe and the magnitude and extent of the barriers underlying such a migration, a fact that commands a different rationale for the implementation of GSM-R and of ETCS on the conventional network. Such a distinct rationale will be delineated in fuller detail within the next paragraphs:
-
-#### 7.2.2.2.   GSM-R — Rationale for Deployment
-
-The current magnitude of the GSM-R deployment activity throughout the whole of the European rail network (approximately 100 000 km nowadays in 11 out of the 15 States of the former EU15) and the four- to five-year time horizon that generally underpins the conclusion of such deployment works indicates that any deployment rationale will have to confront three main concerns:
-
--   to ensure the continuity of GSM-R service across borders avoiding the establishment of ‘black spots’ within some regions of the Community,
--   to reconcile the migration timings throughout Europe in order to significantly reduce the cost and time overheads associated with the potential needs to sustain double analogue/digital telecommunication infrastructures and on-board facilities,
--   to avoid a ‘two speed’ Europe between the former EU15 and the new Member States. Convergence needs to be achieved a target that is facilitated by the on-going programmes for major upgrading of the railway networks of the new Member States.
-
-#### 7.2.2.3.   GSM-R — Implementation rules
-
-Set against this background, and taking into account that a GSM-R infrastructure is a telecommunication bearer for both high-speed and conventional rail applications, the implementation criteria now in force for the former applications should equally apply for conventional rail, e.g.
-
-Trackside installations:The fitting of GSM-R is mandatory in the case of:
-
--   new installations of radio part of a CCS assembly,
--   an upgrade of radio part of a CCS assembly already in service that changes the functions or the performance of the subsystem.
-
-On-board installations:The fitting of GSM-R in Rolling Stock intended for use on a line including at least a section equipped with Class A interfaces (even if superimposed to a Class B system), is mandatory in the case of:
-
--   new installations of the radio part of a CCS assembly,
--   an upgrade of the radio part of a CCS assembly already in service that changes the functions or the performance of the subsystem.
-
-Legacy systems:Member States shall ensure that the functionality of the legacy systems referred to in Annex B to the TSI as well as their interfaces is to remain as currently specified, excluding those modifications that might be deemed necessary in order to mitigate safety-related flaws of these systems. Member States shall make available the necessary information regarding their legacy systems that is required for purposes of development and certification of apparatus allowing interoperability of Class A equipment with their legacy Class B facilities.
-
-In order to enable a pro-active implementation, Member States are also encouraged to promote and support the fitting of GSM-R in any renewal or maintenance-related work affecting the whole of an infrastructure already in service entailing an investment at least one order of magnitude higher than those associated with the installation of GSM-R facilities.
-
-#### 7.2.2.4.   ERTMS/ETCS — rationale for deployment
-
-##### 7.2.2.4.1.   Introduction
-
-As it stands nowadays, the case of ERTMS/ETCS on conventional applications has to be underlined by a different deployment rationale that accounts for the manifold complexity associated to a migration of signalling systems, to its associated costs and to the expected longer lifetime of the assets when compared to those of GSM-R. However, in no way such barriers should detract from the generic deployment principles exposed in paragraph 7.2.2.1, in particular, the necessity to keep the implementation momentum within acceptable levels notably on the major corridors and trunk lines of the trans-European rail network (TEN).
-
-##### 7.2.2.4.2.   The ETCS-Net corridor concept
-
-In order to reconcile the apparent conflicting objectives of avoidance of fragmented approach with the perceived constraints on investment it is deemed necessary to define a start-up core of rail projects where ERTMS/ETCS deployment can be indeed justified on an ‘end-to-end’ business/service perspective whereas not commanding unacceptable barriers in terms of implementation costs. In view of such over-ridding objectives, and after consultation of the sector, it was recognized that such core should be built upon a coherent set of priority corridors of the trans-European rail network. The objectives to be achieved with such an approach are three-fold:
-
-<ol type="i">
-<li>to enable the creation of an interoperable rail backbone across Europe (coined hereafter as ETCS-Net) enabling the development of new and improved quality rail services that can ultimately heighten the competitive profile of rail transport notably in those market segments of major growth potential — e.g. international freight transport;</li>
-<li>to constitute a focus for trans-national co-ordination efforts and for concentration of financing instruments in view of an accelerated and wider-ranging deployment of ERTMS/ETCS across the main routes of the trans-European rail network;</li>
-<li>to move towards the conditions of ‘critical mass’ for ERTMS/ETCS to emerge as the natural market selection solution for new and upgrade signalling projects of the conventional rail network across Europe.</li>
-</ol>
-
-An outline of the ETCS-Net is depicted below. A detailed listing of the corridors encompassed therein is attached in annex H.
-
-Image
-
-In order to ensure the development of a coherent network providing a backbone for the development of enhanced end-to-end services the ETCS-Net as presented above builds upon both high-speed (4) and conventional lines. The deployment of ERTMS/ETCS on the former is governed by Decision 2002/731/EC whereas the implementation principles outlined below apply to the latter.
-
-In view for such a backbone to contribute to a major re-engineering of international rail transport services in a credible time horizon from the perspective of the customer it is necessary to attach a relatively ambitious timeframe for its full realisation. Taking into account the range of parameters that impact on the latter (e.g. level of investment resources, engineering/project management capability of the railways and supply industry, needs for cross-border co-ordination of activities) a period of 10 to 12 years can be earmarked as an indicative timeframe for such a purpose.
-
-##### 7.2.2.4.3.   The inception kernel
-
-To enable the accomplishment of the implementation of the whole ETCS-Net within such a time horizon it is deemed necessary to kick-start the deployment process by earmarking a sub-set of projects (hereafter referred to as the inception kernel) where deployment of ETCS will be mandatory. The adoption of such an approach basically reverts to the deployment of a three-tiered perspective as depicted below:
-
-Image
-
-In order to minimise the financial impact of such a mandatory step the selection criteria for inclusion of projects within such Inception Kernel should notably account for the availability of Community funding to a level well above the amounts that can be normally earmarked for signalling works. The set of conventional rail priority projects established within the Trans-European Network guidelines (Decision No 884/2004/EC of the European Parliament and of the Council (5) as well as all those major rail construction/upgrading works funded under the framework of the Structural Funds (Council Regulation (EC) No 1260/1999 (6) and/or Cohesion Funds (Council Regulation (EC) No 1264/1999 (7) are to be considered as forming such an inception kernel.
-
-The Inception Kernel is to constitute a steppingstone for the achievement of the full ETCS-Net deployment scenario as described above. However, the fulfilment of this latter objective requires the visibility of the deployment strategy (timing and planning of the works) that will underpin those national sections of the different corridors not encompassed by the ‘Inception Kernel’ criteria. In order to provide for such visibility, Member States will be required to elaborate national ERTMS implementation plans addressing a range of deployment issues which are outlined in paragraph 7.2.2.6.
-
-The scope of the current ETCS-Net backbone might be revised in a subsequent phase (potentially during a future revision of this TSI) to account for the real progress of its implementation and for the ever evolving needs of the transportation markets.
-
-The rationale in what regards rolling-stock has to account for the fact that ERTMS/ETCS is a system concept composed of infrastructure and on-board elements. As such it is crucial that any emergent deployment rationale considers these two system elements in a coherent manner as they both concur to enable system operation. Moreover, as in the case for infrastructure, appropriate consideration must be given to the minimisation of the financial impact of any mandatory step that might be imposed.
-
-A ‘marginal cost’ approach, linking the fitment of on-board ERTMS/ETCS with major investment decisions, does constitute the best available route to ensure such a goal. This applies notably to the procurement of new rolling-stock or major retrofitting operations for which the value of the signalling equipment and of its installation represent only a limited percentage of the whole investment to be put in place. The adoption of such a policy will push in the longer-term for the scenario of ETCS on-board equipment as a commodity asset in what regards new rolling-stock.
-
-##### 7.2.2.4.4.   A pre-fitment strategy
-
-Pre-fitment covers the installation of any on-board or trackside ERTMS/ETCS and GSM-R equipment or other enabling equipment for ETCS and GSM-R (e.g. installation of cabling and wiring, ducts, mechanical fixtures, interfaces, power supply or other specific signalling or telecommunication facilities) aimed at reaching a certain stage of ERTMS readiness without fully implementing the Class A requirements.
-
-The aim of such an approach is to ensure such ERTMS readiness by piggybacking such pre-fitment activities on major construction or upgrading operations of infrastructure assets or on factory-fit (8) of rolling-stock assets. This shall allow for the reduction of the implementation cost of full-fledged ERTMS/ETCS or GSM-R facilities complying Class A requirements at a later stage. However, the scope of ERTMS readiness has to set against the specificities of each project from a technical, operational and economic viewpoint as well as to the time horizon for the installation of the Class A compliant facilities.
-
-It is therefore deemed necessary to establish a hierarchical approach to pre-fitment based on the concept of pre-fitment stages. It is expected these should range from the simple reservation of space, ducting, and fitment of mechanical fixtures (Stage 1) upwards to the installation of all components that are not affected by obsolescence within the nominal lifetime of the installation (Stage 3). The details of pre-fitment are to be defined by subset 57 (on-board) and subset 59 (trackside equipment) to be appended to Annex A.
-
-#### 7.2.2.5.   ERTMS/ETCS — Implementation Rules
-
-All the implications enumerated in the previous paragraph are to be eventually qualified as follows:
-
-Trackside installations:The fitting of ERTMS/ETCS is mandatory in the case of:
-
--   new installations of train protection as part of a CCS assembly,
--   an upgrade of train protection as part of a CCS assembly already in service that changes the functions or the performance of the subsystem.
-
-for the set of railway infrastructure projects falling within one of the following criteria:
-
--   being part of the set of conventional rail priority projects established under the Trans-European Network guidelines included in Annex II of the Decision No 884/2004/EC,
--   commanding a financial support from Structural Funds (Regulation (EC) No 1260/1999) and/or Cohesion Funds (Regulation (EC) No 1264/1999) in excess of 30 % of the total project costs.
-
-For any other new or upgrade projects not encompassed under these latter criteria and that are part of the Trans-European conventional rail network, as defined by the Corrigendum of 7 June 2004 to Decision No 884/2004/EC, the pre-fitting of equipment to pre-fitment stage 1 as defined under Paragraphs 7.2.2.4.4 and 7.2.3.2 shall be performed. Those lines included in the ETCS-Net backbone which are outside of the Inception Kernel shall comply with a Pre-fitment Stage 3 in what regards such a pre-fitting.In order to enable a pro-active implementation, Member States are also encouraged to promote and support the fitting of ERTMS/ETCS in any renewal or maintenance-related work of the infrastructure that entails investments at least one order of magnitude higher than those associated with the installation of ERTMS/ETCS facilities.On-board installations:The fitment of rolling stock intended for operation on the conventional rail infrastructures where the fitting of ERTMS/ETCS is mandatory shall be in accordance with the national migration strategy once this is reconciled with the EU master plan as described in paragraph 7.2.2.6 with the exception referred to underneath.The fitting of ERTMS/ETCS, complemented where necessary by the relevant Specific Transmission Modules (STM) to enable operation on Class B systems, is mandatory on.
-
--   new installations of the train protection part of a CCS assembly,
+-   new installations of the train protection part of a CCS assembly or,
 -   an upgrade of the train protection part of a CCS assembly already in service that changes the functions or the performance of the subsystem,
--   any ‘major retrofitting’ of rolling stock already in service (9);
 
-for rolling-stock for cross-border operations within the inception kernel.A pre-fitting ERTMS/ETCS to Pre-fitment Stage 1 as defined under Paragraphs 7.2.2.4.4 and 7.2.4.4 on
+for railway infrastructure projects receiving financial support from European Regional Development Funds and/or Cohesion Funds (Council Regulation (EC) No 1083/2006 (2)) and/or the TEN-T funds (Decision No 1692/96/EC of the European Parliament and of the Council (3)).
 
--   New installations of the train protection part of a CCS assembly;
--   An upgrade of the train protection part of a CCS assembly already in service that changes the functions or the performance of the subsystem.
+However, when signalling is renewed on short (less than 150 km) and discontinuous sections of a line, the Commission may grant derogation to this rule, provided ERTMS is installed before the earliest of these two dates:
 
-for those rolling stock assets earmarked for operation in the trans-European transport conventional rail network as defined by the corrigendum of 7 June 2004 to Decision No 884/2004/EC. Pre-fitment stage 3 shall apply for those assets earmarked for operation on the ETCS-Net backbone.Legacy systems:Member States shall ensure that the functionality of the legacy systems referred to in Annex B to the TSI as well as their interfaces is to remain as currently specified, excluding those modifications that might be deemed necessary in order to mitigate safety-related flaws of these systems. Member States shall make available the necessary information regarding their legacy systems that is required for purposes of development and safety-certification of apparatus allowing interoperability of Class A equipment with their legacy Class B facilities.
+-   5 years after the end of the project;
+-   the time by which the section of the line is connected to another ERTMS equipped line,
 
-#### 7.2.2.6.   National ERTMS implementation plans and EU master plan
+In this section, the earliest of these two dates is called “later date for equipment”.
 
-Set against the deployment rationale exposé above and the mandatory rules specified in sections 7.2.2.3 and 7.2.2.4.4 Member States are deemed to prepare a formal national ERTMS implementation plan for the conventional rail network addressing the deployment of both ERTMS/ETCS and GSM-R.
+The Member State concerned shall forward a file to the Commission. This file shall contain an economical analysis showing that there is a substantial economical and/or technical advantage in putting ERTMS into service at the later date for equipment rather than during the course of the EU-funded project.
 
-Regarding ERTMS/ETCS the realisation of the ETCS-Net backbone as described in paragraph 7.2.2.4 shall constitute the reference baseline for the elaboration of such a national plan. The ultimate goal for the latter is to define a tailor-made set of obligations regarding ERTMS/ETCS deployment in lieu of the generic prescriptions now embodied in the inception kernel. However, such built-in flexibility cannot detract from the level of obligation (10) already embodied in the inception kernel.
+Such clause can only be advocated by a Member State when the tender covering the renewal or upgrade of the train protection system contains a clear option for the ERTMS equipment of the line, either in the course of the project or at the later date for equipment.
 
-The national plans shall provide, in particular, the following elements:
+The Commission shall analyse the file submitted and the measures proposed by the Member State and shall inform the committee referred to in Article 29 of Directive 2008/57/EC of the European Parliament and of the Council (4) of the result of its analysis. When a derogation is granted, the Member State shall ensure that ERTMS is installed before the later date for equipment.
 
--   target lines: a clear identification of the national lines or sections which are earmarked for implementation. This applies notably to the national sections of the trans-national corridors earmarked in the ETCS-net blueprint (11). Appropriate consideration is to be given in this context to the national ERTMS/ETCS implementation plans notified under Decision 2002/731/EC in what refers to the high-speed sections covered by the ETCS-Net backbone,
--   technical requirements: the essential technical characteristics of the different implementations (e.g. voice or data-quality network for GSM-R implementations, functional level of ERTMS/ETCS, ERTMS/ETCS-only or overlaid installations),
--   deployment strategy and planning: an outline of the implementation plan (including sequencing and timing of the works),
--   migration strategy: the strategy envisaged for the migration of both the infrastructure and rolling-stock subsystems of the earmarked national lines or sections (e.g. superposition of Class A and Class B systems, switch from Class B to Class A facilities at a planned date, migration based on the implementation of ETCS-based gap-filling solutions such as SCMT (12) or limited supervision),
--   potential constraints: an overview of potential elements that might impact on fulfilment of the implementation plan (e.g. signalling works integrating larger scope infrastructure works, assurance of continuity of service across borders).
+### 7.1.4. Conditions under which optional functions are required
 
-These national plans are to be finally aggregated within an EU master plan within six months of their notification. Such a master plan should aim at providing an appropriate knowledge base for decision support to the different stakeholders — in particular, to the Commission in the allocation of its financial support to railway projects — and, where appropriate, at reconciling the different national implementations in terms of time or implementation strategies where this is deemed necessary for the achievement of a coherent whole. This overall process can be represented as depicted below:
+According to the characteristics of the trackside Control-Command Trackside Assembly and its interfaces with other sub-systems, some trackside functionalities not classified as mandatory, may have necessarily to be implemented in certain applications to comply with the essential requirements.
 
-Image
+The trackside implementation of National or Optional-functions must not prevent the entry onto that infrastructure of a train that complies only with the mandatory requirements of Onboard Class A system except as required for the following on-board optional functions:
 
-In addition, the EU master plan shall include the outline of a rolling-programme to underpin the range of foreseen implementation activities from planning-through-to-realisation.
-
-The EU master plan will be appended to this TSI through a revision procedure replacing the field of mandatory implementations now defined in the inception kernel. Subsequently,
-
--   all activities related to installation of control-command subsystems have to be justified by the awarding entities against this EU Master Plan in addition to all other applicable legislative requirements that are in force,
--   Member States will be requested to punctually adapt their national ERTMS implementation plans where this is deemed necessary to ensure reconciliation with the EU Master Plan. In particular, such a revision shall ensure that the migration strategy adopted by a Member State — notably for rolling stock — does not hamper the fulfilment of the ETCS-Net strategic goal and the access of new entrants in accordance with the timing and requirements called for by the EU master plan,
--   whenever the reconciliation of a national plan and the EU master plan is not feasible the mandatory prescriptions of the Inception Kernel shall remain of application for that particular Member State.
-
-Necessarily, the EU master plan and the national ERTMS implementation plans will be evolving documents that will have to be updated in order to reflect the real evolution of the deployment in each Member State and throughout the European rail network.
-
-### 7.2.3.   Implementation: infrastructure (stationary equipment)
-
-The following requirements apply to the categories of lines defined in Directive 2001/16/EC:
-
--   lines intended for passenger services,
--   lines intended for mixed traffic (passengers and freight),
--   lines specially designed or upgraded for freight services,
--   passenger hubs,
--   freight hubs including intermodal terminals,
--   lines connecting the above mentioned components.
-
-The control-command subsystem concerns two classes (A and B) of train protection and radio communication systems. The lines mentioned above presently not equipped with Class A shall be equipped either:
-
--   with Class A functions and interfaces according to the specifications referenced in Annex A, or
--   with Class A functions and interfaces according to the specifications referenced in Annex A and with Class B functions and interfaces according to Annex B, or
--   with Class B functions and interfaces according to Annex B and pre-fitting for Class A, or
--   only with Class B functions and interfaces according to Annex B.
-
-In case lines under the scope of the present TSI will not be equipped with Class A systems, the Member State shall make every effort for the availability of an external specific transmission module (STM) for its legacy Class B system or systems. In this context, due regard is to be given to the assurance of an open market for STM at fair commercial conditions. In those cases that due to technical or commercial reasons (13) the availability of an STM cannot be ensured within the appropriate time frame (14) the relevant Member State is deemed to inform the Committee of the reasons underpinning such a problem and the mitigation measures that it intends to put into place in order to allow access — notably of foreign operators — to its infrastructure.
-
-#### 7.2.3.1.   Additional Class-B equipment on a Class A — equipped line
-
-On a line equipped with ETCS and/or GSM-R, additional Class B equipment is possible in order to allow the operation of rolling stock not compatible with Class A during the migration phase. It is allowed to use existing Class B equipment on-board as a fallback arrangement to Class A system: this does not allow an infrastructure manager to require Class B systems onboard the interoperable trains for running on such a line.
-
-Where dual fitment and operation of Class A and B systems occurs, then both systems may be active simultaneously onboard, provided that national technical requirements and operating rules support this manner and that interoperability is not compromised. The national technical requirements and operating rules will be provided by the Member State.
-
-#### 7.2.3.2.   Pre-fitting for Class A
-
-The track side pre-fitting is defined as the installation of any ETCS and GSM-R equipment or other enabling equipment for ETCS and GSM-R (e.g. installation of cabling and wiring, interlocking interfaces, LEU or fibre optic backbones) which is fitted but not necessarily put in service aimed at reducing the implementation cost of full-fledged ERTMS/ETCS or GSM-R facilities complying with Class A requirements at a later stage. For ETCS the scope of the pre-fitting for the three-tiered structure of pre-fitment stages defined in paragraph 7.2.2.4.4 should adhere with the requirements set out in Index 59 of Annex A (pending).
-
-The extent of the pre-fitting to be performed should be established during the implementation planning of the signalling or telecommunication facilities that are to be deployed. In particular, the network planning for GSM-R has to take into account at the earliest stage the inclusion of all services that have to be foreseen also in the future (voice, non safety critical data, ETCS).
-
-#### 7.2.3.3.   Upgrading or renewal of the control-command track-side assembly or parts of it
-
-Upgrading or renewal of the track-side assembly may concern separately:
-
--   radio-system (for class B, only renewal is possible) ,
--   train protection system,
--   train detection system interface,
--   hot axle box detection system,
--   EMC characteristics.
-
-Therefore different parts of the control-command track-side assembly may be upgraded or renewed separately (if interoperability is not prejudiced) and concern:
-
--   EIRENE functions and interfaces (see sections 4.2.4 and 4.2.5),
--   ETCS/ERTMS functions and interfaces (see sections 4.2.1, 4.2.3, 4.2.5, 4.2.7, 4.2.8),
--   train detection system (see section 4.2.11),
--   hot axle-box detector (see section 4.2.10),
--   EMC characteristics (see section 4.2.12).
-
-After the upgrade to Class A system, the existing Class B equipment may remain in use simultaneously with Class A.
-
-#### 7.2.3.4.   Registers of Infrastructure
-
-The Infrastructure Register shall provide railway undertakings with Class A and Class B information, following Annex C requirements. The Infrastructure Register indicates if mandatory or optional (15) functions are concerned; the constraints on onboard configuration have to be identified.
-
-In case European specifications for some interface(s) between control-command and signalling and other subsystems are not available at the moment of installation (e.g. electromagnetic compatibility between train detection and rolling stock), the corresponding characteristics and the standards applied shall be indicated in the Registers of Infrastructure. This shall be possible, in any case, only for the items listed in Annex C.
-
-### 7.2.4.   Implementation: rolling stock (on-board equipment)
-
-According to Directive 2001/16/EC each of the categories of rolling stock which are likely to travel on all or part of the trans-European conventional rail network must be subdivided into:
-
--   rolling stock for international use,
--   rolling stock for national use,
-
-taking due account of the local, regional or long-distance use of the stock.
-
-Rolling stock mentioned above shall be equipped either:
-
--   with Class A functions and interfaces according to the specifications referenced in Annex A, or
--   with Class A functions and interfaces according to the specifications referenced in Annex A and with Class B functions and interfaces according to Annex B, or
--   with Class B functions and interfaces according to Annex B and pre-fitment for Class A, or
--   only with Class B functions and interfaces according to Annex B, or
--   as in section 7.2.5.2.
-
-such as to allow it to travel on any line on which it is expected to operate.
-
-#### 7.2.4.1.   Rolling stock with Class A equipment only
-
-The Class A assembly shall ensure that the onboard functions, interfaces and minimum performance required by this TSI are matched to the lines concerned as described in Annex C. Installation of Class A equipment may take advantage from additional interface specifications between rolling stock and control-command.
-
-#### 7.2.4.2.   Rolling stock with Class B equipment only
-
-The Class B equipment shall ensure that the onboard functions, interfaces and minimum performance required by this TSI are matched to the lines concerned as described in Annex C.
-
-#### 7.2.4.3.   Rolling stock with Class A and Class B equipment
-
-Rolling stock may be equipped with both Class A and Class B systems to enable operations on several lines. The Class B systems may be implemented
-
--   using an STM that may be plugged into the Class A assembly (external STM), or
--   built into the Class A assembly.
-
-Also, the Class B system could be implemented independently (or, in case of upgrade or renewal, be left as it is), in case of Class B systems for which an STM is not an economically viable alternative, from the rolling stock owner's point of view. However, if a STM is not used, the Railway Undertaking must ensure that the absence of a ‘handshake’ (= handling, by ETCS, of transitions between Class A and Class B on track-side) nevertheless is properly managed. The Member State may put requirements on this in the Infrastructure Register.
-
-When running on a line which is equipped with both Class A and Class B systems, the Class B systems may act as fallback arrangement for the Class A system if the train is equipped with both Class A and Class B systems. This cannot be a requirement for interoperability and is not valid for GSM-R.
-
-#### 7.2.4.4.   Pre-fitting for Class A
-
-The on-board pre-fitting is defined as the installation of any ETCS and GSM-R equipment or other enabling equipment for ETCS and GSM-R (e.g. installation of cabling and wiring, antennas, sensors, power supply or installation fixtures) which is fitted but not necessarily put in service aimed at reducing the implementation cost of full-fledged ERTMS/ETCS or GSM-R facilities complying with the Class A requirements at a later stage. For ETCS the scope of the pre-fitting for the three-tiered structure of pre-fitment stages defined in paragraph 7.2.2.4.4 should adhere with the requirements set out in Index 57 of Annex A (pending).
-
-The extent of the pre-fitting to be performed should be established during the engineering phase of the on-board signalling or telecommunication facilities. Pre-fitting may take advantage from additional interface specifications between the subsystems rolling stock and control-command.
-
-#### 7.2.4.5.   Reverse STM
-
-See section 7.2.5.2.
-
-#### 7.2.4.6.   Upgrading or renewal the control-command on-board assembly or parts of it
-
-Upgrading or renewal of the on-board assembly may concern separately:
-
--   radio-system (Class B to Class A),
--   train protection system (Class B to Class A).
-
-Therefore different parts of the control-command on-board assembly may be performed or upgraded separately (if interoperability is not prejudiced) and concern:
-
--   EIRENE functions and interfaces (see sections 4.2.4 and 4.2.5),
--   ETCS/ERTMS functions and interfaces (see sections 4.2.1, 4.2.3, 4.2.5, 4.2.7, 4.2.8).
-
-After the upgrade to Class A system, the existing Class B equipment may remain in use simultaneously with Class A.
-
-#### 7.2.4.7.   Registers of rolling stock
-
-The Rolling Stock Register shall provide information following Annex C requirements.
-
-In case TSI requirements for some interface(s) between control-command and signalling and other subsystems are not available at the moment of installation (e.g. electromagnetic compatibility between train detection and Rolling Stock, climatic conditions and physical conditions in which the train can work, geometric parameters of the train like length, maximal distance of axles in the train, length of the nose of the first and of the last car of the train, braking parameters), the corresponding characteristics and the standards applied shall be indicated in the Registers of Rolling Stock. This shall be possible, only for the items listed in Annex C.
-
-Remark: for every implementation of control-command subsystem on a given line, Annex C gives the list of the requirements for the onboard, to be addressed in the Registers of Infrastructure, indicating if these requirements concern mandatory or optional (16) functions and identifying constraints on train configuration.
-
-### 7.2.5.   Particular migration paths
-
-#### 7.2.5.1.   Specific solution for partial additional use of Class A system
-
-In a migration phase when only part of the fleet is equipped with an onboard system able to handle Class A, it may be necessary to have both systems fully or partially installed on a line.
-
-For ETCS there is no functional link between the two onboard systems except to manage transitions during train operation (and with exception to satisfy the needs of the STMs for Class B systems when STMs are used).
-
-For ETCS from a purely functional point, a system may also be built combining components from the unified and a pre-unified system. An example is the combination of an ETCS Level 1 using Eurobalise as a spot transmission means and an infill function not based on a unified solution, but on a national system. This solution requires an on-board data link between the unified and the pre-unified system. Therefore, the solution is not in accordance with either Class A or Class B and is not interoperable.
-
-There is, however, the possibility to use the combination as a national enhancement of an interoperable line. This is only permitted if trains not equipped with the data link between both systems can operate either on the unified or on the pre-unified system without information from the other system. If this is not possible, the line cannot be declared interoperable for the control-command subsystem.
-
-#### 7.2.5.2.   Specific solution for partial alternative use of ETCS Class A airgap
-
-An infrastructure may also be used for the movement of trains not compliant with the requirements of this TSI, according to Article 5(6) of Directive 2001/16/EC, provided this does not create prejudice to the fulfilment of essential requirements.
-
-Such trains receive information from a Class B signalling infrastructure via Class A track-to-train communication.
-
-#### 7.2.5.3.   Competition criteria
-
-Any action to allow the movement of interoperable trains on other infrastructures or the movement of not interoperable trains on interoperable infrastructures shall ensure that free competition between suppliers is not prejudiced.
-
-Specially, knowledge about relevant interfaces between already installed equipment and new equipment to be purchased shall be put at the disposal of all the interested suppliers.
-
-### 7.2.6.   Conditions under which optional functions are required
-
-According to the characteristics of the track-side control-command track-side assembly and its interfaces with other subsystems, some track-side functionality not classified as mandatory, may have necessarily to be implemented in certain applications to comply with the essential requirements.
-
-The track-side implementation of national or optional-functions must not prevent the entry onto that infrastructure for a train that complies only with the mandatory requirements of Onboard Class A system except as required for the following on-board optional functions:
-
--   an ETCS Level 3 Track-side application requires train integrity supervision onboard,
--   an ETCS Level 1 Track-side application with infill requires corresponding in-fill functionality onboard if the release speed is set to zero for safety reasons (e.g. protection of danger points),
--   when ETCS requires data transmission by radio, the data transmission services of GSM-R must fulfil the ETCS data transmission requirements,
+-   an ETCS Level 3 Trackside application requires train integrity supervision onboard;
+-   an ETCS Level 1 Trackside application with infill requires corresponding in-fill functionality onboard if the release speed is set to zero for safety reasons (e.g., protection of danger points);
+-   when ETCS requires data transmission by radio, the data transmission services of GSM-R must fulfil the ETCS data transmission requirements;
 -   an onboard assembly, which incorporates a KER STM, may require to implement the K-interface.
 
-## 7.3.   Management of change
+### 7.1.5. Legacy systems
 
-### 7.3.1.   Introduction
+Member States shall ensure that the functionality of the legacy systems referred to in Annex B to the TSI as well as their interfaces is to remain as currently specified, excluding those modifications that might be deemed necessary in order to mitigate safety-related flaws of these systems. Member States shall make available the necessary information regarding their legacy systems that is required for the purposes of development and certification of apparatus allowing interoperability of Class A equipment with their legacy Class B facilities.
 
-Change is a facet inherent to any kind of computer-based systems used in real-world environments. It is prompted by the emergence of new requirements or by changes to existing requirements either due to errors reported in operation or the need of improvements in performance or other non-functional characteristics.
+### 7.1.6. Notification
 
-But change has to be managed as it is underpinned by safety-critical considerations and by backward compatibility objectives so as to provoke minimal time and cost overheads to the operation of already deployed ERTMS (17) equipment (i.e. legacy ERTMS facilities). It is therefore crucial to define a clear strategy of how to implement and manage change to legacy ERTMS equipment to avoid disruption to railway operations without undermining the underlying objectives of guaranteeing safety and interoperability. Two main issues underpin the definition of such a strategy:
+For each corridor section described in Appendix I, Member States shall either notify to the Commission a detailed timeline for the equipment with ERTMS of the corridor section or confirm that the corridor section is already equipped. The information shall be notified to the Commission at the latest three years before the latest equipment date of the corridor section specified in Appendix I.
 
--   the establishment of a Configuration Management framework defining the standards and procedures for managing system evolution. This should include how to record and process proposed system changes, how to relate these changes to system components and how to track system releases,
--   a policy for release of system baselines.
+For each port, marshalling yard, freight terminal or freight transport area listed in Appendix II, Member States shall notify the specific lines to be used to ensure its connection with one of the corridors listed in Appendix I. This information shall be notified to the Commission at the latest three years before the date specified in Appendix II and shall indicate the latest equipment date for this port, marshalling yard, freight terminal or freight transport area. As necessary, the European Commission may request adjustments, in particular in order to ensure consistency between equipped lines at the borders. Member States shall either notify to the Commission a detailed timeline for the equipment with ERTMS of these specific lines or confirm that these specific lines are already equipped with ERTMS. This information shall be notified to the Commission at the latest three years before the date specified in Appendix II and shall indicate the latest equipment date for this port, marshalling yard, freight terminal or freight transport area.
 
-### 7.3.2.   Baselining
+The detailed timelines shall in particular indicate the date by which the tender for the equipment of the line will be concluded, the procedures put in place in order to ensure interoperability with the neighbouring countries on the corridor as well as the main milestones related to the project. Member States shall notify the Commission every twelve months on the progress made with the implementation on these lines by sending an updated timeline.
 
-System stability is essential so that actual implementation and deployment can be realistic. This need for stability is akin to all parties:
+### 7.1.7. Delays
 
--   the infrastructure managers and the railway operators that will have to handle various versions of ERTMS/ETCS or GSM-R,
--   the industry that needs time to specify, develop and prove continued interoperability.
+When a Member State reasonably expects delays in fulfilling the deadlines laid down in the present Decision, it shall immediately inform the Commission. It shall communicate to the Commission a file containing a technical description of the project and an up to date planning. The file shall also explain the reasons for the delay and shall indicate the corrective measures put in place by the Member State.
 
-A baseline in essence embodies the concept of a stable kernel in terms of system functionality, performance and other non-functional characteristics (e.g. RAMS) (18). However, past experience with this type of systems has shown that a number of version releases (19) are needed to achieve a stable and implementation-suitable baseline. This can be illustrated as a cascade process as follows:
+An additional delay of no more than three years can be granted to a Member State when the delay is caused by causes beyond Member State’s reasonable control such as failure of suppliers or problems regarding the homologation and approval process due to the absence of appropriate test vehicles. Such clause can only be advocated by a Member State when the following conditions are fulfilled:
 
-Image
+-   the notifications referred in section 7.1.6 were received in time and were comprehensive;
+-   the file referred to in section 7.1.7 first paragraph, contains clear evidence that the causes for the delay were beyond Member State’s control;
+-   a competent authority is responsible for the coordination, of on-board and trackside suppliers and integration and testing of products;
+-   appropriate use of existing laboratories has been made;
+-   evidence is given that appropriate measures have been implemented to minimise the additional delay.
 
-Through its feedback loops such a process is highly intertwined. This precludes putting several of those processes in parallel an approach that would lead to unstable and confusing and operationally hampering situations. Baselines have then to be processed in a series rather than in a parallel manner as illustrated below for the specific case of ERTMS/ETCS (20):
+The Commission shall analyse the file submitted and the measures proposed by the Member State and shall inform the committee referred to in Article 29 of Directive 2008/57/EC of the result of its analysis.
 
-Image
+## 7.2.  ETCS On-board implementation
 
-### 7.3.3.   The ERTMS consolidation phase
+New locomotives, new railcars and other new railway vehicles able to run without traction equipped with a driving cab, ordered after 1 January 2012 or put into service after 1 January 2015, shall be equipped with ERTMS.
 
-The first baseline of the ERTMS specifications (both ETCS and GSM-R) was appended to the TSI Command/Control and Signalling for high-speed (reference Decision 2002/731/EC). A new version release of these specifications was issued recently (Decision 2004/447/EC). It included minor functional and system changes whereas laying down the foundation of a structured approach for conformity assessment of the on-board command/control equipment.
+This requirement does not apply to new shunting locomotives and to other new locomotives, new railcars and other new railway vehicles equipped with a driving cab, if they are designed exclusively for national service or regional border crossing service. Member States may however introduce additional requirements at national level, in particular with a view to:
 
-The current on-going consolidation process for ERTMS (both ETCS and GSM-R) is clearly focused on two main issues:
+-   restrict the access to ERTMS equipped lines to ERTMS equipped locomotives, so that existing national systems can be decommissioned,
+-   request that new shunting locomotives and/or other new railway vehicles equipped with a driving cab, even designed exclusively for national service or regional border crossing service, are equipped with ERTMS,
 
--   the consolidation of the current baseline in order it becomes a more robust reference for interoperability, and
--   the closure of a number of still standing operational and technical open points.
+## 7.3.  GSM-R specific implementation rules
 
-This work relies on the feedback from current pilots, early commercial applications as well as on structured program of cross-tests with products from different suppliers. It should eventually lead to the release of a new baseline to be put under configuration management during the first half of 2005.
+These rules apply in addition to the rules laid down in section 7.1 and 7.2.
 
-During this phase it may be necessary to make special, mutual agreements between infrastructure managers and railway undertakings for using Class A systems.
+### 7.3.1. Trackside installations
 
-### 7.3.4.   Baseline release
+The fitting of GSM-R is mandatory in the case of:
 
-Based on current experience the timing between different baselines can be estimated to be approximately four to five years for ETCS and approximately two years for GSM-R.
+-   new installations of the radio part of a CCS assembly;
+-   an upgrade of the radio part of a CCS assembly already in service that changes the functions or the performance of the subsystem.
 
-A new baseline should in principle be linked with significant modifications of the system functionality or system performance. This could include aspects such as:
+### 7.3.2. On-board installations
 
--   the incorporation of a set of today's national functions, where these can be generalised, within the interoperable kernel,
--   the set-up of additional interoperability constituents on the ETCS on-board and trackside,
--   GSM-R-based value-added services.
+The fitting of GSM-R in rolling stock intended for use on a line including at least a section equipped with Class A interfaces (even if superimposed to a Class B system), is mandatory in the case of:
 
-Each baseline should also embrace the functionality of the previous baseline. Debugging versions to repair system faults or safety shortcomings should be handled as a version release of a particular baseline. Unless prevented by safety implications such version releases within the same baseline are to be backward compatible.
+-   new installations of the radio part of a CCS assembly;
+-   an upgrade of the radio part of a CCS assembly already in service that changes the functions or the performance of the subsystem.
 
-The added functionality that might be embodied in different baselines necessarily implies that different baselines are not backward compatible. However, in order to facilitate migration and in the extent possible from a technical view point, different baselines should encompass a common core of functionality for which backward compatibility should be ensured. Such a common core should provide a minimum kernel to enable interoperable operation under acceptable performance.
+### 7.3.3. Legacy systems
 
-### 7.3.5.   Deployment of new baselines
-
-Infrastructure managers and railway operators will never be in a position to switch from one baseline to the next over night. Henceforth, each baseline has to developed hand-in-hand with an appropriate migration strategy. This is to address problems such as co-existence of ETCS and GSM-R facilities compliant with different versions of the ETCS or GSM-R specifications, preferred paths of migration (e.g. trackside priority, rolling-stock priority or simultaneous) as well as the indicative timeframes and the priorities for the migration.
-
-### 7.3.6.   Change management process — the requirements
-
-As discussed earlier change is a fact of life for large software based systems. Henceforth, change management procedures should be designed to ensure that the costs and benefits of change are properly analysed and that changes are implemented in a controlled way. This requires the defined change management process and associated tools to ensure that changes are recorded and applied to the specifications in a cost-effective manner. Whatever the specific details of such a process might eventually be the latter should be broadly mapped on a structured approach as follows:
-
-Image
-
-A configuration management plan embodying the set of standards and procedures for change management should underpin the whole of the change management process as described above. The generic requirements for such a plan are described in paragraph 7.3.7 below. The implementation strategy for the approved changes should be formalised (on the basis of due process and due documentation) into a change management plan that includes notably
-
--   the identification of the technical constraints underpinning the change,
--   a statement of who takes responsibility for the change implementation procedures,
--   the validation procedure for the changes to be implemented,
--   the policy for change management, release, migration and roll-out.
-
-### 7.3.7.   Configuration management plan — the requirements
-
-The configuration management plan should describe the set of standards and procedures for change management encompassing notably:
-
--   the definition of what entities are to be managed and a formal scheme for identifying these entities,
--   a statement of who takes responsibility for the configuration management procedures and for submitting controlled entities to the configuration management decision structure,
--   the configuration management policies that are to be used for change control and version management,
--   a description of the records of the configuration management process which should be maintained,
--   a description of the tools to be used for configuration management and the process to be applied when using these tools,
--   a definition of the configuration database which will be used to record configuration information.
-
-The specific details of the configuration management processes for ETCS and GSM-R are to be formalised through specifications to be incorporated in the list included under Annex A to this TSI, respectively, under Index 60 (for ETCS) and Index 61 (for GSM-R).
-
-### 7.3.8.   Governance
-
-The management of change of the ERTMS/ETCS and GSM-R specifications is to be placed under the aegis of the European Railway Agency (ERA) established by Regulation (EC) No 881/2004. The ERA will be responsible for mastering the change management process, including the delivery of the specifications, its quality assurance and configuration management.
-
-This way the ERA will play the centre role of system authority centralising and ensuring the overall coherence of a process that is nowadays fragmented through a number of different parties as evidenced in the table below:
-
-| Responsibility             | ERTMS/ETCS                         | GSM-R                                       |
-| -------------------------- | ---------------------------------- | ------------------------------------------- |
-| Delivery of specifications | ERTMS users’ group, UIC and UNISIG | EIRENE group, ERIG and GSM-R industry group |
-| Quality assurance          | ERTMS users’ group                 | EIRENE group, ERIG and ERTMS users’ group   |
-| Configuration management   | AEIF                               |                                             |
-
-In its role of system authority the ERA will ensure the cooperation of a representative cross-section of the stakeholders in the process — e.g. infrastructure managers, railway undertakings, supply industry, notified bodies and safety authorities — for the performance of its duties. These parties should notably:
-
-<ol type="i">
-<li>Provide input for the process in terms of:
-
--   specification of functional and operational interoperability requirements. This will be primarily the role to be played by the railway undertakings and infrastructure managers,
--   definition of technical standards including those assuring technical interoperability for ERTMS/ETCS and GSM-R emerging from representative industrial groupings such as UNISIG and the GSM-R industry group.
-
-      </li>
-    <li>Be part of the change control board (CCB) to be established for the management of change requests as referred to in paragraph 7.3.6. The CCB should ensure a system perspective on the changes that are to be made and a global assessment of their implications.</li>
-    </ol>
-
-A coordinated handover needs to be ensured between the current AEIF-led and the ERA-led change management structures. For this handover to happen in a smooth manner it is deemed essential:
-
--   to formalise and document the current change management process within the set of documentation referred to in Annex A in order this is taken as baseline for ensuring the continuity and the quality of the change management work,
--   to foresee a period of transition of approximately 12 months where the two structures will operate in parallel following a modus operandi to be agreed between the two parties.
-
-The ERA will start-up its formal change management activity from the 2005 baseline emerging from the consolidation phase as referred to in paragraph 7.3.3.
+Member States shall ensure that the functionality of the legacy systems referred to in Annex B to the TSI as well as their interfaces is to remain as currently specified, excluding those modifications that might be deemed necessary in order to mitigate safety-related flaws of these systems. Member States shall make available the necessary information regarding their legacy systems that is required for purposes of development and certification of apparatus allowing interoperability of Class A equipment with their legacy Class B facilities.
 
 ## 7.4.   Specific cases
 
@@ -1881,7 +1504,7 @@ Category T1- temporary: rolling stock for track gauge 1 000 mm or less, and line
 
 #### 7.4.2.3.   Specific case for the Baltic States (Latvia, Lithuania, Estonia)
 
-Category T open — the functional and technical upgrading of the current class B facilities deployed on the 1 520 mm track gauge corridors is allowed if this is deemed necessary to enable the operation of the locomotives of the railway undertakings of both the Russian Federation and Belarus. The on-board equipment of the latter is excluded from compliance with the requirements of paragraph 7.2.2.5. Such corridors are to be mentioned in the infrastructure register.
+Category T open — the functional and technical upgrading of the current class B facilities deployed on the 1 520 mm track gauge corridors is allowed if this is deemed necessary to enable the operation of the locomotives of the railway undertakings of both the Russian Federation and Belarus. The on-board equipment of the latter is excluded from compliance with the requirements of paragraph 7.2. Such corridors are to be mentioned in the infrastructure register.
 
 ## 7.5.   Transitional provisions
 
@@ -6159,3 +5782,114 @@ Interface with service brake. This will have to be examined during the elaborati
 (3)  Projects wholly or partly situated in Member States where Regulations (EC) No 1260/1999 and (EC) No 1264/1999 (Cohesion Funds) apply.
 
 (4)  Implementation covered by Decision 2002/731/EC.
+
+# Appendix I
+
+**specific lines constituting the corridors**
+
+**Corridor A – to be equipped by 2015**
+
+Image
+
+**Corridor B (1)**
+
+Image
+
+**Corridor C (2)**
+
+Image
+
+**Corridor D (3)**
+
+Image
+
+**Corridor E**
+
+Image
+
+**Corridor F**
+
+Image
+
+(1)  Without prejudice of the legislation applicable to the Trans European high speed network, links can be provided through stretches of high speed lines, provided paths are allocated to freight trains. At least one ERTMS equipped link will be provided by 2020 between Denmark and Germany (Flensburg-Hamburg or Rødby – Puttgarden) but not necessarily two. The Brenner base tunnel will be equipped with ERTMS once the infrastructure work completed (target date 2020).
+
+(2)  A link between Nancy and Reding will be provided by 2020.
+
+(3)  Two additional branches will be equipped by 2020: Montmélian – Grenoble – Valence and Lyon – Valence – Arles – Miramas (left side of the Rhône).
+
+## Appendix II
+
+**main European ports, marshalling yards, freight terminals and freight transport areas  (1)**
+
+| Country        | Freight transport area | Date                                                                             | Remark                                                                                                                                                              |
+| -------------- | ---------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Belgium        | Antwerpen              | 31.12.2015                                                                       | A link to Rotterdam shall also be provided by 2020.                                                                                                                 |
+|                | Gent                   | 31.12.2020                                                                       |                                                                                                                                                                     |
+|                | Zeebrugge              | 31.12.2020                                                                       |                                                                                                                                                                     |
+| Bulgaria       | Burgas                 | 31.12.2020                                                                       | The connection to corridor E implies the equipment of the section Bourgas-Sofia and Sofia-Vidin-Calafat and Calafat-Curtici in Romania (PP22).                      |
+| Czech Republic | Praha                  | 31.12.2015                                                                       |                                                                                                                                                                     |
+|                | Lovosice               | 31.12.2020                                                                       |                                                                                                                                                                     |
+| Denmark        | Taulov                 | 31.12.2020                                                                       | Connecting this terminal implies that the Flensburg-Padborg line is chosen to be an ERTMS equipped link — see footnote 1 of Appendix I of the Annex.                |
+| Germany        | Dresden (2)            | 31.12.2020                                                                       | By 2020, a direct link between corridor E and corridor F (from Dresden to Hannover) shall also be ensured.                                                          |
+|                | Lübeck                 | 31.12.2020                                                                       |                                                                                                                                                                     |
+|                | Duisburg               | 31.12.2015                                                                       |                                                                                                                                                                     |
+|                | Hamburg (3)            | 31.12.2020                                                                       |                                                                                                                                                                     |
+|                | Köln                   | 31.12.2015                                                                       |                                                                                                                                                                     |
+|                | München                | 31.12.2015                                                                       |                                                                                                                                                                     |
+|                | Hannover               | 31.12.2015                                                                       |                                                                                                                                                                     |
+|                | Rostock                | 31.12.2015                                                                       |                                                                                                                                                                     |
+|                | Ludwigshafen/Mannheim  | 31.12.2015                                                                       |                                                                                                                                                                     |
+|                | Nürnberg               | 31.12.2020                                                                       |                                                                                                                                                                     |
+| Greece         | Pireás                 | 31.12.2020                                                                       | The connection to Corridor E implies equipment of the section Kulata-Sofia in Bulgaria.                                                                             |
+| Spain          | Algeciras              | 31.12.2020                                                                       |                                                                                                                                                                     |
+|                | Madrid                 | 31.12.2020                                                                       |                                                                                                                                                                     |
+|                | Pamplona               | 31.12.2020                                                                       | Three connections are requested. A connection to Paris via Hendaye, a connection from Pamplona to Madrid and a connection from Pamplona to corridor D via Zaragoza. |
+|                | Zaragoza               | 31.12.2020                                                                       |                                                                                                                                                                     |
+|                | Tarragona              | 31.12.2020                                                                       |                                                                                                                                                                     |
+|                | Barcelona              | 31.12.2015                                                                       |                                                                                                                                                                     |
+|                | Valencia               | 31.12.2020                                                                       |                                                                                                                                                                     |
+| France         | Marseille              | 31.12.2020                                                                       |                                                                                                                                                                     |
+|                | Perpignan              | 31.12.2015                                                                       |                                                                                                                                                                     |
+|                | Avignon                | 31.12.2015                                                                       |                                                                                                                                                                     |
+|                | Lyon                   | 31.12.2015                                                                       |                                                                                                                                                                     |
+|                | Le Havre               | 31.12.2020                                                                       |                                                                                                                                                                     |
+|                | Lille                  | 31.12.2020                                                                       |                                                                                                                                                                     |
+|                | Dunkerque              | 31.12.2020                                                                       |                                                                                                                                                                     |
+|                | Paris                  | 31.12.2020                                                                       | By 2020 the following connections will be provided: (i) Hendaye (ii) Channel Tunnel (iii) Dijon (iv) Metz via Epernay and Châlons-en-Champagne.                     |
+| Italy          | La Spezia              | 31.12.2020                                                                       |                                                                                                                                                                     |
+|                | Genova                 | 31.12.2015                                                                       |                                                                                                                                                                     |
+|                | Gioia Tauro            | 31.12.2020                                                                       |                                                                                                                                                                     |
+|                | Verona                 | 31.12.2015                                                                       |                                                                                                                                                                     |
+|                | Milano                 | 31.12.2015                                                                       |                                                                                                                                                                     |
+|                | Taranto                | 31.12.2020                                                                       |                                                                                                                                                                     |
+|                | Bari                   | 31.12.2020                                                                       |                                                                                                                                                                     |
+|                | Padova                 | 31.12.2015                                                                       |                                                                                                                                                                     |
+|                | Trieste                | 31.12.2015                                                                       |                                                                                                                                                                     |
+|                | Novara                 | 31.12.2015                                                                       |                                                                                                                                                                     |
+|                | Bologna                | 31.12.2020                                                                       |                                                                                                                                                                     |
+|                | Roma                   | 31.12.2020                                                                       |                                                                                                                                                                     |
+| Luxembourg     | Bettembourg            | 31.12.2015                                                                       |                                                                                                                                                                     |
+| Hungary        | Budapest               | 31.12.2015                                                                       |                                                                                                                                                                     |
+| Netherlands    | Amsterdam              | 31.12.2020                                                                       |                                                                                                                                                                     |
+|                | Rotterdam              | 31.12.2015                                                                       | A link to Antwerp shall also be provided by 2020.                                                                                                                   |
+| Austria        | Graz                   | 31.12.2020                                                                       |                                                                                                                                                                     |
+|                | Wien                   | 31.12.2020                                                                       |                                                                                                                                                                     |
+| Poland         | Gdynia                 | 31.12.2015                                                                       |                                                                                                                                                                     |
+|                | Katowice               | 31.12.2020                                                                       |                                                                                                                                                                     |
+|                | Wrocław                | 31.12.2015                                                                       | By 2020 the line Wroclaw-Legnica, shall be equipped in order to ensure a direct link to the German border (Gorlitz).                                                |
+|                | Gliwice                | 31.12.2015                                                                       |                                                                                                                                                                     |
+|                | Poznań                 | 31.12.2015                                                                       |                                                                                                                                                                     |
+|                | Warszawa               | 31.12.2015                                                                       |                                                                                                                                                                     |
+| Portugal       | Sines                  | 31.12.2020                                                                       |                                                                                                                                                                     |
+|                | Lisboa                 | 31.12.2020                                                                       |                                                                                                                                                                     |
+| Romania        | Constanța              | 31.12.2015                                                                       |                                                                                                                                                                     |
+| Slovenia       | Koper                  | 31.12.2015                                                                       |                                                                                                                                                                     |
+|                | Ljubljana              | 31.12.2015                                                                       |                                                                                                                                                                     |
+| Slovakia       | Bratislava             | 31.12.2015                                                                       |                                                                                                                                                                     |
+| UK             | Bristol                | This terminal will be connected as corridor C is extended to the Channel Tunnel. |                                                                                                                                                                     |
+
+(1)  The list of hubs included in this Appendix may be revised, as long as any revisions do not reduce freight traffic or significantly impact projects in other Member States."
+
+(2)  Germany will do its best to equip the corridor E section, Dresden-Czech border at an earlier date.
+
+(3)  Germany will ensure the equipment of a rail link to Hamburg but the harbour area may only be partly equipped by 2020.
