@@ -1,0 +1,11 @@
+{
+	"name": "tsi-ccs",
+	"version": "0.0.0",
+	"description": "Markdown and HTML version of TSI CCS",
+	"license": "MIT",
+	"dependencies": {
+		"remark-cli": "^2.0.0",
+		"remark-lint": "^5.0.0",
+		"remark-html": "^5.0.0"
+	}
+}
